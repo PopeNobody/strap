@@ -1,3 +1,2 @@
-export LFS=/strap
-
-GH_TOKEN=a81bcae313c59a61f86fcd9e3fc7e4325f2f0c70
+export HOME=/strap
+export LFS=$HOME
