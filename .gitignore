@@ -1,6 +1,8 @@
-.gitconfig
-.Xauthority
-.ssh
 .cache
 .config
+.gitconfig
+.gitsomeconfig
+.gitsomeconfigurl
 .pki
+.ssh
+.Xauthority
