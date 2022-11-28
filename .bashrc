@@ -1,2 +1,1 @@
-export HOME=/strap
-export LFS=$HOME
+.bash/rc.bash
