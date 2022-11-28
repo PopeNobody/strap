@@ -2140,7 +2140,7 @@ Chapter 3. Packages and Patches
    To create this directory, execute the following command, as user root,
    before starting the download session:
 
- mkdir -v $LFS/sources
+ mkdir -v $LFS_SRC
 
    Make this directory writable and sticky. "Sticky" means that even if
    multiple users have write permission on a directory, only the owner of a
