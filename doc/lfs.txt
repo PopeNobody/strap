@@ -8,9 +8,9 @@ Published September 1st, 2022
 
   Managing Editor: Bruce Dubbs
 
-   Copyright (c) 1999-2022 Gerard Beekmans
+   Copyright © 1999-2022 Gerard Beekmans
 
-   Copyright (c) 1999-2022, Gerard Beekmans
+   Copyright © 1999-2022, Gerard Beekmans
 
    All rights reserved.
 
@@ -19,7 +19,7 @@ Published September 1st, 2022
    Computer instructions may be extracted from the book under the MIT
    License.
 
-   Linux(R) is a registered trademark of Linus Torvalds.
+   Linux® is a registered trademark of Linus Torvalds.
 
      ----------------------------------------------------------------------
 
@@ -293,7 +293,7 @@ Foreword
    system that would fully conform to my personal preferences.
 
    To truly make it my own system, I resolved to compile everything from
-   source code instead of using pre-compiled binary packages. This "perfect"
+   source code instead of using pre-compiled binary packages. This “perfect”
    Linux system would have the strengths of various systems without their
    perceived weaknesses. At first, the idea was rather daunting. I remained
    committed to the idea that such a system could be built.
@@ -333,9 +333,9 @@ Foreword
 Audience
 
    There are many reasons why you would want to read this book. One of the
-   questions many people raise is, "why go through all the hassle of manually
+   questions many people raise is, “why go through all the hassle of manually
    building a Linux system from scratch when you can just download and
-   install an existing one?"
+   install an existing one?”
 
    One important reason for this project's existence is to help you learn how
    a Linux system works from the inside out. Building an LFS system helps
@@ -403,9 +403,9 @@ LFS Target Architectures
    built and/or to run, so that if you plan to use LFS as a desktop, the LFS
    authors recommend building on a 64-bit system.
 
-   The default 64-bit build that results from LFS is considered a "pure"
+   The default 64-bit build that results from LFS is considered a “pure”
    64-bit system. That is, it supports 64-bit executables only. Building a
-   "multi-lib" system requires compiling many applications twice, once for a
+   “multi-lib” system requires compiling many applications twice, once for a
    32-bit system and once for a 64-bit system. This is not directly supported
    in LFS because it would interfere with the educational objective of
    providing the instructions needed for a straightforward base Linux system.
@@ -435,7 +435,7 @@ Prerequisites
      * Software-Building-HOWTO
        http://www.tldp.org/HOWTO/Software-Building-HOWTO.html
 
-       This is a comprehensive guide to building and installing "generic"
+       This is a comprehensive guide to building and installing “generic”
        Unix software packages under Linux. Although it was written some time
        ago, it still provides a good summary of the basic techniques needed
        to build and install software.
@@ -1007,7 +1007,7 @@ Typography
    those two man pages will be located at /usr/share/man/man1/passwd.1 and
    /usr/share/man/man5/passwd.5. When the book uses passwd(5) it is
    specifically referring to /usr/share/man/man5/passwd.5. man passwd will
-   print the first man page it finds that matches "passwd", which will be
+   print the first man page it finds that matches “passwd”, which will be
    /usr/share/man/man1/passwd.1. For this example, you will need to run man 5
    passwd in order to read the page being specified. Note that most man pages
    do not have duplicate page names in different sections. Therefore, man
@@ -1024,7 +1024,7 @@ Structure
 
   Part II - Preparing for the Build
 
-   Part II describes how to prepare for the building process-making a
+   Part II describes how to prepare for the building process—making a
    partition, downloading the packages, and compiling temporary tools.
 
   Part III - Building the LFS Cross Toolchain and Temporary Tools
@@ -1034,7 +1034,7 @@ Structure
 
   Part IV - Building the LFS System
 
-   Part IV guides the reader through the building of the LFS system-compiling
+   Part IV guides the reader through the building of the LFS system—compiling
    and installing all the packages one by one, setting up the boot scripts,
    and installing the kernel. The resulting Linux system is the foundation on
    which other software can be built to expand the system as desired. At the
@@ -1076,7 +1076,7 @@ Chapter 1. Introduction
    distribution (such as Debian, OpenMandriva, Fedora, or openSUSE). This
    existing Linux system (the host) will be used as a starting point to
    provide necessary programs, including a compiler, linker, and shell, to
-   build the new system. Select the "development" option during the
+   build the new system. Select the “development” option during the
    distribution installation to be able to access these tools.
 
    As an alternative to installing a separate distribution onto your machine,
@@ -1529,7 +1529,7 @@ Chapter 1. Introduction
    lists at https://www.linuxfromscratch.org/search.html.
 
    We also have a wonderful LFS community that is willing to offer assistance
-   through the mailing lists and IRC (see the Section 1.4, "Resources"
+   through the mailing lists and IRC (see the Section 1.4, “Resources”
    section of this book). However, we get several support questions every day
    and many of them can be easily answered by going to the FAQ and by
    searching the mailing lists first. So, for us to offer the best assistance
@@ -1629,7 +1629,7 @@ Chapter 2. Preparing the Host System
    versions indicated. This should not be an issue for most modern Linux
    distributions. Also note that many distributions will place software
    headers into separate packages, often in the form of
-   "<package-name>-devel" or "<package-name>-dev". Be sure to install those
+   “<package-name>-devel” or “<package-name>-dev”. Be sure to install those
    if your distribution provides them.
 
    Earlier versions of the listed software packages may work, but have not
@@ -1770,7 +1770,7 @@ Chapter 2. Preparing the Host System
    certain procedures have to be re-accomplished after a reboot if resuming
    LFS at different points.
 
-  2.3.1. Chapters 1-4
+  2.3.1. Chapters 1–4
 
    These chapters are accomplished on the host system. When restarting, be
    careful of the following:
@@ -1778,7 +1778,7 @@ Chapter 2. Preparing the Host System
      * Procedures done as the root user after Section 2.4 need to have the
        LFS environment variable set FOR THE ROOT USER.
 
-  2.3.2. Chapter 5-6
+  2.3.2. Chapter 5–6
 
      * The /mnt/lfs partition must be mounted.
 
@@ -1792,12 +1792,12 @@ Chapter 2. Preparing the Host System
        expanded tarballs are removed, then re-extract the package files, and
        complete all instructions in that section.
 
-  2.3.3. Chapter 7-10
+  2.3.3. Chapter 7–10
 
      * The /mnt/lfs partition must be mounted.
 
-     * A few operations, from "Changing Ownership" to "Entering the Chroot
-       Environment" must be done as the root user, with the LFS environment
+     * A few operations, from “Changing Ownership” to “Entering the Chroot
+       Environment” must be done as the root user, with the LFS environment
        variable set for the root user.
 
      * When entering chroot, the LFS environment variable must be set for
@@ -1805,8 +1805,8 @@ Chapter 2. Preparing the Host System
 
      * The virtual file systems must be mounted. This can be done before or
        after entering chroot by changing to a host virtual terminal and, as
-       root, running the commands in Section 7.3.1, "Mounting and Populating
-       /dev" and Section 7.3.2, "Mounting Virtual Kernel File Systems".
+       root, running the commands in Section 7.3.1, “Mounting and Populating
+       /dev” and Section 7.3.2, “Mounting Virtual Kernel File Systems”.
 
 2.4. Creating a New Partition
 
@@ -1835,7 +1835,7 @@ Chapter 2. Preparing the Host System
 
    Start a disk partitioning program such as cfdisk or fdisk with a command
    line option naming the hard disk on which the new partition will be
-   created-for example /dev/sda for the primary disk drive. Create a Linux
+   created—for example /dev/sda for the primary disk drive. Create a Linux
    native partition and a swap partition, if needed. Please refer to
    cfdisk(8) or fdisk(8) if you do not yet know how to use the programs.
 
@@ -1914,19 +1914,19 @@ Chapter 2. Preparing the Host System
    considered when designing a disk layout. The following list is not
    comprehensive, but is meant as a guide.
 
-     * /boot - Highly recommended. Use this partition to store kernels and
+     * /boot – Highly recommended. Use this partition to store kernels and
        other booting information. To minimize potential boot problems with
        larger disks, make this the first physical partition on your first
        disk drive. A partition size of 200 megabytes is quite adequate.
 
-     * /boot/efi - The EFI System Partition, which is needed for booting the
+     * /boot/efi – The EFI System Partition, which is needed for booting the
        system with UEFI. Read the BLFS page for details.
 
-     * /home - Highly recommended. Share your home directory and user
+     * /home – Highly recommended. Share your home directory and user
        customization across multiple distributions or LFS builds. The size is
        generally fairly large and depends on available disk space.
 
-     * /usr - In LFS, /bin, /lib, and /sbin are symlinks to their counterpart
+     * /usr – In LFS, /bin, /lib, and /sbin are symlinks to their counterpart
        in /usr. So /usr contains all binaries needed for the system to run.
        For LFS a separate partition for /usr is normally not needed. If you
        need it anyway, you should make a partition large enough to fit all
@@ -1937,23 +1937,23 @@ Chapter 2. Preparing the Host System
        initramfs (not covered by LFS) will be needed to boot a system with
        separate /usr partition.
 
-     * /opt - This directory is most useful for BLFS where multiple
+     * /opt – This directory is most useful for BLFS where multiple
        installations of large packages like Gnome or KDE can be installed
        without embedding the files in the /usr hierarchy. If used, 5 to 10
        gigabytes is generally adequate.
 
-     * /tmp - A separate /tmp directory is rare, but useful if configuring a
+     * /tmp – A separate /tmp directory is rare, but useful if configuring a
        thin client. This partition, if used, will usually not need to exceed
        a couple of gigabytes.
 
-     * /usr/src - This partition is very useful for providing a location to
+     * /usr/src – This partition is very useful for providing a location to
        store BLFS source files and share them across LFS builds. It can also
        be used as a location for building BLFS packages. A reasonably large
        partition of 30-50 gigabytes allows plenty of room.
 
    Any separate partition that you want automatically mounted upon boot needs
    to be specified in the /etc/fstab. Details about how to specify partitions
-   will be discussed in Section 10.2, "Creating the /etc/fstab File".
+   will be discussed in Section 10.2, “Creating the /etc/fstab File”.
 
 2.5. Creating a File System on the Partition
 
@@ -2015,7 +2015,7 @@ Chapter 2. Preparing the Host System
 
    Having this variable set is beneficial in that commands such as mkdir -v
    $LFS/tools can be typed literally. The shell will automatically replace
-   "$LFS" with "/mnt/lfs" (or whatever the variable was set to) when it
+   “$LFS” with “/mnt/lfs” (or whatever the variable was set to) when it
    processes the command line.
 
   Caution
@@ -2140,9 +2140,9 @@ Chapter 3. Packages and Patches
    To create this directory, execute the following command, as user root,
    before starting the download session:
 
- mkdir -v $LFS_SRC
+ mkdir -v $LFS/sources
 
-   Make this directory writable and sticky. "Sticky" means that even if
+   Make this directory writable and sticky. “Sticky” means that even if
    multiple users have write permission on a directory, only the owner of a
    file can delete the file within a sticky directory. The following command
    will enable the write and sticky modes:
@@ -2960,7 +2960,7 @@ Chapter 4. Final Preparations
    for the installation of the temporary tools, add an unprivileged user to
    reduce risk, and create an appropriate build environment for that user. We
    will also explain the unit of time we use to measure how long LFS packages
-   take to build, or "SBUs", and give some information about package test
+   take to build, or “SBUs”, and give some information about package test
    suites.
 
 4.2. Creating a limited directory layout in LFS filesystem
@@ -3053,7 +3053,7 @@ Chapter 4. Final Preparations
 
  su - lfs
 
-   The "-" instructs su to start a login shell as opposed to a non-login
+   The “-” instructs su to start a login shell as opposed to a non-login
    shell. The difference between these two types of shells can be found in
    detail in bash(1) and info bash.
 
@@ -3100,7 +3100,7 @@ Chapter 4. Final Preparations
    set +h
 
            The set +h command turns off bash's hash function. Hashing is
-           ordinarily a useful feature-bash uses a hash table to remember the
+           ordinarily a useful feature—bash uses a hash table to remember the
            full path of executable files to avoid searching the PATH time and
            again to find the same executable. However, the new tools should
            be used as soon as they are installed. By switching off the hash
@@ -3126,7 +3126,7 @@ Chapter 4. Final Preparations
 
            The LC_ALL variable controls the localization of certain programs,
            making their messages follow the conventions of a specified
-           country. Setting LC_ALL to "POSIX" or "C" (the two are equivalent)
+           country. Setting LC_ALL to “POSIX” or “C” (the two are equivalent)
            ensures that everything will work as expected in the chroot
            environment.
 
@@ -3184,7 +3184,7 @@ Chapter 4. Final Preparations
    can restore /etc/bash.bashrc (if desired).
 
    Note that the LFS Bash package we will build in Section 8.34,
-   "Bash-5.1.16" is not configured to load or execute /etc/bash.bashrc, so
+   “Bash-5.1.16” is not configured to load or execute /etc/bash.bashrc, so
    this file is useless on a completed LFS system.
 
    Finally, to have the environment fully prepared for building the temporary
@@ -3242,14 +3242,14 @@ Chapter 4. Final Preparations
 4.6. About the Test Suites
 
    Most packages provide a test suite. Running the test suite for a newly
-   built package is a good idea because it can provide a "sanity check"
+   built package is a good idea because it can provide a “sanity check”
    indicating that everything compiled correctly. A test suite that passes
    its set of checks usually proves that the package is functioning as the
    developer intended. It does not, however, guarantee that the package is
    totally bug free.
 
    Some test suites are more important than others. For example, the test
-   suites for the core toolchain packages-GCC, binutils, and glibc-are of the
+   suites for the core toolchain packages—GCC, binutils, and glibc—are of the
    utmost importance due to their central role in a properly functioning
    system. The test suites for GCC and glibc can take a very long time to
    complete, especially on slower hardware, but are strongly recommended.
@@ -3341,12 +3341,12 @@ Toolchain Technical Notes
    build
 
            is the machine where we build programs. Note that this machine is
-           referred to as the "host" in other sections.
+           referred to as the “host” in other sections.
 
    host
 
            is the machine/system where the built programs will run. Note that
-           this use of "host" is not the same as in other sections.
+           this use of “host” is not the same as in other sections.
 
    target
 
@@ -3354,7 +3354,7 @@ Toolchain Technical Notes
            produces code for. It may be different from both build and host.
 
    As an example, let us imagine the following scenario (sometimes referred
-   to as "Canadian Cross"): we may have a compiler on a slow machine only,
+   to as “Canadian Cross”): we may have a compiler on a slow machine only,
    let's call it machine A, and the compiler ccA. We may have also a fast
    machine (B), but with no compiler, and we may want to produce code for
    another slow machine (C). To build a compiler for machine C, we would have
@@ -3396,10 +3396,10 @@ Toolchain Technical Notes
 
    Almost all the build systems use names of the form cpu-vendor-kernel-os
    referred to as the machine triplet. An astute reader may wonder why a
-   "triplet" refers to a four component name. The reason is history:
+   “triplet” refers to a four component name. The reason is history:
    initially, three component names were enough to designate a machine
    unambiguously, but with new machines and systems appearing, that proved
-   insufficient. The word "triplet" remained. A simple way to determine your
+   insufficient. The word “triplet” remained. A simple way to determine your
    machine triplet is to run the config.guess script that comes with the
    source for many packages. Unpack the binutils sources and run the script:
    ./config.guess and note the output. For example, for a 32-bit Intel
@@ -3438,8 +3438,8 @@ Toolchain Technical Notes
    |       |       |      |        | on lfs                                 |
    +------------------------------------------------------------------------+
 
-   In the above table, "on pc" means the commands are run on a machine using
-   the already installed distribution. "On lfs" means the commands are run in
+   In the above table, “on pc” means the commands are run on a machine using
+   the already installed distribution. “On lfs” means the commands are run in
    a chrooted environment.
 
    Now, there is more about cross-compiling: the C language is not just a
@@ -3523,7 +3523,7 @@ Toolchain Technical Notes
    the use of CC="$LFS_TGT-gcc" (with $LFS_TGT expanded) to control which
    binary tools are used and the use of the -nostdinc and -isystem flags to
    control the compiler's include search path. These items highlight an
-   important aspect of the Glibc package-it is very self-sufficient in terms
+   important aspect of the Glibc package—it is very self-sufficient in terms
    of its build machinery and generally does not rely on toolchain defaults.
 
    As said above, the standard C++ library is compiled next, followed in
@@ -3561,7 +3561,7 @@ General Compilation Instructions
 
      * During the compilation of most packages, there will be several
        warnings that scroll by on the screen. These are normal and can safely
-       be ignored. These warnings are as they appear-warnings about
+       be ignored. These warnings are as they appear—warnings about
        deprecated, but not invalid, use of the C or C++ syntax. C standards
        change fairly often, and some packages still use the older standard.
        This is not a problem, but does prompt the warning.
@@ -3719,8 +3719,8 @@ Chapter 5. Compiling a Cross-Toolchain
 
  make install
 
-   Details on this package are located in Section 8.18.2, "Contents of
-   Binutils."
+   Details on this package are located in Section 8.18.2, “Contents of
+   Binutils.”
 
 5.3. GCC-12.2.0 - Pass 1
 
@@ -3753,7 +3753,7 @@ Chapter 5. Compiling a Cross-Toolchain
  mv -v mpc-1.2.1 mpc
 
    On x86_64 hosts, set the default directory name for 64-bit libraries to
-   "lib":
+   “lib”:
 
  case $(uname -m) in
    x86_64)
@@ -3861,7 +3861,7 @@ Chapter 5. Compiling a Cross-Toolchain
  cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
    `dirname $($LFS_TGT-gcc -print-libgcc-file-name)`/install-tools/include/limits.h
 
-   Details on this package are located in Section 8.26.2, "Contents of GCC."
+   Details on this package are located in Section 8.26.2, “Contents of GCC.”
 
 5.4. Linux-5.19.2 API Headers
 
@@ -3883,7 +3883,7 @@ Chapter 5. Compiling a Cross-Toolchain
  make mrproper
 
    Now extract the user-visible kernel headers from the source. The
-   recommended make target "headers_install" cannot be used, because it
+   recommended make target “headers_install” cannot be used, because it
    requires rsync, which may not be available. The headers are first placed
    in ./usr, then copied to the needed location.
 
@@ -4040,7 +4040,7 @@ Chapter 5. Compiling a Cross-Toolchain
            the location where the package should be installed. If it is not
            set, it defaults to the root (/) directory. Here we specify that
            the package be installed in $LFS , which will become the root
-           after Section 7.4, "Entering the Chroot Environment".
+           after Section 7.4, “Entering the Chroot Environment”.
 
    Fix hardcoded path to the executable loader in ldd script:
 
@@ -4086,7 +4086,7 @@ Chapter 5. Compiling a Cross-Toolchain
 
  $LFS/tools/libexec/gcc/$LFS_TGT/12.2.0/install-tools/mkheaders
 
-   Details on this package are located in Section 8.5.3, "Contents of Glibc."
+   Details on this package are located in Section 8.5.3, “Contents of Glibc.”
 
 5.6. Libstdc++ from GCC-12.2.0
 
@@ -4161,7 +4161,7 @@ Chapter 5. Compiling a Cross-Toolchain
 
  rm -v $LFS/usr/lib/lib{stdc++,stdc++fs,supc++}.la
 
-   Details on this package are located in Section 8.26.2, "Contents of GCC."
+   Details on this package are located in Section 8.26.2, “Contents of GCC.”
 
 Chapter 6. Cross Compiling Temporary Tools
 
@@ -4173,14 +4173,14 @@ Chapter 6. Cross Compiling Temporary Tools
    tools. Nevertheless, the installed libraries are used when linking.
 
    Using the utilities will be possible in next chapter after entering the
-   "chroot" environment. But all the packages built in the present chapter
+   “chroot” environment. But all the packages built in the present chapter
    need to be built before we do that. Therefore we cannot be independent of
    the host system yet.
 
    Once again, let us recall that improper setting of LFS together with
    building as root, may render your computer unusable. This whole chapter
    must be done as user lfs, with the environment as described in
-   Section 4.4, "Setting Up the Environment".
+   Section 4.4, “Setting Up the Environment”.
 
 6.2. M4-1.4.19
 
@@ -4205,7 +4205,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.12.2, "Contents of M4."
+   Details on this package are located in Section 8.12.2, “Contents of M4.”
 
 6.3. Ncurses-6.3
 
@@ -4221,7 +4221,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  sed -i s/mawk// configure
 
-   Then, run the following commands to build the "tic" program on the build
+   Then, run the following commands to build the “tic” program on the build
    host:
 
  mkdir build
@@ -4315,8 +4315,8 @@ Chapter 6. Cross Compiling Temporary Tools
            build soon. We create this small linker script, as this is what is
            done in Chapter 8.
 
-   Details on this package are located in Section 8.28.2, "Contents of
-   Ncurses."
+   Details on this package are located in Section 8.28.2, “Contents of
+   Ncurses.”
 
 6.4. Bash-5.1.16
 
@@ -4355,7 +4355,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  ln -sv bash $LFS/bin/sh
 
-   Details on this package are located in Section 8.34.2, "Contents of Bash."
+   Details on this package are located in Section 8.34.2, “Contents of Bash.”
 
 6.5. Coreutils-9.1
 
@@ -4379,7 +4379,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
    --enable-install-program=hostname
 
-           This enables the hostname binary to be built and installed - it is
+           This enables the hostname binary to be built and installed – it is
            disabled by default but is required by the Perl test suite.
 
    Compile the package:
@@ -4399,8 +4399,8 @@ Chapter 6. Cross Compiling Temporary Tools
  mv -v $LFS/usr/share/man/man1/chroot.1 $LFS/usr/share/man/man8/chroot.8
  sed -i 's/"1"/"8"/'                    $LFS/usr/share/man/man8/chroot.8
 
-   Details on this package are located in Section 8.54.2, "Contents of
-   Coreutils."
+   Details on this package are located in Section 8.54.2, “Contents of
+   Coreutils.”
 
 6.6. Diffutils-3.8
 
@@ -4424,8 +4424,8 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.56.2, "Contents of
-   Diffutils."
+   Details on this package are located in Section 8.56.2, “Contents of
+   Diffutils.”
 
 6.7. File-5.42
 
@@ -4477,7 +4477,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  rm -v $LFS/usr/lib/libmagic.la
 
-   Details on this package are located in Section 8.10.2, "Contents of File."
+   Details on this package are located in Section 8.10.2, “Contents of File.”
 
 6.8. Findutils-4.9.0
 
@@ -4506,8 +4506,8 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.58.2, "Contents of
-   Findutils."
+   Details on this package are located in Section 8.58.2, “Contents of
+   Findutils.”
 
 6.9. Gawk-5.1.1
 
@@ -4536,7 +4536,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.57.2, "Contents of Gawk."
+   Details on this package are located in Section 8.57.2, “Contents of Gawk.”
 
 6.10. Grep-3.7
 
@@ -4561,7 +4561,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.33.2, "Contents of Grep."
+   Details on this package are located in Section 8.33.2, “Contents of Grep.”
 
 6.11. Gzip-1.12
 
@@ -4585,7 +4585,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.61.2, "Contents of Gzip."
+   Details on this package are located in Section 8.61.2, “Contents of Gzip.”
 
 6.12. Make-4.3
 
@@ -4620,12 +4620,12 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.65.2, "Contents of Make."
+   Details on this package are located in Section 8.65.2, “Contents of Make.”
 
 6.13. Patch-2.7.6
 
    The Patch package contains a program for modifying or creating files by
-   applying a "patch" file typically created by the diff program.
+   applying a “patch” file typically created by the diff program.
 
    Approximate build time: 0.1 SBU
    Required disk space: 12 MB
@@ -4646,8 +4646,8 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.66.2, "Contents of
-   Patch."
+   Details on this package are located in Section 8.66.2, “Contents of
+   Patch.”
 
 6.14. Sed-4.8
 
@@ -4671,7 +4671,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.29.2, "Contents of Sed."
+   Details on this package are located in Section 8.29.2, “Contents of Sed.”
 
 6.15. Tar-1.34
 
@@ -4699,7 +4699,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  make DESTDIR=$LFS install
 
-   Details on this package are located in Section 8.67.2, "Contents of Tar."
+   Details on this package are located in Section 8.67.2, “Contents of Tar.”
 
 6.16. Xz-5.2.6
 
@@ -4734,7 +4734,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  rm -v $LFS/usr/lib/liblzma.la
 
-   Details on this package are located in Section 8.8.2, "Contents of Xz."
+   Details on this package are located in Section 8.8.2, “Contents of Xz.”
 
 6.17. Binutils-2.39 - Pass 2
 
@@ -4793,8 +4793,8 @@ Chapter 6. Cross Compiling Temporary Tools
 
  rm -v $LFS/usr/lib/lib{bfd,ctf,ctf-nobfd,opcodes}.{a,la}
 
-   Details on this package are located in Section 8.18.2, "Contents of
-   Binutils."
+   Details on this package are located in Section 8.18.2, “Contents of
+   Binutils.”
 
 6.18. GCC-12.2.0 - Pass 2
 
@@ -4818,7 +4818,7 @@ Chapter 6. Cross Compiling Temporary Tools
  mv -v mpc-1.2.1 mpc
 
    If building on x86_64, change the default directory name for 64-bit
-   libraries to "lib":
+   libraries to “lib”:
 
  case $(uname -m) in
    x86_64)
@@ -4910,7 +4910,7 @@ Chapter 6. Cross Compiling Temporary Tools
 
  ln -sv gcc $LFS/usr/bin/cc
 
-   Details on this package are located in Section 8.26.2, "Contents of GCC."
+   Details on this package are located in Section 8.26.2, “Contents of GCC.”
 
 Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
@@ -4918,7 +4918,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
    This chapter shows how to build the last missing bits of the temporary
    system: the tools needed by the build machinery of various packages. Now
-   that all circular dependencies have been resolved, a "chroot" environment,
+   that all circular dependencies have been resolved, a “chroot” environment,
    completely isolated from the host operating system (except for the running
    kernel), can be used for the build.
 
@@ -4928,7 +4928,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
    chroot environment. You may want to check that they are mounted by issuing
    findmnt.
 
-   Until Section 7.4, "Entering the Chroot Environment", the commands must be
+   Until Section 7.4, “Entering the Chroot Environment”, the commands must be
    run as root, with the LFS variable set. After entering chroot, all
    commands are run as root, fortunately without access to the OS of the
    computer you built LFS on. Be careful anyway, as it is easy to destroy the
@@ -5039,8 +5039,8 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
    chapter and the following chapters are run from within the chroot
    environment. If you leave this environment for any reason (rebooting for
    example), ensure that the virtual kernel filesystems are mounted as
-   explained in Section 7.3.1, "Mounting and Populating /dev" and
-   Section 7.3.2, "Mounting Virtual Kernel File Systems" and enter chroot
+   explained in Section 7.3.1, “Mounting and Populating /dev” and
+   Section 7.3.2, “Mounting Virtual Kernel File Systems” and enter chroot
    again before continuing with the installation.
 
 7.5. Creating Directories
@@ -5080,14 +5080,14 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
    Directories are, by default, created with permission mode 755, but this is
    not desirable for all directories. In the commands above, two changes are
-   made-one to the home directory of user root, and another to the
+   made—one to the home directory of user root, and another to the
    directories for temporary files.
 
    The first mode change ensures that not just anybody can enter the /root
-   directory-the same as a normal user would do with his or her home
+   directory—the same as a normal user would do with his or her home
    directory. The second mode change makes sure that any user can write to
    the /tmp and /var/tmp directories, but cannot remove another user's files
-   from them. The latter is prohibited by the so-called "sticky bit," the
+   from them. The latter is prohibited by the so-called “sticky bit,” the
    highest bit (1) in the 1777 bit mask.
 
   7.5.1. FHS Compliance Note
@@ -5115,7 +5115,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
  ::1        localhost
  EOF
 
-   In order for user root to be able to login and for the name "root" to be
+   In order for user root to be able to login and for the name “root” to be
    recognized, there must be relevant entries in the /etc/passwd and
    /etc/group files.
 
@@ -5162,7 +5162,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
  nogroup:x:65534:
  EOF
 
-   The created groups are not part of any standard-they are groups decided on
+   The created groups are not part of any standard—they are groups decided on
    in part by the requirements of the Udev configuration in Chapter 9, and in
    part by common convention employed by a number of existing Linux
    distributions. In addition, some test suites rely on specific users or
@@ -5177,7 +5177,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
    The ID 65534 is used by the kernel for NFS and separate user namespaces
    for unmapped users and groups (those exist on the NFS server or the parent
-   user namespace, but "do not exist" on the local machine or in the separate
+   user namespace, but “do not exist” on the local machine or in the separate
    namespace). We assign nobody and nogroup for it to avoid an unnamed ID.
    But other distros may treat this ID differently, so any portable program
    should not depend on this assignment.
@@ -5189,7 +5189,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
  echo "tester:x:101:" >> /etc/group
  install -o tester -d /home/tester
 
-   To remove the "I have no name!" prompt, start a new shell. Since the
+   To remove the “I have no name!” prompt, start a new shell. Since the
    /etc/passwd and /etc/group files have been created, user name and group
    name resolution will now work:
 
@@ -5250,8 +5250,8 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
  cp -v gettext-tools/src/{msgfmt,msgmerge,xgettext} /usr/bin
 
-   Details on this package are located in Section 8.31.2, "Contents of
-   Gettext."
+   Details on this package are located in Section 8.31.2, “Contents of
+   Gettext.”
 
 7.8. Bison-3.8.2
 
@@ -5282,8 +5282,8 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
  make install
 
-   Details on this package are located in Section 8.32.2, "Contents of
-   Bison."
+   Details on this package are located in Section 8.32.2, “Contents of
+   Bison.”
 
 7.9. Perl-5.36.0
 
@@ -5322,7 +5322,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
  make install
 
-   Details on this package are located in Section 8.41.2, "Contents of Perl."
+   Details on this package are located in Section 8.41.2, “Contents of Perl.”
 
 7.10. Python-3.10.6
 
@@ -5337,7 +5337,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
   Note
 
-   There are two package files whose name starts with "python". The one to
+   There are two package files whose name starts with “python”. The one to
    extract from is Python-3.10.6.tar.xz (notice the uppercase first letter).
 
    Prepare Python for compilation:
@@ -5366,7 +5366,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
    Some Python 3 modules can't be built now because the dependencies are not
    installed yet. The building system still attempts to build them however,
    so the compilation of some files will fail and the compiler message may
-   seem to indicate "fatal error". The message should be ignored. Just make
+   seem to indicate “fatal error”. The message should be ignored. Just make
    sure the toplevel make command has not failed. The optional modules are
    not needed now and they will be built in Chapter 8.
 
@@ -5374,8 +5374,8 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
  make install
 
-   Details on this package are located in Section 8.50.2, "Contents of Python
-   3."
+   Details on this package are located in Section 8.50.2, “Contents of Python
+   3.”
 
 7.11. Texinfo-6.8
 
@@ -5399,8 +5399,8 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
  make install
 
-   Details on this package are located in Section 8.68.2, "Contents of
-   Texinfo."
+   Details on this package are located in Section 8.68.2, “Contents of
+   Texinfo.”
 
 7.12. Util-linux-2.38.1
 
@@ -5471,8 +5471,8 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
  make install
 
-   Details on this package are located in Section 8.73.2, "Contents of
-   Util-linux."
+   Details on this package are located in Section 8.73.2, “Contents of
+   Util-linux.”
 
 7.13. Cleaning up and Saving the Temporary System
 
@@ -5532,7 +5532,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
 
    Whenever commands are to be executed by root, make sure you have set LFS.
 
-   This has been discussed in Section 2.6, "Setting The $LFS Variable".
+   This has been discussed in Section 2.6, “Setting The $LFS Variable”.
 
    Before making a backup, unmount the virtual file systems:
 
@@ -5562,7 +5562,7 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
   Note
 
    If continuing to chapter 8, don't forget to reenter the chroot environment
-   as explained in the "Important" box below.
+   as explained in the “Important” box below.
 
   7.13.3. Restore
 
@@ -5592,9 +5592,9 @@ Chapter 7. Entering Chroot and Building Additional Temporary Tools
    If you left the chroot environment to create a backup or restart building
    using a restore, remember to check that the virtual filesystems are still
    mounted (findmnt | grep $LFS). If they are not mounted, remount them now
-   as described in Section 7.3, "Preparing Virtual Kernel File Systems" and
-   re-enter the chroot environment (see Section 7.4, "Entering the Chroot
-   Environment") before continuing.
+   as described in Section 7.3, “Preparing Virtual Kernel File Systems” and
+   re-enter the chroot environment (see Section 7.4, “Entering the Chroot
+   Environment”) before continuing.
 
                         Part IV. Building the LFS System
 
@@ -5664,7 +5664,7 @@ Chapter 8. Installing Basic System Software
    Package Manager allows tracking the installation of files making it easy
    to remove and upgrade packages. As well as the binary and library files, a
    package manager will handle the installation of configuration files.
-   Before you begin to wonder, NO-this section will not talk about nor
+   Before you begin to wonder, NO—this section will not talk about nor
    recommend any particular package manager. What it provides is a roundup of
    the more popular techniques and how they work. The perfect package manager
    for you may be among these techniques or may be a combination of two or
@@ -5674,7 +5674,7 @@ Chapter 8. Installing Basic System Software
    Some reasons why no package manager is mentioned in LFS or BLFS include:
 
      * Dealing with package management takes the focus away from the goals of
-       these books-teaching how a Linux system is built.
+       these books—teaching how a Linux system is built.
 
      * There are multiple solutions for package management, each having its
        strengths and drawbacks. Including one that satisfies all audiences is
@@ -5723,7 +5723,7 @@ Chapter 8. Installing Basic System Software
        from the previously installed version (libfoo.so.1.25 in the case).
        Or, a ldconfig run (by yourself using a command line, or by the
        installation of some package) will reset the symlink libfoo.so.1 to
-       point to the old library file because it seems having a "newer"
+       point to the old library file because it seems having a “newer”
        version, as its version number is larger. This situation may happen if
        you have to downgrade a package, or the package changes the versioning
        scheme of library files suddenly.
@@ -5912,8 +5912,8 @@ Chapter 8. Installing Basic System Software
    some processors may have instructions that are unavailable in earlier
    versions.
 
-   Finally the new system has to be made bootable via Section 10.4, "Using
-   GRUB to Set Up the Boot Process".
+   Finally the new system has to be made bootable via Section 10.4, “Using
+   GRUB to Set Up the Boot Process”.
 
 8.3. Man-pages-5.13
 
@@ -6365,7 +6365,7 @@ Chapter 8. Installing Basic System Software
    libthread_db      Contains functions useful for building debuggers for     
                      multi-threaded programs                                  
    libutil           Dummy library containing no functions. Previously        
-                     contained code for "standard" functions used in many     
+                     contained code for “standard” functions used in many     
                      different Unix utilities. These functions are now in     
                      libc                                                     
 
@@ -6489,7 +6489,7 @@ Chapter 8. Installing Basic System Software
    bzip2        Compresses files using the Burrows-Wheeler block sorting text 
                 compression algorithm with Huffman coding; the compression    
                 rate is better than that achieved by more conventional        
-                compressors using "Lempel-Ziv" algorithms, like gzip          
+                compressors using “Lempel-Ziv” algorithms, like gzip          
    bzip2recover Tries to recover data from damaged bzipped files              
    bzless       Runs less on bzipped files                                    
    bzmore       Runs more on bzipped files                                    
@@ -6651,7 +6651,7 @@ Chapter 8. Installing Basic System Software
     Short Descriptions
 
    file     Tries to classify each given file; it does this by performing     
-            several tests-file system tests, magic number tests, and language 
+            several tests—file system tests, magic number tests, and language 
             tests                                                             
    libmagic Contains routines for magic number recognition, used by the file  
             program                                                           
@@ -6917,7 +6917,7 @@ Chapter 8. Installing Basic System Software
 
  unset SRCDIR
 
-   The various "sed" instructions after the "make" command removes references
+   The various “sed” instructions after the “make” command removes references
    to the build directory from the configuration files and replaces them with
    the install directory. This is not mandatory for the remainder of LFS, but
    may be needed in case a package built later uses Tcl.
@@ -7222,7 +7222,7 @@ Chapter 8. Installing Basic System Software
    libbfd       The Binary File Descriptor library                            
    libctf       The Compat ANSI-C Type Format debugging support library       
    libctf-nobfd A libctf variant which does not use libbfd functionality      
-   libopcodes   A library for dealing with opcodes-the "readable text"        
+   libopcodes   A library for dealing with opcodes—the “readable text”        
                 versions of instructions for the processor; it is used for    
                 building utilities like objdump                               
 
@@ -7556,7 +7556,7 @@ Chapter 8. Installing Basic System Software
 
    Disable the installation of the groups program and its man pages, as
    Coreutils provides a better version. Also, prevent the installation of
-   manual pages that were already installed in Section 8.3, "Man-pages-5.13":
+   manual pages that were already installed in Section 8.3, “Man-pages-5.13”:
 
  sed -i 's/groups$(EXEEXT) //' src/Makefile.in
  find man -name Makefile.in -exec sed -i 's/groups\.1 / /'   {} \;
@@ -7666,8 +7666,8 @@ Chapter 8. Installing Basic System Software
            useradd without the -g parameter, you will get a message displayed
            on the terminal that says: useradd: unknown GID 999, although the
            account is correctly created. That is why we have created the
-           group users with this group ID in Section 7.6, "Creating Essential
-           Files and Symlinks".
+           group users with this group ID in Section 7.6, “Creating Essential
+           Files and Symlinks”.
 
    CREATE_MAIL_SPOOL=yes
 
@@ -7759,7 +7759,7 @@ Chapter 8. Installing Basic System Software
   8.26.1. Installation of GCC
 
    If building on x86_64, change the default directory name for 64-bit
-   libraries to "lib":
+   libraries to “lib”:
 
  case $(uname -m) in
    x86_64)
@@ -8525,7 +8525,7 @@ Chapter 8. Installing Basic System Software
 
  make
 
-   Skip down to "Install the package" if not running the test suite.
+   Skip down to “Install the package” if not running the test suite.
 
    To prepare the tests, ensure that the tester user can write to the sources
    tree:
@@ -8903,7 +8903,7 @@ Chapter 8. Installing Basic System Software
  export BUILD_BZIP2=0
 
    To have full control over the way Perl is set up, you can remove the
-   "-des" options from the following command and hand-pick the way this
+   “-des” options from the following command and hand-pick the way this
    package is built. Alternatively, use the command exactly as below to use
    the defaults that Perl auto-detects:
 
@@ -9155,7 +9155,7 @@ Chapter 8. Installing Basic System Software
    autoconf   Produces shell scripts that automatically configure software    
               source code packages to adapt to many kinds of Unix-like        
               systems; the configuration scripts it produces are              
-              independent-running them does not require the autoconf program  
+              independent—running them does not require the autoconf program  
    autoheader A tool for creating template files of C #define statements for  
               configure to use                                                
    autom4te   A wrapper for the M4 macro processor                            
@@ -9282,7 +9282,7 @@ Chapter 8. Installing Basic System Software
    libssl.so when upgrading to a version with MAJOR version number unchanged.
 
    However, any running programs linked to those libraries need to be stopped
-   and restarted. Read the related entries in Section 8.2.1, "Upgrade Issues"
+   and restarted. Read the related entries in Section 8.2.1, “Upgrade Issues”
    for details.
 
   8.46.2. Contents of OpenSSL
@@ -9346,7 +9346,7 @@ Chapter 8. Installing Basic System Software
  make
 
    The test suite of this package requires raw kernel headers (not the
-   "sanitized" kernel headers installed earlier), which are beyond the scope
+   “sanitized” kernel headers installed earlier), which are beyond the scope
    of LFS.
 
    Install the package and create symlinks for compatibility with
@@ -9827,7 +9827,7 @@ Chapter 8. Installing Basic System Software
 
  make
 
-   Skip down to "Install the package" if not running the test suite.
+   Skip down to “Install the package” if not running the test suite.
 
    Now the test suite is ready to be run. First, run the tests that are meant
    to be run as user root:
@@ -10033,7 +10033,7 @@ Chapter 8. Installing Basic System Software
    who       Reports who is logged on                                         
    whoami    Reports the user name associated with the current effective user 
              ID                                                               
-   yes       Repeatedly outputs "y" or a given string until killed            
+   yes       Repeatedly outputs “y” or a given string until killed            
    libstdbuf Library used by stdbuf                                           
 
 8.55. Check-0.15.2
@@ -10234,7 +10234,7 @@ Chapter 8. Installing Basic System Software
    size. For users in the United States, PAGE=letter is appropriate.
    Elsewhere, PAGE=A4 may be more suitable. While the default paper size is
    configured during compilation, it can be overridden later by echoing
-   either "A4" or "letter" to the /etc/papersize file.
+   either “A4” or “letter” to the /etc/papersize file.
 
    Prepare Groff for compilation:
 
@@ -10390,7 +10390,7 @@ Chapter 8. Installing Basic System Software
  mv -v /etc/bash_completion.d/grub /usr/share/bash-completion/completions
 
    Using GRUB to make your LFS system bootable will be discussed in
-   Section 10.4, "Using GRUB to Set Up the Boot Process".
+   Section 10.4, “Using GRUB to Set Up the Boot Process”.
 
   8.60.2. Contents of GRUB
 
@@ -10488,7 +10488,7 @@ Chapter 8. Installing Basic System Software
    zgrep      Runs grep on gzipped files                                      
    zless      Runs less on gzipped files                                      
    zmore      Runs more on gzipped files                                      
-   znew       Re-compresses files from compress format to gzip format-.Z to   
+   znew       Re-compresses files from compress format to gzip format—.Z to   
               .gz                                                             
 
 8.62. IPRoute2-5.19.0
@@ -10650,7 +10650,7 @@ Chapter 8. Installing Basic System Software
   Note
 
    For some languages (e.g., Belarusian) the Kbd package doesn't provide a
-   useful keymap where the stock "by" keymap assumes the ISO-8859-5 encoding,
+   useful keymap where the stock “by” keymap assumes the ISO-8859-5 encoding,
    and the CP1251 keymap is normally used. Users of such languages have to
    download working keymaps separately.
 
@@ -10781,7 +10781,7 @@ Chapter 8. Installing Basic System Software
 8.66. Patch-2.7.6
 
    The Patch package contains a program for modifying or creating files by
-   applying a "patch" file typically created by the diff program.
+   applying a “patch” file typically created by the diff program.
 
    Approximate build time: 0.2 SBU
    Required disk space: 12 MB
@@ -10957,7 +10957,7 @@ Chapter 8. Installing Basic System Software
 
   Alternatives to Vim
 
-   If you prefer another editor-such as Emacs, Joe, or Nano-please refer to
+   If you prefer another editor—such as Emacs, Joe, or Nano—please refer to
    https://www.linuxfromscratch.org/blfs/view/11.2/postlfs/editors.html for
    suggested installation instructions.
 
@@ -11021,9 +11021,9 @@ Chapter 8. Installing Basic System Software
   8.69.2. Configuring Vim
 
    By default, vim runs in vi-incompatible mode. This may be new to users who
-   have used other editors in the past. The "nocompatible" setting is
+   have used other editors in the past. The “nocompatible” setting is
    included below to highlight the fact that a new behavior is being used. It
-   also reminds those who would change to "compatible" mode that it should be
+   also reminds those who would change to “compatible” mode that it should be
    the first setting in the configuration file. This is necessary because it
    changes other settings, and overrides must come after this setting. Create
    a default vim configuration file by running the following:
@@ -11047,7 +11047,7 @@ Chapter 8. Installing Basic System Software
  EOF
 
    The set nocompatible setting makes vim behave in a more useful way (the
-   default) than the vi-compatible manner. Remove the "no" to keep the old vi
+   default) than the vi-compatible manner. Remove the “no” to keep the old vi
    behavior. The set backspace=2 setting allows backspacing over line breaks,
    autoindents, and the start of an insert. The syntax on parameter enables
    vim's syntax highlighting. The set mouse= setting enables proper pasting
@@ -11950,14 +11950,14 @@ Chapter 8. Installing Basic System Software
    being stripped can be destroyed and can make the system completely
    unusable. To avoid it, we'll copy some libraries and binaries into /tmp,
    strip them there, and install them back with the install command. Read the
-   related entry in Section 8.2.1, "Upgrade Issues" for the rationale to use
+   related entry in Section 8.2.1, “Upgrade Issues” for the rationale to use
    the install command here.
 
   Note
 
    The ELF loader's name is ld-linux-x86-64.so.2 on 64-bit systems and
    ld-linux.so.2 on 32-bit systems. The construct below selects the correct
-   name for the current architecture, excluding anything ending with "g", in
+   name for the current architecture, excluding anything ending with “g”, in
    case the commands below have already been run.
 
  save_usrlib="$(cd /usr/lib; ls ld-linux*[^g])
@@ -12072,13 +12072,13 @@ Chapter 9. System Configuration
    into run levels that can be run by the user. In LFS, they are used as
    follows:
 
-   0 - halt
-   1 - Single user mode
-   2 - User definable
-   3 - Full multiuser mode
-   4 - User definable
-   5 - Full multiuser mode with display manager
-   6 - reboot
+   0 — halt
+   1 — Single user mode
+   2 — User definable
+   3 — Full multiuser mode
+   4 — User definable
+   5 — Full multiuser mode with display manager
+   6 — reboot
 
    The usual default run level is 3 or 5.
 
@@ -12209,7 +12209,7 @@ Chapter 9. System Configuration
    particular developer(s). The devfs file system also suffered from race
    conditions that were inherent in its design and could not be fixed without
    a substantial revision to the kernel. It was marked as deprecated for a
-   long period - due to a lack of maintenance - and was finally removed from
+   long period – due to a lack of maintenance – and was finally removed from
    the kernel in June, 2006.
 
    With the development of the unstable 2.5 kernel tree, later released as
@@ -12260,10 +12260,10 @@ Chapter 9. System Configuration
    related to the bus-specific identifiers of devices supported by a module.
    For example, the snd-fm801 driver supports PCI devices with vendor ID
    0x1319 and device ID 0x0801, and has an alias of
-   "pci:v00001319d00000801sv*sd*bc04sc01i*". For most devices, the bus driver
+   “pci:v00001319d00000801sv*sd*bc04sc01i*”. For most devices, the bus driver
    exports the alias of the driver that would handle the device via sysfs.
    E.g., the /sys/bus/pci/devices/0000:00:0d.0/modalias file might contain
-   the string "pci:v00001319d00000801sv00001319sd00001319bc04sc01i00". The
+   the string “pci:v00001319d00000801sv00001319sd00001319bc04sc01i00”. The
    default rules provided with udev will cause udevd to call out to
    /sbin/modprobe with the contents of the MODALIAS uevent environment
    variable (which should be the same as the contents of the modalias file in
@@ -12312,24 +12312,24 @@ Chapter 9. System Configuration
    to this bus type. With Linux-5.19.2, this is the case with ISA busses.
    Expect this issue to be fixed in later kernel versions.
 
-   Udev is not intended to load "wrapper" drivers such as snd-pcm-oss and
+   Udev is not intended to load “wrapper” drivers such as snd-pcm-oss and
    non-hardware drivers such as loop at all.
 
     9.3.3.2. A kernel module is not loaded automatically, and udev is not
     intended to load it
 
-   If the "wrapper" module only enhances the functionality provided by some
+   If the “wrapper” module only enhances the functionality provided by some
    other module (e.g., snd-pcm-oss enhances the functionality of snd-pcm by
    making the sound cards available to OSS applications), configure modprobe
    to load the wrapper after udev loads the wrapped module. To do this, add a
-   "softdep" line to the corresponding /etc/modprobe.d/<filename>.conf file.
+   “softdep” line to the corresponding /etc/modprobe.d/<filename>.conf file.
    For example:
 
  softdep snd-pcm post: snd-pcm-oss
 
-   Note that the "softdep" command also allows pre: dependencies, or a
+   Note that the “softdep” command also allows pre: dependencies, or a
    mixture of both pre: and post: dependencies. See the modprobe.d(5) manual
-   page for more information on "softdep" syntax and capabilities.
+   page for more information on “softdep” syntax and capabilities.
 
    If the module in question is not a wrapper and is useful by itself,
    configure the modules bootscript to load this module on system boot. To do
@@ -12383,11 +12383,11 @@ Chapter 9. System Configuration
 
    This is due to the fact that udev, by design, handles uevents and loads
    modules in parallel, and thus in an unpredictable order. This will never
-   be "fixed". You should not rely upon the kernel device names being stable.
+   be “fixed”. You should not rely upon the kernel device names being stable.
    Instead, create your own rules that make symlinks with stable names based
    on some stable attributes of the device, such as a serial number or the
    output of various *_id utilities installed by udev. See Section 9.4,
-   "Managing Devices" and Section 9.5, "General Network Configuration" for
+   “Managing Devices” and Section 9.5, “General Network Configuration” for
    examples.
 
   9.3.4. Useful Reading
@@ -12424,8 +12424,8 @@ Chapter 9. System Configuration
    for those systems that have only one ethernet device of the same type.
    Laptops often have multiple ethernet connections that are named eth0 and
    wlan0 and are also candidates for this method. The command line is passed
-   in the GRUB configuration file. See Section 10.4.4, "Creating the GRUB
-   Configuration File".
+   in the GRUB configuration file. See Section 10.4.4, “Creating the GRUB
+   Configuration File”.
 
     9.4.1.2. Creating Custom Udev Rules
 
@@ -12496,9 +12496,9 @@ Chapter 9. System Configuration
    on the capabilities of each device, but you need to decide which of two
    modes of operation you wish to have the script use.
 
-   First, the script can operate in "by-path" mode (used by default for USB
+   First, the script can operate in “by-path” mode (used by default for USB
    and FireWire devices), where the rules it creates depend on the physical
-   path to the CD or DVD device. Second, it can operate in "by-id" mode
+   path to the CD or DVD device. Second, it can operate in “by-id” mode
    (default for IDE and SCSI devices), where the rules it creates depend on
    identification strings stored on the CD or DVD device itself. The path is
    determined by udev's path_id script, and the identification strings are
@@ -12510,10 +12510,10 @@ Chapter 9. System Configuration
    physical path to the device (that is, the ports and/or slots that it plugs
    into) to change, for example because you plan on moving the drive to a
    different IDE port or a different USB connector, then you should use the
-   "by-id" mode. On the other hand, if you expect the device's identification
+   “by-id” mode. On the other hand, if you expect the device's identification
    to change, for example because it may die, and you would replace it with a
    different device with the same capabilities and which is plugged into the
-   same connectors, then you should use the "by-path" mode.
+   same connectors, then you should use the “by-path” mode.
 
    If either type of change is possible with your drive, then choose a mode
    based on the type of change you expect to happen more often.
@@ -12534,13 +12534,13 @@ Chapter 9. System Configuration
  udevadm test /sys/block/hdd
 
    Look at the lines containing the output of various *_id programs. The
-   "by-id" mode will use the ID_SERIAL value if it exists and is not empty,
+   “by-id” mode will use the ID_SERIAL value if it exists and is not empty,
    otherwise it will use a combination of ID_MODEL and ID_REVISION. The
-   "by-path" mode will use the ID_PATH value.
+   “by-path” mode will use the ID_PATH value.
 
    If the default mode is not suitable for your situation, then the following
    modification can be made to the /etc/udev/rules.d/83-cdrom-symlinks.rules
-   file, as follows (where mode is one of "by-id" or "by-path"):
+   file, as follows (where mode is one of “by-id” or “by-path”):
 
  sed -e 's/"write_cd_rules"/"write_cd_rules mode"/' \
      -i /etc/udev/rules.d/83-cdrom-symlinks.rules
@@ -12561,14 +12561,14 @@ Chapter 9. System Configuration
 
   9.4.3. Dealing with duplicate devices
 
-   As explained in Section 9.3, "Overview of Device and Module Handling", the
+   As explained in Section 9.3, “Overview of Device and Module Handling”, the
    order in which devices with the same function appear in /dev is
    essentially random. E.g., if you have a USB web camera and a TV tuner,
    sometimes /dev/video0 refers to the camera and /dev/video1 refers to the
    tuner, and sometimes after a reboot the order changes. For all classes of
    hardware except sound cards and network cards, this is fixable by creating
    udev rules for custom persistent symlinks. The case of network cards is
-   covered separately in Section 9.5, "General Network Configuration", and
+   covered separately in Section 9.5, “General Network Configuration”, and
    sound card configuration can be found in BLFS.
 
    For each of your devices that is likely to have this problem (even if the
@@ -12600,7 +12600,7 @@ Chapter 9. System Configuration
    Which interfaces are brought up and down by the network script usually
    depends on the files in /etc/sysconfig/. This directory should contain a
    file for each interface to be configured, such as ifconfig.xyz, where
-   "xyz" should describe the network card. The interface name (e.g. eth0) is
+   “xyz” should describe the network card. The interface name (e.g. eth0) is
    usually appropriate. Inside this file are attributes to this interface,
    such as its IP address(es), subnet masks, and so forth. It is necessary
    that the stem of the filename be ifconfig.
@@ -12614,7 +12614,7 @@ Chapter 9. System Configuration
 
    The interface names depend on the implementation and configuration of the
    udev daemon running on the system. The udev daemon for LFS (installed in
-   Section 8.70, "Eudev-3.2.11") will not run until the LFS system is booted.
+   Section 8.70, “Eudev-3.2.11”) will not run until the LFS system is booted.
    So it's unreliable to determine the interface names being used in LFS
    system by running those commands on the host distro, even though in the
    chroot environment.
@@ -12636,9 +12636,9 @@ Chapter 9. System Configuration
    The values in italics must be changed in every file to match the proper
    setup.
 
-   If the ONBOOT variable is set to "yes" the System V network script will
+   If the ONBOOT variable is set to “yes” the System V network script will
    bring up the Network Interface Card (NIC) during the system boot process.
-   If set to anything but "yes" the NIC will be ignored by the network script
+   If set to anything but “yes” the NIC will be ignored by the network script
    and not be automatically brought up. The interface can be manually started
    or stopped with the ifup and ifdown commands.
 
@@ -12718,7 +12718,7 @@ Chapter 9. System Configuration
  IP_address myhost.example.org aliases
 
    Unless the computer is to be visible to the Internet (i.e., there is a
-   registered domain and a valid block of assigned IP addresses-most users do
+   registered domain and a valid block of assigned IP addresses—most users do
    not have this), make sure that the IP address is in the private network IP
    address range. Valid ranges are:
 
@@ -12767,7 +12767,7 @@ Chapter 9. System Configuration
    has its own way of doing things, but it respects generally accepted
    standards.
 
-   SysVinit (which will be referred to as "init" from now on) works using a
+   SysVinit (which will be referred to as “init” from now on) works using a
    run-levels scheme. There are seven (numbered 0 to 6) run-levels (actually,
    there are more run-levels, but they are for special cases and are
    generally not used. See init(8) for more details), and each one of those
@@ -12857,7 +12857,7 @@ Chapter 9. System Configuration
    number of symbolic links. Some begin with a K, the others begin with an S,
    and all of them have two numbers following the initial letter. The K means
    to stop (kill) a service and the S means to start a service. The numbers
-   determine the order in which the scripts are run, from 00 to 99-the lower
+   determine the order in which the scripts are run, from 00 to 99—the lower
    the number the earlier it gets executed. When init switches to another
    run-level, the appropriate services are either started or stopped,
    depending on the runlevel chosen.
@@ -12919,7 +12919,7 @@ Chapter 9. System Configuration
    /sys/class/rtc.
 
    For information on kernel module loading and udev, see Section 9.3.2.3,
-   "Module Loading".
+   “Module Loading”.
 
   9.6.4. Configuring the System Clock
 
@@ -13000,7 +13000,7 @@ Chapter 9. System Configuration
    KEYMAP
 
            This variable specifies the arguments for the loadkeys program,
-           typically, the name of keymap to load, e.g., "it". If this
+           typically, the name of keymap to load, e.g., “it”. If this
            variable is not set, the bootscript will not run the loadkeys
            program, and the default kernel keymap will be used. Note that a
            few keymaps have multiple versions with the same name (cz and its
@@ -13015,16 +13015,16 @@ Chapter 9. System Configuration
            call to the loadkeys program. This is useful if the stock keymap
            is not completely satisfactory and a small adjustment has to be
            made. E.g., to include the Euro sign into a keymap that normally
-           doesn't have it, set this variable to "euro2".
+           doesn't have it, set this variable to “euro2”.
 
    FONT
 
            This variable specifies the arguments for the setfont program.
-           Typically, this includes the font name, "-m", and the name of the
+           Typically, this includes the font name, “-m”, and the name of the
            application character map to load. E.g., in order to load the
-           "lat1-16" font together with the "8859-1" application character
+           “lat1-16” font together with the “8859-1” application character
            map (as it is appropriate in the USA), set this variable to
-           "lat1-16 -m 8859-1". In UTF-8 mode, the kernel uses the
+           “lat1-16 -m 8859-1”. In UTF-8 mode, the kernel uses the
            application character map for conversion of composed 8-bit key
            codes in the keymap to UTF-8, and thus the argument of the "-m"
            parameter should be set to the encoding of the composed key codes
@@ -13032,7 +13032,7 @@ Chapter 9. System Configuration
 
    UNICODE
 
-           Set this variable to "1", "yes" or "true" in order to put the
+           Set this variable to “1”, “yes” or “true” in order to put the
            console into UTF-8 mode. This is useful in UTF-8 based locales and
            harmful otherwise.
 
@@ -13119,15 +13119,15 @@ Chapter 9. System Configuration
 
      * Some keymaps have dead keys (i.e., keys that don't produce a character
        by themselves, but put an accent on the character produced by the next
-       key) or define composition rules (such as: "press Ctrl+. A E to get
-       AE" in the default keymap). Linux-5.19.2 interprets dead keys and
+       key) or define composition rules (such as: “press Ctrl+. A E to get Æ”
+       in the default keymap). Linux-5.19.2 interprets dead keys and
        composition rules in the keymap correctly only when the source
        characters to be composed together are not multibyte. This deficiency
        doesn't affect keymaps for European languages, because there accents
        are added to unaccented ASCII characters, or two ASCII characters are
        composed together. However, in UTF-8 mode it is a problem; e.g., for
        the Greek language, where one sometimes needs to put an accent on the
-       letter "alpha". The solution is either to avoid the use of UTF-8, or
+       letter “alpha”. The solution is either to avoid the use of UTF-8, or
        to install the X window system that doesn't have this limitation in
        its input handling.
 
@@ -13326,7 +13326,7 @@ Chapter 9. System Configuration
 
 9.7. The Bash Shell Startup Files
 
-   The shell program /bin/bash (hereafter referred to as "the shell") uses a
+   The shell program /bin/bash (hereafter referred to as “the shell”) uses a
    collection of startup files to help create an environment to run in. Each
    file has a specific use and may affect login and interactive environments
    differently. The files in the /etc directory provide global settings. If
@@ -13362,9 +13362,9 @@ Chapter 9. System Configuration
      * Correct formatting of monetary, time, and date values
 
    Replace <ll> below with the two-letter code for the desired language
-   (e.g., "en") and <CC> with the two-letter code for the appropriate country
-   (e.g., "GB"). <charmap> should be replaced with the canonical charmap for
-   your chosen locale. Optional modifiers such as "@euro" may also be
+   (e.g., “en”) and <CC> with the two-letter code for the appropriate country
+   (e.g., “GB”). <charmap> should be replaced with the canonical charmap for
+   your chosen locale. Optional modifiers such as “@euro” may also be
    present.
 
    The list of all locales supported by Glibc can be obtained by running the
@@ -13372,21 +13372,21 @@ Chapter 9. System Configuration
 
  locale -a
 
-   Charmaps can have a number of aliases, e.g., "ISO-8859-1" is also referred
-   to as "iso8859-1" and "iso88591". Some applications cannot handle the
-   various synonyms correctly (e.g., require that "UTF-8" is written as
-   "UTF-8", not "utf8"), so it is safest in most cases to choose the
+   Charmaps can have a number of aliases, e.g., “ISO-8859-1” is also referred
+   to as “iso8859-1” and “iso88591”. Some applications cannot handle the
+   various synonyms correctly (e.g., require that “UTF-8” is written as
+   “UTF-8”, not “utf8”), so it is safest in most cases to choose the
    canonical name for a particular locale. To determine the canonical name,
    run the following command, where <locale name> is the output given by
-   locale -a for your preferred locale ("en_GB.iso88591" in our example).
+   locale -a for your preferred locale (“en_GB.iso88591” in our example).
 
  LC_ALL=<locale name> locale charmap
 
-   For the "en_GB.iso88591" locale, the above command will print:
+   For the “en_GB.iso88591” locale, the above command will print:
 
  ISO-8859-1
 
-   This results in a final locale setting of "en_GB.ISO-8859-1". It is
+   This results in a final locale setting of “en_GB.ISO-8859-1”. It is
    important that the locale found using the heuristic above is tested prior
    to it being added to the Bash startup files:
 
@@ -13399,7 +13399,7 @@ Chapter 9. System Configuration
    used by the locale, the local currency, and the prefix to dial before the
    telephone number in order to get into the country. If any of the commands
    above fail with a message similar to the one shown below, this means that
-   your locale was either not installed in Section 8.5, "Glibc-2.36" or is
+   your locale was either not installed in Section 8.5, “Glibc-2.36” or is
    not supported by the default installation of Glibc.
 
  locale: Cannot set LC_* to default locale: No such file or directory
@@ -13424,14 +13424,14 @@ Chapter 9. System Configuration
  # End /etc/profile
  EOF
 
-   The "C" (default) and "en_US.utf8" (the recommended one for United States
-   English users) locales are different. "C" uses the US-ASCII 7-bit
+   The “C” (default) and “en_US.utf8” (the recommended one for United States
+   English users) locales are different. “C” uses the US-ASCII 7-bit
    character set, and treats bytes with the high bit set as invalid
    characters. That's why, e.g., the ls command substitutes them with
    question marks in that locale. Also, an attempt to send mail with such
    characters from Mutt or Pine results in non-RFC-conforming messages being
-   sent (the charset in the outgoing mail is indicated as "unknown 8-bit").
-   So you can use the "C" locale only if you are sure that you will never
+   sent (the charset in the outgoing mail is indicated as “unknown 8-bit”).
+   So you can use the “C” locale only if you are sure that you will never
    need 8-bit characters.
 
    UTF-8 based locales are not supported well by some programs. Work is in
@@ -13578,7 +13578,7 @@ Chapter 10. Making the LFS System Bootable
    character set of the locale is UTF-8, the corresponding option
    iocharset=utf8 would make the file system case sensitive. To fix this, use
    the special option utf8 instead of iocharset=utf8, for UTF-8 locales. The
-   "codepage" option is also needed for vfat and smbfs filesystems. It should
+   “codepage” option is also needed for vfat and smbfs filesystems. It should
    be set to the codepage number used under MS-DOS in your country. For
    example, in order to mount USB flash drives, a ru_RU.KOI8-R user would
    need the following in the options portion of its mount line in /etc/fstab:
@@ -13596,9 +13596,9 @@ Chapter 10. Making the LFS System Bootable
 
    It is also possible to specify default codepage and iocharset values for
    some filesystems during kernel configuration. The relevant parameters are
-   named "Default NLS Option" (CONFIG_NLS_DEFAULT), "Default Remote NLS
-   Option" (CONFIG_SMB_NLS_DEFAULT), "Default codepage for FAT"
-   (CONFIG_FAT_DEFAULT_CODEPAGE), and "Default iocharset for FAT"
+   named “Default NLS Option” (CONFIG_NLS_DEFAULT), “Default Remote NLS
+   Option” (CONFIG_SMB_NLS_DEFAULT), “Default codepage for FAT”
+   (CONFIG_FAT_DEFAULT_CODEPAGE), and “Default iocharset for FAT”
    (CONFIG_FAT_DEFAULT_IOCHARSET). There is no way to specify these settings
    for the ntfs filesystem at kernel compilation time.
 
@@ -13623,7 +13623,7 @@ Chapter 10. Making the LFS System Bootable
 
   10.3.1. Installation of the kernel
 
-   Building the kernel involves a few steps-configuration, compilation, and
+   Building the kernel involves a few steps—configuration, compilation, and
    installation. Read the README file in the kernel source tree for
    alternative methods to the way this book configures the kernel.
 
@@ -13772,7 +13772,7 @@ Chapter 10. Making the LFS System Bootable
 
    If using kernel modules, module configuration in /etc/modprobe.d may be
    required. Information pertaining to modules and kernel configuration is
-   located in Section 9.3, "Overview of Device and Module Handling" and in
+   located in Section 9.3, “Overview of Device and Module Handling” and in
    the kernel documentation in the linux-5.19.2/Documentation directory.
    Also, modprobe.d(5) may be of interest.
 
@@ -13853,7 +13853,7 @@ Chapter 10. Making the LFS System Bootable
 
    The headers in the system's include directory (/usr/include) should always
    be the ones against which Glibc was compiled, that is, the sanitised
-   headers installed in Section 5.4, "Linux-5.19.2 API Headers". Therefore,
+   headers installed in Section 5.4, “Linux-5.19.2 API Headers”. Therefore,
    they should never be replaced by either the raw kernel headers or any
    other kernel sanitized headers.
 
@@ -13918,7 +13918,7 @@ Chapter 10. Making the LFS System Bootable
    is not required to boot your LFS system. You may just want to modify your
    current boot loader, e.g. Grub-Legacy, GRUB2, or LILO.
 
-   Ensure that an emergency boot disk is ready to "rescue" the computer if
+   Ensure that an emergency boot disk is ready to “rescue” the computer if
    the computer becomes unusable (un-bootable). If you do not already have a
    boot device, you can create one. In order for the procedure below to work,
    you need to jump ahead to BLFS and install xorriso from the libisoburn
@@ -14010,7 +14010,7 @@ Chapter 10. Making the LFS System Bootable
 
    The GRUB designator for a partition may change if you added or removed
    some disks (including removable disks like USB thumb devices). The change
-   may cause boot failure because grub.cfg refers to some "old" designators.
+   may cause boot failure because grub.cfg refers to some “old” designators.
    If you wish to avoid such a problem, you may use the UUID of partition and
    filesystem instead of GRUB designator to specify a partition. Run lsblk -o
    UUID,PARTUUID,PATH,MOUNTPOINT to show the UUID of your filesystems (in
@@ -14201,7 +14201,7 @@ Chapter 11. The End
    Thank you for reading this LFS book. We hope that you have found this book
    helpful and have learned more about the system creation process.
 
-   Now that the LFS system is installed, you may be wondering "What next?" To
+   Now that the LFS system is installed, you may be wondering “What next?” To
    answer that question, we have compiled a list of resources for you.
 
      * Maintenance
@@ -14336,18 +14336,18 @@ Appendix B. Acknowledgments
    We would like to thank the following people and organizations for their
    contributions to the Linux From Scratch Project.
 
-     * Gerard Beekmans <gerard AT linuxfromscratch D0T org> - LFS Creator
+     * Gerard Beekmans <gerard AT linuxfromscratch D0T org> – LFS Creator
 
-     * Bruce Dubbs <bdubbs AT linuxfromscratch D0T org> - LFS Managing Editor
+     * Bruce Dubbs <bdubbs AT linuxfromscratch D0T org> – LFS Managing Editor
 
-     * Jim Gifford <jim AT linuxfromscratch D0T org> - CLFS Project Co-Leader
+     * Jim Gifford <jim AT linuxfromscratch D0T org> – CLFS Project Co-Leader
 
-     * Pierre Labastie <pierre AT linuxfromscratch D0T org> - BLFS Editor and
+     * Pierre Labastie <pierre AT linuxfromscratch D0T org> – BLFS Editor and
        ALFS Lead
 
-     * DJ Lucas <dj AT linuxfromscratch D0T org> - LFS and BLFS Editor
+     * DJ Lucas <dj AT linuxfromscratch D0T org> – LFS and BLFS Editor
 
-     * Ken Moffat <ken AT linuxfromscratch D0T org> - BLFS Editor
+     * Ken Moffat <ken AT linuxfromscratch D0T org> – BLFS Editor
 
      * Countless other people on the various LFS and BLFS mailing lists who
        helped make this book possible by giving their suggestions, testing
@@ -14356,107 +14356,107 @@ Appendix B. Acknowledgments
 
   Translators
 
-     * Manuel Canales Esparcia <macana AT macana-es D0T com> - Spanish LFS
+     * Manuel Canales Esparcia <macana AT macana-es D0T com> – Spanish LFS
        translation project
 
-     * Johan Lenglet <johan AT linuxfromscratch D0T org> - French LFS
+     * Johan Lenglet <johan AT linuxfromscratch D0T org> – French LFS
        translation project until 2008
 
-     * Jean-Philippe Mengual <jmengual AT linuxfromscratch D0T org> - French
+     * Jean-Philippe Mengual <jmengual AT linuxfromscratch D0T org> – French
        LFS translation project 2008-2016
 
-     * Julien Lepiller <jlepiller AT linuxfromscratch D0T org> - French LFS
+     * Julien Lepiller <jlepiller AT linuxfromscratch D0T org> – French LFS
        translation project 2017-present
 
-     * Anderson Lizardo <lizardo AT linuxfromscratch D0T org> - Portuguese
+     * Anderson Lizardo <lizardo AT linuxfromscratch D0T org> – Portuguese
        LFS translation project
 
-     * Thomas Reitelbach <tr AT erdfunkstelle D0T de> - German LFS
+     * Thomas Reitelbach <tr AT erdfunkstelle D0T de> – German LFS
        translation project
 
   Mirror Maintainers
 
     North American Mirrors
 
-     * Scott Kveton <scott AT osuosl D0T org> - lfs.oregonstate.edu mirror
+     * Scott Kveton <scott AT osuosl D0T org> – lfs.oregonstate.edu mirror
 
-     * William Astle <lost AT l-w D0T net> - ca.linuxfromscratch.org mirror
+     * William Astle <lost AT l-w D0T net> – ca.linuxfromscratch.org mirror
 
-     * Eujon Sellers <jpolen@rackspace.com> - lfs.introspeed.com mirror
+     * Eujon Sellers <jpolen@rackspace.com> – lfs.introspeed.com mirror
 
-     * Justin Knierim <tim@idge.net> - lfs-matrix.net mirror
+     * Justin Knierim <tim@idge.net> – lfs-matrix.net mirror
 
     South American Mirrors
 
-     * Manuel Canales Esparcia <manuel AT linuxfromscratch D0T org> -
+     * Manuel Canales Esparcia <manuel AT linuxfromscratch D0T org> –
        lfsmirror.lfs-es.info mirror
 
-     * Luis Falcon <Luis Falcon> - torredehanoi.org mirror
+     * Luis Falcon <Luis Falcon> – torredehanoi.org mirror
 
     European Mirrors
 
-     * Guido Passet <guido AT primerelay D0T net> - nl.linuxfromscratch.org
+     * Guido Passet <guido AT primerelay D0T net> – nl.linuxfromscratch.org
        mirror
 
-     * Bastiaan Jacques <baafie AT planet D0T nl> - lfs.pagefault.net mirror
+     * Bastiaan Jacques <baafie AT planet D0T nl> – lfs.pagefault.net mirror
 
-     * Sven Cranshoff <sven D0T cranshoff AT lineo D0T be> - lfs.lineo.be
+     * Sven Cranshoff <sven D0T cranshoff AT lineo D0T be> – lfs.lineo.be
        mirror
 
-     * Scarlet Belgium - lfs.scarlet.be mirror
+     * Scarlet Belgium – lfs.scarlet.be mirror
 
-     * Sebastian Faulborn <info AT aliensoft D0T org> - lfs.aliensoft.org
+     * Sebastian Faulborn <info AT aliensoft D0T org> – lfs.aliensoft.org
        mirror
 
-     * Stuart Fox <stuart AT dontuse D0T ms> - lfs.dontuse.ms mirror
+     * Stuart Fox <stuart AT dontuse D0T ms> – lfs.dontuse.ms mirror
 
-     * Ralf Uhlemann <admin AT realhost D0T de> - lfs.oss-mirror.org mirror
+     * Ralf Uhlemann <admin AT realhost D0T de> – lfs.oss-mirror.org mirror
 
-     * Antonin Sprinzl <Antonin D0T Sprinzl AT tuwien D0T ac D0T at> -
+     * Antonin Sprinzl <Antonin D0T Sprinzl AT tuwien D0T ac D0T at> –
        at.linuxfromscratch.org mirror
 
-     * Fredrik Danerklint <fredan-lfs AT fredan D0T org> -
+     * Fredrik Danerklint <fredan-lfs AT fredan D0T org> –
        se.linuxfromscratch.org mirror
 
-     * Franck <franck AT linuxpourtous D0T com> - lfs.linuxpourtous.com
+     * Franck <franck AT linuxpourtous D0T com> – lfs.linuxpourtous.com
        mirror
 
-     * Philippe Baque <baque AT cict D0T fr> - lfs.cict.fr mirror
+     * Philippe Baque <baque AT cict D0T fr> – lfs.cict.fr mirror
 
-     * Vitaly Chekasin <gyouja AT pilgrims D0T ru> - lfs.pilgrims.ru mirror
+     * Vitaly Chekasin <gyouja AT pilgrims D0T ru> – lfs.pilgrims.ru mirror
 
-     * Benjamin Heil <kontakt AT wankoo D0T org> - lfs.wankoo.org mirror
+     * Benjamin Heil <kontakt AT wankoo D0T org> – lfs.wankoo.org mirror
 
-     * Anton Maisak <info AT linuxfromscratch D0T org D0T ru> -
+     * Anton Maisak <info AT linuxfromscratch D0T org D0T ru> –
        linuxfromscratch.org.ru mirror
 
     Asian Mirrors
 
-     * Satit Phermsawang <satit AT wbac D0T ac D0T th> - lfs.phayoune.org
+     * Satit Phermsawang <satit AT wbac D0T ac D0T th> – lfs.phayoune.org
        mirror
 
-     * Shizunet Co.,Ltd. <info AT shizu-net D0T jp> - lfs.mirror.shizu-net.jp
+     * Shizunet Co.,Ltd. <info AT shizu-net D0T jp> – lfs.mirror.shizu-net.jp
        mirror
 
-     * Init World <http://www.initworld.com/> - lfs.initworld.com mirror
+     * Init World <http://www.initworld.com/> – lfs.initworld.com mirror
 
     Australian Mirrors
 
-     * Jason Andrade <jason AT dstc D0T edu D0T au> - au.linuxfromscratch.org
+     * Jason Andrade <jason AT dstc D0T edu D0T au> – au.linuxfromscratch.org
        mirror
 
   Former Project Team Members
 
-     * Christine Barczak <theladyskye AT linuxfromscratch D0T org> - LFS Book
+     * Christine Barczak <theladyskye AT linuxfromscratch D0T org> – LFS Book
        Editor
 
-     * Archaic <archaic@linuxfromscratch.org> - LFS Technical Writer/Editor,
+     * Archaic <archaic@linuxfromscratch.org> – LFS Technical Writer/Editor,
        HLFS Project Leader, BLFS Editor, Hints and Patches Project Maintainer
 
-     * Matthew Burgess <matthew AT linuxfromscratch D0T org> - LFS Project
+     * Matthew Burgess <matthew AT linuxfromscratch D0T org> – LFS Project
        Leader, LFS Technical Writer/Editor
 
-     * Nathan Coulson <nathan AT linuxfromscratch D0T org> - LFS-Bootscripts
+     * Nathan Coulson <nathan AT linuxfromscratch D0T org> – LFS-Bootscripts
        Maintainer
 
      * Timothy Bauscher
@@ -14465,67 +14465,67 @@ Appendix B. Acknowledgments
 
      * Ian Chilton
 
-     * Jeroen Coumans <jeroen AT linuxfromscratch D0T org> - Website
+     * Jeroen Coumans <jeroen AT linuxfromscratch D0T org> – Website
        Developer, FAQ Maintainer
 
-     * Manuel Canales Esparcia <manuel AT linuxfromscratch D0T org> -
+     * Manuel Canales Esparcia <manuel AT linuxfromscratch D0T org> –
        LFS/BLFS/HLFS XML and XSL Maintainer
 
-     * Alex Groenewoud - LFS Technical Writer
+     * Alex Groenewoud – LFS Technical Writer
 
      * Marc Heerdink
 
-     * Jeremy Huntwork <jhuntwork AT linuxfromscratch D0T org> - LFS
+     * Jeremy Huntwork <jhuntwork AT linuxfromscratch D0T org> – LFS
        Technical Writer, LFS LiveCD Maintainer
 
-     * Bryan Kadzban <bryan AT linuxfromscratch D0T org> - LFS Technical
+     * Bryan Kadzban <bryan AT linuxfromscratch D0T org> – LFS Technical
        Writer
 
      * Mark Hymers
 
-     * Seth W. Klein - FAQ maintainer
+     * Seth W. Klein – FAQ maintainer
 
-     * Nicholas Leippe <nicholas AT linuxfromscratch D0T org> - Wiki
+     * Nicholas Leippe <nicholas AT linuxfromscratch D0T org> – Wiki
        Maintainer
 
-     * Anderson Lizardo <lizardo AT linuxfromscratch D0T org> - Website
+     * Anderson Lizardo <lizardo AT linuxfromscratch D0T org> – Website
        Backend-Scripts Maintainer
 
-     * Randy McMurchy <randy AT linuxfromscratch D0T org> - BLFS Project
+     * Randy McMurchy <randy AT linuxfromscratch D0T org> – BLFS Project
        Leader, LFS Editor
 
-     * Dan Nicholson <dnicholson AT linuxfromscratch D0T org> - LFS and BLFS
+     * Dan Nicholson <dnicholson AT linuxfromscratch D0T org> – LFS and BLFS
        Editor
 
-     * Alexander E. Patrakov <alexander AT linuxfromscratch D0T org> - LFS
+     * Alexander E. Patrakov <alexander AT linuxfromscratch D0T org> – LFS
        Technical Writer, LFS Internationalization Editor, LFS Live CD
        Maintainer
 
      * Simon Perreault
 
-     * Scot Mc Pherson <scot AT linuxfromscratch D0T org> - LFS NNTP Gateway
+     * Scot Mc Pherson <scot AT linuxfromscratch D0T org> – LFS NNTP Gateway
        Maintainer
 
-     * Douglas R. Reno <renodr AT linuxfromscratch D0T org> - Systemd Editor
+     * Douglas R. Reno <renodr AT linuxfromscratch D0T org> – Systemd Editor
 
-     * Ryan Oliver <ryan AT linuxfromscratch D0T org> - CLFS Project
+     * Ryan Oliver <ryan AT linuxfromscratch D0T org> – CLFS Project
        Co-Leader
 
-     * Greg Schafer <gschafer AT zip D0T com D0T au> - LFS Technical Writer
+     * Greg Schafer <gschafer AT zip D0T com D0T au> – LFS Technical Writer
        and Architect of the Next Generation 64-bit-enabling Build Method
 
-     * Jesse Tie-Ten-Quee - LFS Technical Writer
+     * Jesse Tie-Ten-Quee – LFS Technical Writer
 
-     * James Robertson <jwrober AT linuxfromscratch D0T org> - Bugzilla
+     * James Robertson <jwrober AT linuxfromscratch D0T org> – Bugzilla
        Maintainer
 
-     * Tushar Teredesai <tushar AT linuxfromscratch D0T org> - BLFS Book
+     * Tushar Teredesai <tushar AT linuxfromscratch D0T org> – BLFS Book
        Editor, Hints and Patches Project Leader
 
-     * Jeremy Utley <jeremy AT linuxfromscratch D0T org> - LFS Technical
+     * Jeremy Utley <jeremy AT linuxfromscratch D0T org> – LFS Technical
        Writer, Bugzilla Maintainer, LFS-Bootscripts Maintainer
 
-     * Zack Winkles <zwinkles AT gmail D0T com> - LFS Technical Writer
+     * Zack Winkles <zwinkles AT gmail D0T com> – LFS Technical Writer
 
 Appendix C. Dependencies
 
@@ -18316,7 +18316,7 @@ D.27. /lib/services/ipv4-static-route
 Appendix E. Udev configuration rules
 
    The rules in this appendix are listed for convenience. Installation is
-   normally done via instructions in Section 8.70, "Eudev-3.2.11".
+   normally done via instructions in Section 8.70, “Eudev-3.2.11”.
 
 E.1. 55-lfs.rules
 
@@ -18662,7 +18662,7 @@ F.1. Creative Commons License
 
 F.2. The MIT License
 
-   Copyright (c) 1999-2022 Gerard Beekmans
+   Copyright © 1999-2022 Gerard Beekmans
 
    Permission is hereby granted, free of charge, to any person obtaining a
    copy of this software and associated documentation files (the "Software"),
