@@ -1,0 +1,3 @@
+ioctl(?, KDGKBTYPE, 0x0002) = 0;
+	(descriptor ? is console)
+ioctl(?, KDGETMODE, KD_TEXT) = 0;

@@ -1,0 +1,4 @@
+ioctl(?, KDGKBTYPE, 0x0002) = 0;
+	(descriptor ? is console)
+ioctl(?, KDGKBMODE, K_UNICODE) = 0;
+ioctl(?, KDSKBMODE, K_XLATE) = 0;

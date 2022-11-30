@@ -1,0 +1,7065 @@
+ioctl(?, KDGKBTYPE, 0x0002) = 0;
+	(descriptor ? is console)
+ioctl(?, KDGKBMODE, K_UNICODE) = 0;
+ioctl(?, KDGETMODE, KD_TEXT) = 0;
+ioctl(?, KDSKBMODE, K_UNICODE) = 0;
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 1
+		unsigned short kb_value = 0x001B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 2
+		unsigned short kb_value = 0x0031
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 3
+		unsigned short kb_value = 0x0032
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 4
+		unsigned short kb_value = 0x0033
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 5
+		unsigned short kb_value = 0x0034
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 6
+		unsigned short kb_value = 0x0035
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 7
+		unsigned short kb_value = 0x0036
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 8
+		unsigned short kb_value = 0x0037
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 9
+		unsigned short kb_value = 0x0038
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 10
+		unsigned short kb_value = 0x0039
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 11
+		unsigned short kb_value = 0x0030
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 12
+		unsigned short kb_value = 0x0027
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 13
+		unsigned short kb_value = 0xF0AB
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 14
+		unsigned short kb_value = 0x007F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 15
+		unsigned short kb_value = 0x0009
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 16
+		unsigned short kb_value = 0x0B71
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 17
+		unsigned short kb_value = 0x0B77
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 18
+		unsigned short kb_value = 0x0B65
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 19
+		unsigned short kb_value = 0x0B72
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 20
+		unsigned short kb_value = 0x0B74
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 21
+		unsigned short kb_value = 0x0B79
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 22
+		unsigned short kb_value = 0x0B75
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 23
+		unsigned short kb_value = 0x0B69
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 24
+		unsigned short kb_value = 0x0B6F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 25
+		unsigned short kb_value = 0x0B70
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 26
+		unsigned short kb_value = 0x002B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 27
+		unsigned short kb_value = 0x0401
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 28
+		unsigned short kb_value = 0x0201
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 29
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 30
+		unsigned short kb_value = 0x0B61
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 31
+		unsigned short kb_value = 0x0B73
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 32
+		unsigned short kb_value = 0x0B64
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 33
+		unsigned short kb_value = 0x0B66
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 34
+		unsigned short kb_value = 0x0B67
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 35
+		unsigned short kb_value = 0x0B68
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 36
+		unsigned short kb_value = 0x0B6A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 37
+		unsigned short kb_value = 0x0B6B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 38
+		unsigned short kb_value = 0x0B6C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 39
+		unsigned short kb_value = 0x0BE7
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 40
+		unsigned short kb_value = 0xF0BA
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 41
+		unsigned short kb_value = 0x005C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 42
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 43
+		unsigned short kb_value = 0x0403
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 44
+		unsigned short kb_value = 0x0B7A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 45
+		unsigned short kb_value = 0x0B78
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 46
+		unsigned short kb_value = 0x0B63
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 47
+		unsigned short kb_value = 0x0B76
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 48
+		unsigned short kb_value = 0x0B62
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 49
+		unsigned short kb_value = 0x0B6E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 50
+		unsigned short kb_value = 0x0B6D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 51
+		unsigned short kb_value = 0x002C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 52
+		unsigned short kb_value = 0x002E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 53
+		unsigned short kb_value = 0x002D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 54
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 55
+		unsigned short kb_value = 0x030C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 56
+		unsigned short kb_value = 0x0703
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 57
+		unsigned short kb_value = 0x0020
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 58
+		unsigned short kb_value = 0x0207
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 59
+		unsigned short kb_value = 0x0100
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 60
+		unsigned short kb_value = 0x0101
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 61
+		unsigned short kb_value = 0x0102
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 62
+		unsigned short kb_value = 0x0103
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 63
+		unsigned short kb_value = 0x0104
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 64
+		unsigned short kb_value = 0x0105
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 65
+		unsigned short kb_value = 0x0106
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 66
+		unsigned short kb_value = 0x0107
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 67
+		unsigned short kb_value = 0x0108
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 68
+		unsigned short kb_value = 0x0109
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 69
+		unsigned short kb_value = 0x0208
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 70
+		unsigned short kb_value = 0x0209
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 71
+		unsigned short kb_value = 0x0307
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 72
+		unsigned short kb_value = 0x0308
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 73
+		unsigned short kb_value = 0x0309
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 74
+		unsigned short kb_value = 0x030B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 75
+		unsigned short kb_value = 0x0304
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 76
+		unsigned short kb_value = 0x0305
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 77
+		unsigned short kb_value = 0x0306
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 78
+		unsigned short kb_value = 0x030A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 79
+		unsigned short kb_value = 0x0301
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 80
+		unsigned short kb_value = 0x0302
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 81
+		unsigned short kb_value = 0x0303
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 82
+		unsigned short kb_value = 0x0300
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 83
+		unsigned short kb_value = 0x0310
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 84
+		unsigned short kb_value = 0x0206
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 86
+		unsigned short kb_value = 0x003C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 87
+		unsigned short kb_value = 0x010A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 88
+		unsigned short kb_value = 0x010B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 96
+		unsigned short kb_value = 0x030E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 97
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 98
+		unsigned short kb_value = 0x030D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 99
+		unsigned short kb_value = 0x020E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 100
+		unsigned short kb_value = 0x0701
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 101
+		unsigned short kb_value = 0x0205
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 102
+		unsigned short kb_value = 0x0114
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 103
+		unsigned short kb_value = 0x0603
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 104
+		unsigned short kb_value = 0x0118
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 105
+		unsigned short kb_value = 0x0601
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 106
+		unsigned short kb_value = 0x0602
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 107
+		unsigned short kb_value = 0x0117
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 108
+		unsigned short kb_value = 0x0600
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 109
+		unsigned short kb_value = 0x0119
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 110
+		unsigned short kb_value = 0x0115
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 111
+		unsigned short kb_value = 0x0116
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 0
+		unsigned char kb_index = 119
+		unsigned short kb_value = 0x011D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 1
+		unsigned short kb_value = 0x001B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 2
+		unsigned short kb_value = 0x0021
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 3
+		unsigned short kb_value = 0x0022
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 4
+		unsigned short kb_value = 0x0023
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 5
+		unsigned short kb_value = 0x0024
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 6
+		unsigned short kb_value = 0x0025
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 7
+		unsigned short kb_value = 0x0026
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 8
+		unsigned short kb_value = 0x002F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 9
+		unsigned short kb_value = 0x0028
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 10
+		unsigned short kb_value = 0x0029
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 11
+		unsigned short kb_value = 0x003D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 12
+		unsigned short kb_value = 0x003F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 13
+		unsigned short kb_value = 0xF0BB
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 14
+		unsigned short kb_value = 0x007F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 15
+		unsigned short kb_value = 0x0809
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 16
+		unsigned short kb_value = 0x0B51
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 17
+		unsigned short kb_value = 0x0B57
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 18
+		unsigned short kb_value = 0x0045
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 19
+		unsigned short kb_value = 0x0B52
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 20
+		unsigned short kb_value = 0x0B54
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 21
+		unsigned short kb_value = 0x0B59
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 22
+		unsigned short kb_value = 0x0B55
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 23
+		unsigned short kb_value = 0x0B49
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 24
+		unsigned short kb_value = 0x0B4F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 25
+		unsigned short kb_value = 0x0B50
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 26
+		unsigned short kb_value = 0x002A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 27
+		unsigned short kb_value = 0x0400
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 28
+		unsigned short kb_value = 0x0201
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 29
+		unsigned short kb_value = 0x020E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 30
+		unsigned short kb_value = 0x0B41
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 31
+		unsigned short kb_value = 0x0B53
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 32
+		unsigned short kb_value = 0x0B44
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 33
+		unsigned short kb_value = 0x0B46
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 34
+		unsigned short kb_value = 0x0B47
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 35
+		unsigned short kb_value = 0x0B48
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 36
+		unsigned short kb_value = 0x0B4A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 37
+		unsigned short kb_value = 0x0B4B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 38
+		unsigned short kb_value = 0x0B4C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 39
+		unsigned short kb_value = 0xF0C7
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 40
+		unsigned short kb_value = 0xF0AA
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 41
+		unsigned short kb_value = 0x007C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 42
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 43
+		unsigned short kb_value = 0x0402
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 44
+		unsigned short kb_value = 0x0B5A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 45
+		unsigned short kb_value = 0x0B58
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 46
+		unsigned short kb_value = 0x0B43
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 47
+		unsigned short kb_value = 0x0B56
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 48
+		unsigned short kb_value = 0x0B42
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 49
+		unsigned short kb_value = 0x0B4E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 50
+		unsigned short kb_value = 0x0B4D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 51
+		unsigned short kb_value = 0x003B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 52
+		unsigned short kb_value = 0x003A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 53
+		unsigned short kb_value = 0x005F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 54
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 55
+		unsigned short kb_value = 0x030C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 56
+		unsigned short kb_value = 0x0703
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 57
+		unsigned short kb_value = 0x0020
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 58
+		unsigned short kb_value = 0x0207
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 59
+		unsigned short kb_value = 0x010C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 60
+		unsigned short kb_value = 0x010D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 61
+		unsigned short kb_value = 0x010E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 62
+		unsigned short kb_value = 0x010F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 63
+		unsigned short kb_value = 0x0110
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 64
+		unsigned short kb_value = 0x0111
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 65
+		unsigned short kb_value = 0x0112
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 66
+		unsigned short kb_value = 0x0113
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 67
+		unsigned short kb_value = 0x011E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 68
+		unsigned short kb_value = 0x011F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 69
+		unsigned short kb_value = 0x0208
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 70
+		unsigned short kb_value = 0x0203
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 71
+		unsigned short kb_value = 0x0307
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 72
+		unsigned short kb_value = 0x0308
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 73
+		unsigned short kb_value = 0x0309
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 74
+		unsigned short kb_value = 0x030B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 75
+		unsigned short kb_value = 0x0304
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 76
+		unsigned short kb_value = 0x0305
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 77
+		unsigned short kb_value = 0x0306
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 78
+		unsigned short kb_value = 0x030A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 79
+		unsigned short kb_value = 0x0301
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 80
+		unsigned short kb_value = 0x0302
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 81
+		unsigned short kb_value = 0x0303
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 82
+		unsigned short kb_value = 0x0300
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 83
+		unsigned short kb_value = 0x0310
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 84
+		unsigned short kb_value = 0x0206
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 86
+		unsigned short kb_value = 0x003E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 87
+		unsigned short kb_value = 0x0120
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 88
+		unsigned short kb_value = 0x0121
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 96
+		unsigned short kb_value = 0x030E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 97
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 98
+		unsigned short kb_value = 0x030D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 99
+		unsigned short kb_value = 0x020E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 100
+		unsigned short kb_value = 0x0701
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 101
+		unsigned short kb_value = 0x0205
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 102
+		unsigned short kb_value = 0x0114
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 103
+		unsigned short kb_value = 0x0603
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 104
+		unsigned short kb_value = 0x020B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 105
+		unsigned short kb_value = 0x0601
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 106
+		unsigned short kb_value = 0x0602
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 107
+		unsigned short kb_value = 0x0117
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 108
+		unsigned short kb_value = 0x0600
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 109
+		unsigned short kb_value = 0x020A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 110
+		unsigned short kb_value = 0x0115
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 111
+		unsigned short kb_value = 0x0116
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 1
+		unsigned char kb_index = 119
+		unsigned short kb_value = 0x011D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 1
+		unsigned short kb_value = 0x001B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 2
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 3
+		unsigned short kb_value = 0x0040
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 4
+		unsigned short kb_value = 0xF0A3
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 5
+		unsigned short kb_value = 0xF0A7
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 6
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 7
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 8
+		unsigned short kb_value = 0x007B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 9
+		unsigned short kb_value = 0x005B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 10
+		unsigned short kb_value = 0x005D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 11
+		unsigned short kb_value = 0x007D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 12
+		unsigned short kb_value = 0x005C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 13
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 14
+		unsigned short kb_value = 0x007F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 15
+		unsigned short kb_value = 0x0009
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 16
+		unsigned short kb_value = 0x0B71
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 17
+		unsigned short kb_value = 0x0B77
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 18
+		unsigned short kb_value = 0xD0AC
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 19
+		unsigned short kb_value = 0x0B72
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 20
+		unsigned short kb_value = 0x0B74
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 21
+		unsigned short kb_value = 0x0B79
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 22
+		unsigned short kb_value = 0x0B75
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 23
+		unsigned short kb_value = 0x0B69
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 24
+		unsigned short kb_value = 0x0B6F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 25
+		unsigned short kb_value = 0x0B70
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 26
+		unsigned short kb_value = 0x0404
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 27
+		unsigned short kb_value = 0x0027
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 28
+		unsigned short kb_value = 0x0201
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 29
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 30
+		unsigned short kb_value = 0x0B61
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 31
+		unsigned short kb_value = 0x0B73
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 32
+		unsigned short kb_value = 0x0B64
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 33
+		unsigned short kb_value = 0x0B66
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 34
+		unsigned short kb_value = 0x0B67
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 35
+		unsigned short kb_value = 0x0B68
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 36
+		unsigned short kb_value = 0x0B6A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 37
+		unsigned short kb_value = 0x0B6B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 38
+		unsigned short kb_value = 0x0B6C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 39
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 40
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 41
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 42
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 43
+		unsigned short kb_value = 0x007E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 44
+		unsigned short kb_value = 0x0B7A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 45
+		unsigned short kb_value = 0x0B78
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 46
+		unsigned short kb_value = 0x0B63
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 47
+		unsigned short kb_value = 0x0B76
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 48
+		unsigned short kb_value = 0x0B62
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 49
+		unsigned short kb_value = 0x0B6E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 50
+		unsigned short kb_value = 0x0B6D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 51
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 52
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 53
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 54
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 55
+		unsigned short kb_value = 0x0916
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 56
+		unsigned short kb_value = 0x0703
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 57
+		unsigned short kb_value = 0x0020
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 58
+		unsigned short kb_value = 0x0207
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 69
+		unsigned short kb_value = 0x0914
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 70
+		unsigned short kb_value = 0x0202
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 71
+		unsigned short kb_value = 0x0911
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 72
+		unsigned short kb_value = 0x0912
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 73
+		unsigned short kb_value = 0x0913
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 74
+		unsigned short kb_value = 0x0917
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 75
+		unsigned short kb_value = 0x090E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 76
+		unsigned short kb_value = 0x090F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 77
+		unsigned short kb_value = 0x0910
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 78
+		unsigned short kb_value = 0x0918
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 79
+		unsigned short kb_value = 0x090B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 80
+		unsigned short kb_value = 0x090C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 81
+		unsigned short kb_value = 0x090D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 82
+		unsigned short kb_value = 0x090A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 83
+		unsigned short kb_value = 0x0310
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 84
+		unsigned short kb_value = 0x0206
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 86
+		unsigned short kb_value = 0x007C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 96
+		unsigned short kb_value = 0x0919
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 97
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 98
+		unsigned short kb_value = 0x0915
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 99
+		unsigned short kb_value = 0x020E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 100
+		unsigned short kb_value = 0x0701
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 101
+		unsigned short kb_value = 0x0205
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 102
+		unsigned short kb_value = 0x0114
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 103
+		unsigned short kb_value = 0x0603
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 104
+		unsigned short kb_value = 0x0118
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 105
+		unsigned short kb_value = 0x0601
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 106
+		unsigned short kb_value = 0x0602
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 107
+		unsigned short kb_value = 0x0117
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 108
+		unsigned short kb_value = 0x0600
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 109
+		unsigned short kb_value = 0x0119
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 110
+		unsigned short kb_value = 0x0115
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 111
+		unsigned short kb_value = 0x0116
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 2
+		unsigned char kb_index = 119
+		unsigned short kb_value = 0x011D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 3
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 1
+		unsigned short kb_value = 0x001B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 2
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 3
+		unsigned short kb_value = 0x0000
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 4
+		unsigned short kb_value = 0x001B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 5
+		unsigned short kb_value = 0x001C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 6
+		unsigned short kb_value = 0x001D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 7
+		unsigned short kb_value = 0x001E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 8
+		unsigned short kb_value = 0x001F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 9
+		unsigned short kb_value = 0x007F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 10
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 11
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 12
+		unsigned short kb_value = 0x001F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 13
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 14
+		unsigned short kb_value = 0x007F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 15
+		unsigned short kb_value = 0x0009
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 16
+		unsigned short kb_value = 0x0011
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 17
+		unsigned short kb_value = 0x0017
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 18
+		unsigned short kb_value = 0xF0A2
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 19
+		unsigned short kb_value = 0x0012
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 20
+		unsigned short kb_value = 0x0014
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 21
+		unsigned short kb_value = 0x0019
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 22
+		unsigned short kb_value = 0x0015
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 23
+		unsigned short kb_value = 0x0009
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 24
+		unsigned short kb_value = 0x000F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 25
+		unsigned short kb_value = 0x0010
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 26
+		unsigned short kb_value = 0x001B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 27
+		unsigned short kb_value = 0x001D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 28
+		unsigned short kb_value = 0x0201
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 29
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 30
+		unsigned short kb_value = 0x0001
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 31
+		unsigned short kb_value = 0x0013
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 32
+		unsigned short kb_value = 0x0004
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 33
+		unsigned short kb_value = 0x0006
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 34
+		unsigned short kb_value = 0x0007
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 35
+		unsigned short kb_value = 0x0008
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 36
+		unsigned short kb_value = 0x000A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 37
+		unsigned short kb_value = 0x000B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 38
+		unsigned short kb_value = 0x000C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 39
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 40
+		unsigned short kb_value = 0x0007
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 41
+		unsigned short kb_value = 0x0000
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 42
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 43
+		unsigned short kb_value = 0x001C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 44
+		unsigned short kb_value = 0x001A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 45
+		unsigned short kb_value = 0x0018
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 46
+		unsigned short kb_value = 0x0003
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 47
+		unsigned short kb_value = 0x0016
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 48
+		unsigned short kb_value = 0x0002
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 49
+		unsigned short kb_value = 0x000E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 50
+		unsigned short kb_value = 0x000D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 51
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 52
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 53
+		unsigned short kb_value = 0x007F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 54
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 55
+		unsigned short kb_value = 0x030C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 56
+		unsigned short kb_value = 0x0703
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 57
+		unsigned short kb_value = 0x0000
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 58
+		unsigned short kb_value = 0x0207
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 59
+		unsigned short kb_value = 0x0122
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 60
+		unsigned short kb_value = 0x0123
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 61
+		unsigned short kb_value = 0x0124
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 62
+		unsigned short kb_value = 0x0125
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 63
+		unsigned short kb_value = 0x0126
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 64
+		unsigned short kb_value = 0x0127
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 65
+		unsigned short kb_value = 0x0128
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 66
+		unsigned short kb_value = 0x0129
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 67
+		unsigned short kb_value = 0x012A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 68
+		unsigned short kb_value = 0x012B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 69
+		unsigned short kb_value = 0x0208
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 70
+		unsigned short kb_value = 0x0204
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 71
+		unsigned short kb_value = 0x0307
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 72
+		unsigned short kb_value = 0x0308
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 73
+		unsigned short kb_value = 0x0309
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 74
+		unsigned short kb_value = 0x030B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 75
+		unsigned short kb_value = 0x0304
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 76
+		unsigned short kb_value = 0x0305
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 77
+		unsigned short kb_value = 0x0306
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 78
+		unsigned short kb_value = 0x030A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 79
+		unsigned short kb_value = 0x0301
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 80
+		unsigned short kb_value = 0x0302
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 81
+		unsigned short kb_value = 0x0303
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 82
+		unsigned short kb_value = 0x0300
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 83
+		unsigned short kb_value = 0x0310
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 84
+		unsigned short kb_value = 0x0206
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 86
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 87
+		unsigned short kb_value = 0x012C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 88
+		unsigned short kb_value = 0x012D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 96
+		unsigned short kb_value = 0x030E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 97
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 98
+		unsigned short kb_value = 0x030D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 99
+		unsigned short kb_value = 0x001C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 100
+		unsigned short kb_value = 0x0701
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 101
+		unsigned short kb_value = 0x0205
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 102
+		unsigned short kb_value = 0x0114
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 103
+		unsigned short kb_value = 0x0603
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 104
+		unsigned short kb_value = 0x0118
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 105
+		unsigned short kb_value = 0x0601
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 106
+		unsigned short kb_value = 0x0602
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 107
+		unsigned short kb_value = 0x0117
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 108
+		unsigned short kb_value = 0x0600
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 109
+		unsigned short kb_value = 0x0119
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 110
+		unsigned short kb_value = 0x0115
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 111
+		unsigned short kb_value = 0x0116
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 4
+		unsigned char kb_index = 119
+		unsigned short kb_value = 0x011D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 5
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 1
+		unsigned short kb_value = 0x001B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 2
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 3
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 4
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 5
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 6
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 7
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 8
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 9
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 10
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 11
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 12
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 13
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 14
+		unsigned short kb_value = 0x007F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 15
+		unsigned short kb_value = 0x0009
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 16
+		unsigned short kb_value = 0x0011
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 17
+		unsigned short kb_value = 0x0017
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 18
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 19
+		unsigned short kb_value = 0x0012
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 20
+		unsigned short kb_value = 0x0014
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 21
+		unsigned short kb_value = 0x0019
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 22
+		unsigned short kb_value = 0x0015
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 23
+		unsigned short kb_value = 0x0009
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 24
+		unsigned short kb_value = 0x000F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 25
+		unsigned short kb_value = 0x0010
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 26
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 27
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 28
+		unsigned short kb_value = 0x0201
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 29
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 30
+		unsigned short kb_value = 0x0001
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 31
+		unsigned short kb_value = 0x0013
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 32
+		unsigned short kb_value = 0x0004
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 33
+		unsigned short kb_value = 0x0006
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 34
+		unsigned short kb_value = 0x0007
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 35
+		unsigned short kb_value = 0x0008
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 36
+		unsigned short kb_value = 0x000A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 37
+		unsigned short kb_value = 0x000B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 38
+		unsigned short kb_value = 0x000C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 39
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 40
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 41
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 42
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 43
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 44
+		unsigned short kb_value = 0x001A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 45
+		unsigned short kb_value = 0x0018
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 46
+		unsigned short kb_value = 0x0003
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 47
+		unsigned short kb_value = 0x0016
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 48
+		unsigned short kb_value = 0x0002
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 49
+		unsigned short kb_value = 0x000E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 50
+		unsigned short kb_value = 0x000D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 51
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 52
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 53
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 54
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 55
+		unsigned short kb_value = 0x030C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 56
+		unsigned short kb_value = 0x0703
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 57
+		unsigned short kb_value = 0x0020
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 58
+		unsigned short kb_value = 0x0207
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 69
+		unsigned short kb_value = 0x0208
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 71
+		unsigned short kb_value = 0x0307
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 72
+		unsigned short kb_value = 0x0308
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 73
+		unsigned short kb_value = 0x0309
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 74
+		unsigned short kb_value = 0x030B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 75
+		unsigned short kb_value = 0x0304
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 76
+		unsigned short kb_value = 0x0305
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 77
+		unsigned short kb_value = 0x0306
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 78
+		unsigned short kb_value = 0x030A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 79
+		unsigned short kb_value = 0x0301
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 80
+		unsigned short kb_value = 0x0302
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 81
+		unsigned short kb_value = 0x0303
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 82
+		unsigned short kb_value = 0x0300
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 83
+		unsigned short kb_value = 0x020C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 84
+		unsigned short kb_value = 0x0206
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 86
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 96
+		unsigned short kb_value = 0x030E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 97
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 98
+		unsigned short kb_value = 0x030D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 99
+		unsigned short kb_value = 0x020E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 100
+		unsigned short kb_value = 0x0701
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 101
+		unsigned short kb_value = 0x0205
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 102
+		unsigned short kb_value = 0x0114
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 103
+		unsigned short kb_value = 0x0603
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 104
+		unsigned short kb_value = 0x0118
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 105
+		unsigned short kb_value = 0x0601
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 106
+		unsigned short kb_value = 0x0602
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 107
+		unsigned short kb_value = 0x0117
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 108
+		unsigned short kb_value = 0x0600
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 109
+		unsigned short kb_value = 0x0119
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 110
+		unsigned short kb_value = 0x0115
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 111
+		unsigned short kb_value = 0x020C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 6
+		unsigned char kb_index = 119
+		unsigned short kb_value = 0x011D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 7
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 1
+		unsigned short kb_value = 0x081B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 2
+		unsigned short kb_value = 0x0831
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 3
+		unsigned short kb_value = 0x0832
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 4
+		unsigned short kb_value = 0x0833
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 5
+		unsigned short kb_value = 0x0834
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 6
+		unsigned short kb_value = 0x0835
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 7
+		unsigned short kb_value = 0x0836
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 8
+		unsigned short kb_value = 0x0837
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 9
+		unsigned short kb_value = 0x0838
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 10
+		unsigned short kb_value = 0x0839
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 11
+		unsigned short kb_value = 0x0830
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 12
+		unsigned short kb_value = 0x082D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 13
+		unsigned short kb_value = 0x083D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 14
+		unsigned short kb_value = 0x087F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 15
+		unsigned short kb_value = 0x0809
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 16
+		unsigned short kb_value = 0x0871
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 17
+		unsigned short kb_value = 0x0877
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 18
+		unsigned short kb_value = 0x0865
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 19
+		unsigned short kb_value = 0x0872
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 20
+		unsigned short kb_value = 0x0874
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 21
+		unsigned short kb_value = 0x0879
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 22
+		unsigned short kb_value = 0x0875
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 23
+		unsigned short kb_value = 0x0869
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 24
+		unsigned short kb_value = 0x086F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 25
+		unsigned short kb_value = 0x0870
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 26
+		unsigned short kb_value = 0x085B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 27
+		unsigned short kb_value = 0x085D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 28
+		unsigned short kb_value = 0x080D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 29
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 30
+		unsigned short kb_value = 0x0861
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 31
+		unsigned short kb_value = 0x0873
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 32
+		unsigned short kb_value = 0x0864
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 33
+		unsigned short kb_value = 0x0866
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 34
+		unsigned short kb_value = 0x0867
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 35
+		unsigned short kb_value = 0x0868
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 36
+		unsigned short kb_value = 0x086A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 37
+		unsigned short kb_value = 0x086B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 38
+		unsigned short kb_value = 0x086C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 39
+		unsigned short kb_value = 0x083B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 40
+		unsigned short kb_value = 0x0827
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 41
+		unsigned short kb_value = 0x0860
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 42
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 43
+		unsigned short kb_value = 0x085C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 44
+		unsigned short kb_value = 0x087A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 45
+		unsigned short kb_value = 0x0878
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 46
+		unsigned short kb_value = 0x0863
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 47
+		unsigned short kb_value = 0x0876
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 48
+		unsigned short kb_value = 0x0862
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 49
+		unsigned short kb_value = 0x086E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 50
+		unsigned short kb_value = 0x086D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 51
+		unsigned short kb_value = 0x082C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 52
+		unsigned short kb_value = 0x082E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 53
+		unsigned short kb_value = 0x082F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 54
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 55
+		unsigned short kb_value = 0x030C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 56
+		unsigned short kb_value = 0x0703
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 57
+		unsigned short kb_value = 0x0820
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 58
+		unsigned short kb_value = 0x0207
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 59
+		unsigned short kb_value = 0x0500
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 60
+		unsigned short kb_value = 0x0501
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 61
+		unsigned short kb_value = 0x0502
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 62
+		unsigned short kb_value = 0x0503
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 63
+		unsigned short kb_value = 0x0504
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 64
+		unsigned short kb_value = 0x0505
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 65
+		unsigned short kb_value = 0x0506
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 66
+		unsigned short kb_value = 0x0507
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 67
+		unsigned short kb_value = 0x0508
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 68
+		unsigned short kb_value = 0x0509
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 69
+		unsigned short kb_value = 0x0208
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 70
+		unsigned short kb_value = 0x0209
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 71
+		unsigned short kb_value = 0x0907
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 72
+		unsigned short kb_value = 0x0908
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 73
+		unsigned short kb_value = 0x0909
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 74
+		unsigned short kb_value = 0x030B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 75
+		unsigned short kb_value = 0x0904
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 76
+		unsigned short kb_value = 0x0905
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 77
+		unsigned short kb_value = 0x0906
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 78
+		unsigned short kb_value = 0x030A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 79
+		unsigned short kb_value = 0x0901
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 80
+		unsigned short kb_value = 0x0902
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 81
+		unsigned short kb_value = 0x0903
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 82
+		unsigned short kb_value = 0x0900
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 83
+		unsigned short kb_value = 0x0310
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 84
+		unsigned short kb_value = 0x0206
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 86
+		unsigned short kb_value = 0x083C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 87
+		unsigned short kb_value = 0x050A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 88
+		unsigned short kb_value = 0x050B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 96
+		unsigned short kb_value = 0x030E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 97
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 98
+		unsigned short kb_value = 0x030D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 99
+		unsigned short kb_value = 0x001C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 100
+		unsigned short kb_value = 0x020E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 101
+		unsigned short kb_value = 0x0205
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 102
+		unsigned short kb_value = 0x0114
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 103
+		unsigned short kb_value = 0x0212
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 104
+		unsigned short kb_value = 0x0118
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 105
+		unsigned short kb_value = 0x0210
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 106
+		unsigned short kb_value = 0x0211
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 107
+		unsigned short kb_value = 0x0117
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 108
+		unsigned short kb_value = 0x0600
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 109
+		unsigned short kb_value = 0x0119
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 110
+		unsigned short kb_value = 0x0115
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 111
+		unsigned short kb_value = 0x0116
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 8
+		unsigned char kb_index = 119
+		unsigned short kb_value = 0x011D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 9
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 10
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 11
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 1
+		unsigned short kb_value = 0x081B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 2
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 3
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 4
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 5
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 6
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 7
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 8
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 9
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 10
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 11
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 12
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 13
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 14
+		unsigned short kb_value = 0x087F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 15
+		unsigned short kb_value = 0x0809
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 16
+		unsigned short kb_value = 0x0811
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 17
+		unsigned short kb_value = 0x0817
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 18
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 19
+		unsigned short kb_value = 0x0812
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 20
+		unsigned short kb_value = 0x0814
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 21
+		unsigned short kb_value = 0x0819
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 22
+		unsigned short kb_value = 0x0815
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 23
+		unsigned short kb_value = 0x0809
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 24
+		unsigned short kb_value = 0x080F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 25
+		unsigned short kb_value = 0x0810
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 26
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 27
+		unsigned short kb_value = 0x0860
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 28
+		unsigned short kb_value = 0x0201
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 29
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 30
+		unsigned short kb_value = 0x0801
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 31
+		unsigned short kb_value = 0x0813
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 32
+		unsigned short kb_value = 0x0804
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 33
+		unsigned short kb_value = 0x0806
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 34
+		unsigned short kb_value = 0x0807
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 35
+		unsigned short kb_value = 0x0808
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 36
+		unsigned short kb_value = 0x080A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 37
+		unsigned short kb_value = 0x080B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 38
+		unsigned short kb_value = 0x080C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 39
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 40
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 41
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 42
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 43
+		unsigned short kb_value = 0x085E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 44
+		unsigned short kb_value = 0x081A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 45
+		unsigned short kb_value = 0x0818
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 46
+		unsigned short kb_value = 0x0803
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 47
+		unsigned short kb_value = 0x0816
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 48
+		unsigned short kb_value = 0x0802
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 49
+		unsigned short kb_value = 0x080E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 50
+		unsigned short kb_value = 0x080D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 51
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 52
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 53
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 54
+		unsigned short kb_value = 0x0700
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 55
+		unsigned short kb_value = 0x030C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 56
+		unsigned short kb_value = 0x0703
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 57
+		unsigned short kb_value = 0x0800
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 58
+		unsigned short kb_value = 0x0207
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 59
+		unsigned short kb_value = 0x0500
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 60
+		unsigned short kb_value = 0x0501
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 61
+		unsigned short kb_value = 0x0502
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 62
+		unsigned short kb_value = 0x0503
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 63
+		unsigned short kb_value = 0x0504
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 64
+		unsigned short kb_value = 0x0505
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 65
+		unsigned short kb_value = 0x0506
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 66
+		unsigned short kb_value = 0x0507
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 67
+		unsigned short kb_value = 0x0508
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 68
+		unsigned short kb_value = 0x0509
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 69
+		unsigned short kb_value = 0x0208
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 71
+		unsigned short kb_value = 0x0307
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 72
+		unsigned short kb_value = 0x0308
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 73
+		unsigned short kb_value = 0x0309
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 74
+		unsigned short kb_value = 0x030B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 75
+		unsigned short kb_value = 0x0304
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 76
+		unsigned short kb_value = 0x0305
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 77
+		unsigned short kb_value = 0x0306
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 78
+		unsigned short kb_value = 0x030A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 79
+		unsigned short kb_value = 0x0301
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 80
+		unsigned short kb_value = 0x0302
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 81
+		unsigned short kb_value = 0x0303
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 82
+		unsigned short kb_value = 0x0300
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 83
+		unsigned short kb_value = 0x020C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 84
+		unsigned short kb_value = 0x0206
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 86
+		unsigned short kb_value = 0x0200
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 87
+		unsigned short kb_value = 0x050A
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 88
+		unsigned short kb_value = 0x050B
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 96
+		unsigned short kb_value = 0x030E
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 97
+		unsigned short kb_value = 0x0702
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 98
+		unsigned short kb_value = 0x030D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 99
+		unsigned short kb_value = 0x081C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 100
+		unsigned short kb_value = 0x0701
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 101
+		unsigned short kb_value = 0x0205
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 102
+		unsigned short kb_value = 0x0114
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 103
+		unsigned short kb_value = 0x0603
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 104
+		unsigned short kb_value = 0x0118
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 105
+		unsigned short kb_value = 0x0601
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 106
+		unsigned short kb_value = 0x0602
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 107
+		unsigned short kb_value = 0x0117
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 108
+		unsigned short kb_value = 0x0600
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 109
+		unsigned short kb_value = 0x0119
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 110
+		unsigned short kb_value = 0x0115
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 111
+		unsigned short kb_value = 0x020C
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 12
+		unsigned char kb_index = 119
+		unsigned short kb_value = 0x011D
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 13
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 14
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 15
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 16
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 17
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 18
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 19
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 20
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 21
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 22
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 23
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 24
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 25
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 26
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 27
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 28
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 29
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 30
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 31
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 32
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 33
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 34
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 35
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 36
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 37
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 38
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 39
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 40
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 41
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 42
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 43
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 44
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 45
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 46
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 47
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 48
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 49
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 50
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 51
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 52
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 53
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 54
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 55
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 56
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 57
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 58
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 59
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 60
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 61
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 62
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 63
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 64
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 65
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 66
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 67
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 68
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 69
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 70
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 71
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 72
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 73
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 74
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 75
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 76
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 77
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 78
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 79
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 80
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 81
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 82
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 83
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 84
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 85
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 86
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 87
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 88
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 89
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 90
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 91
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 92
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 93
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 94
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 95
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 96
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 97
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 98
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 99
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 100
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 101
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 102
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 103
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 104
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 105
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 106
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 107
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 108
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 109
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 110
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 111
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 112
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 113
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 114
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 115
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 116
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 117
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 118
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 119
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 120
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 121
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 122
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 123
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 124
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 125
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 126
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 127
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 128
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 129
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 130
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 131
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 132
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 133
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 134
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 135
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 136
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 137
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 138
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 139
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 140
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 141
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 142
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 143
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 144
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 145
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 146
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 147
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 148
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 149
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 150
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 151
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 152
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 153
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 154
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 155
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 156
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 157
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 158
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 159
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 160
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 161
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 162
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 163
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 164
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 165
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 166
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 167
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 168
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 169
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 170
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 171
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 172
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 173
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 174
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 175
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 176
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 177
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 178
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 179
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 180
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 181
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 182
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 183
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 184
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 185
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 186
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 187
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 188
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 189
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 190
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 191
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 192
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 193
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 194
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 195
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 196
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 197
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 198
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 199
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 200
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 201
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 202
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 203
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 204
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 205
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 206
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 207
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 208
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 209
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 210
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 211
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 212
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 213
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 214
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 215
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 216
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 217
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 218
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 219
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 220
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 221
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 222
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 223
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 224
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 225
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 226
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 227
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 228
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 229
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 230
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 231
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 232
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 233
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 234
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 235
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 236
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 237
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 238
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 239
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 240
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 241
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 242
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 243
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 244
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 245
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 246
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 247
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 248
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 249
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 250
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 251
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 252
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 253
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 254
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBENT, struct kbentry *arg) = 0;
+	struct kbentry *arg {
+		unsigned char kb_table = 255
+		unsigned char kb_index = 0
+		unsigned short kb_value = 0x027F
+	};
+ioctl(?, KDSKBMODE, K_UNICODE) = 0;
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 0
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x5B 0x41
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 1
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x5B 0x42
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 2
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x5B 0x43
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 3
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x5B 0x44
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 4
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x5B 0x45
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 5
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x31 0x37 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 6
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x31 0x38 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 7
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x31 0x39 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 8
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x32 0x30 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 9
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x32 0x31 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 10
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x32 0x33 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 11
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x32 0x34 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 12
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x32 0x35 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 13
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x32 0x36 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 14
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x32 0x38 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 15
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x32 0x39 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 16
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x33 0x31 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 17
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x33 0x32 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 18
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x33 0x33 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 19
+		unsigned char kb_string[5] = {
+			0x1B 0x5B 0x33 0x34 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 20
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x31 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 21
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x32 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 22
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x33 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 23
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x34 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 24
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x35 0x7E
+		}
+	};
+ioctl(?, KDSKBSENT, struct kbsentry *arg) = 0;
+	struct kbsentry *arg {
+		unsigned char kb_func = 25
+		unsigned char kb_string[4] = {
+			0x1B 0x5B 0x36 0x7E
+		}
+	};
+ioctl(?, KDSKBDIACRUC, struct kbdiacrsuc *arg) = 0;
+	struct kbdiacrsuc *arg {
+		unsigned int kb_cnt = 233
+		struct kbdiacruc kbdiacruc[256] = {
+			{
+				unsigned int diacr  = 0x0021
+				unsigned int base   = 0x0021
+				unsigned int result = 0x00a1
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00c4
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0045
+				unsigned int result = 0x00cb
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0049
+				unsigned int result = 0x00cf
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x004f
+				unsigned int result = 0x00d6
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0055
+				unsigned int result = 0x00dc
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0059
+				unsigned int result = 0x0178
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00e4
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0063
+				unsigned int result = 0x00a9
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0065
+				unsigned int result = 0x00eb
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0069
+				unsigned int result = 0x00ef
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x006f
+				unsigned int result = 0x00f6
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0072
+				unsigned int result = 0x00ae
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00fc
+			}
+			{
+				unsigned int diacr  = 0x0022
+				unsigned int base   = 0x0079
+				unsigned int result = 0x00ff
+			}
+			{
+				unsigned int diacr  = 0x0028
+				unsigned int base   = 0x0063
+				unsigned int result = 0x00a9
+			}
+			{
+				unsigned int diacr  = 0x0028
+				unsigned int base   = 0x0072
+				unsigned int result = 0x00ae
+			}
+			{
+				unsigned int diacr  = 0x002b
+				unsigned int base   = 0x002d
+				unsigned int result = 0x00b1
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00a1
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0043
+				unsigned int result = 0x00c7
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0045
+				unsigned int result = 0x00ca
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0047
+				unsigned int result = 0x00ab
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0049
+				unsigned int result = 0x00c7
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x004b
+				unsigned int result = 0x00d3
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x004c
+				unsigned int result = 0x0160
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x004e
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0052
+				unsigned int result = 0x00a3
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0053
+				unsigned int result = 0x00aa
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0054
+				unsigned int result = 0x00de
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0055
+				unsigned int result = 0x00d9
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00b1
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0063
+				unsigned int result = 0x00e7
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0065
+				unsigned int result = 0x00ea
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0067
+				unsigned int result = 0x00bb
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0069
+				unsigned int result = 0x00e7
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x006b
+				unsigned int result = 0x00f3
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x006c
+				unsigned int result = 0x00b6
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x006e
+				unsigned int result = 0x00f1
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0072
+				unsigned int result = 0x00b3
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0073
+				unsigned int result = 0x00ba
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0074
+				unsigned int result = 0x00fe
+			}
+			{
+				unsigned int diacr  = 0x002c
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00f9
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x003a
+				unsigned int result = 0x00f7
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00aa
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0043
+				unsigned int result = 0x00a2
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0044
+				unsigned int result = 0x00d0
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0045
+				unsigned int result = 0x20ac
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0048
+				unsigned int result = 0x00a1
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x004c
+				unsigned int result = 0x00a3
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x004f
+				unsigned int result = 0x00ba
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0054
+				unsigned int result = 0x00ac
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0059
+				unsigned int result = 0x00a5
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00aa
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0063
+				unsigned int result = 0x00a2
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0064
+				unsigned int result = 0x00f0
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0065
+				unsigned int result = 0x20ac
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0068
+				unsigned int result = 0x00b1
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x006c
+				unsigned int result = 0x00a3
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x006c
+				unsigned int result = 0x00a5
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x006c
+				unsigned int result = 0x00b3
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x006f
+				unsigned int result = 0x00ba
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0074
+				unsigned int result = 0x0152
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x002e
+				unsigned int result = 0x00b7
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x0043
+				unsigned int result = 0x00c5
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x0043
+				unsigned int result = 0x00d5
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x0045
+				unsigned int result = 0x00cc
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x0049
+				unsigned int result = 0x00a9
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x005a
+				unsigned int result = 0x00af
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x0063
+				unsigned int result = 0x00e5
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x0063
+				unsigned int result = 0x00f5
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x0065
+				unsigned int result = 0x00ec
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x0069
+				unsigned int result = 0x00b9
+			}
+			{
+				unsigned int diacr  = 0x002e
+				unsigned int base   = 0x007a
+				unsigned int result = 0x00bf
+			}
+			{
+				unsigned int diacr  = 0x002f
+				unsigned int base   = 0x0044
+				unsigned int result = 0x00d0
+			}
+			{
+				unsigned int diacr  = 0x002f
+				unsigned int base   = 0x004c
+				unsigned int result = 0x00a3
+			}
+			{
+				unsigned int diacr  = 0x002f
+				unsigned int base   = 0x004f
+				unsigned int result = 0x00d8
+			}
+			{
+				unsigned int diacr  = 0x002f
+				unsigned int base   = 0x0054
+				unsigned int result = 0x00ac
+			}
+			{
+				unsigned int diacr  = 0x002f
+				unsigned int base   = 0x0063
+				unsigned int result = 0x00a2
+			}
+			{
+				unsigned int diacr  = 0x002f
+				unsigned int base   = 0x0064
+				unsigned int result = 0x00f0
+			}
+			{
+				unsigned int diacr  = 0x002f
+				unsigned int base   = 0x006c
+				unsigned int result = 0x00b3
+			}
+			{
+				unsigned int diacr  = 0x002f
+				unsigned int base   = 0x006f
+				unsigned int result = 0x00f8
+			}
+			{
+				unsigned int diacr  = 0x002f
+				unsigned int base   = 0x0074
+				unsigned int result = 0x0152
+			}
+			{
+				unsigned int diacr  = 0x0030
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00c5
+			}
+			{
+				unsigned int diacr  = 0x0030
+				unsigned int base   = 0x0055
+				unsigned int result = 0x00d9
+			}
+			{
+				unsigned int diacr  = 0x0030
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00e5
+			}
+			{
+				unsigned int diacr  = 0x0030
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00f9
+			}
+			{
+				unsigned int diacr  = 0x0031
+				unsigned int base   = 0x0032
+				unsigned int result = 0x0153
+			}
+			{
+				unsigned int diacr  = 0x0031
+				unsigned int base   = 0x0034
+				unsigned int result = 0x0152
+			}
+			{
+				unsigned int diacr  = 0x0033
+				unsigned int base   = 0x0034
+				unsigned int result = 0x0178
+			}
+			{
+				unsigned int diacr  = 0x003a
+				unsigned int base   = 0x002d
+				unsigned int result = 0x00f7
+			}
+			{
+				unsigned int diacr  = 0x003a
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00c4
+			}
+			{
+				unsigned int diacr  = 0x003a
+				unsigned int base   = 0x0045
+				unsigned int result = 0x00cb
+			}
+			{
+				unsigned int diacr  = 0x003a
+				unsigned int base   = 0x004f
+				unsigned int result = 0x00d6
+			}
+			{
+				unsigned int diacr  = 0x003a
+				unsigned int base   = 0x0055
+				unsigned int result = 0x00dc
+			}
+			{
+				unsigned int diacr  = 0x003a
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00e4
+			}
+			{
+				unsigned int diacr  = 0x003a
+				unsigned int base   = 0x0065
+				unsigned int result = 0x00eb
+			}
+			{
+				unsigned int diacr  = 0x003a
+				unsigned int base   = 0x006f
+				unsigned int result = 0x00f6
+			}
+			{
+				unsigned int diacr  = 0x003a
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00fc
+			}
+			{
+				unsigned int diacr  = 0x003c
+				unsigned int base   = 0x003c
+				unsigned int result = 0x00ab
+			}
+			{
+				unsigned int diacr  = 0x003e
+				unsigned int base   = 0x003e
+				unsigned int result = 0x00bb
+			}
+			{
+				unsigned int diacr  = 0x003f
+				unsigned int base   = 0x003f
+				unsigned int result = 0x00bf
+			}
+			{
+				unsigned int diacr  = 0x0041
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00c5
+			}
+			{
+				unsigned int diacr  = 0x0041
+				unsigned int base   = 0x0045
+				unsigned int result = 0x00c6
+			}
+			{
+				unsigned int diacr  = 0x0049
+				unsigned int base   = 0x004a
+				unsigned int result = 0x0178
+			}
+			{
+				unsigned int diacr  = 0x004c
+				unsigned int base   = 0x003d
+				unsigned int result = 0x00a3
+			}
+			{
+				unsigned int diacr  = 0x004e
+				unsigned int base   = 0x0047
+				unsigned int result = 0x0153
+			}
+			{
+				unsigned int diacr  = 0x004e
+				unsigned int base   = 0x0048
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x004e
+				unsigned int base   = 0x004e
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x004e
+				unsigned int base   = 0x0059
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x004e
+				unsigned int base   = 0x0068
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x004e
+				unsigned int base   = 0x006e
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x004e
+				unsigned int base   = 0x0079
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x004f
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00c5
+			}
+			{
+				unsigned int diacr  = 0x004f
+				unsigned int base   = 0x0045
+				unsigned int result = 0x0152
+			}
+			{
+				unsigned int diacr  = 0x004f
+				unsigned int base   = 0x0065
+				unsigned int result = 0x0152
+			}
+			{
+				unsigned int diacr  = 0x0054
+				unsigned int base   = 0x0048
+				unsigned int result = 0x00de
+			}
+			{
+				unsigned int diacr  = 0x0055
+				unsigned int base   = 0x0055
+				unsigned int result = 0x00d9
+			}
+			{
+				unsigned int diacr  = 0x0059
+				unsigned int base   = 0x003d
+				unsigned int result = 0x00a5
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00c1
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0043
+				unsigned int result = 0x00c6
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0045
+				unsigned int result = 0x00c9
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0049
+				unsigned int result = 0x00cd
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x004c
+				unsigned int result = 0x00c5
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x004e
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x004f
+				unsigned int result = 0x00d3
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0052
+				unsigned int result = 0x00c0
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0053
+				unsigned int result = 0x0160
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0055
+				unsigned int result = 0x00da
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0059
+				unsigned int result = 0x00dd
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x005a
+				unsigned int result = 0x00ac
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00e1
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0063
+				unsigned int result = 0x00e6
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0065
+				unsigned int result = 0x00e9
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0069
+				unsigned int result = 0x00ed
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x006c
+				unsigned int result = 0x00e5
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x006e
+				unsigned int result = 0x00f1
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x006f
+				unsigned int result = 0x00f3
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0072
+				unsigned int result = 0x00e0
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0073
+				unsigned int result = 0x00b6
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00fa
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x0079
+				unsigned int result = 0x00fd
+			}
+			{
+				unsigned int diacr  = 0x0027
+				unsigned int base   = 0x007a
+				unsigned int result = 0x0152
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0021
+				unsigned int result = 0x00a1
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x002a
+				unsigned int result = 0x00d7
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x002e
+				unsigned int result = 0x00b7
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x002f
+				unsigned int result = 0x00f7
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0031
+				unsigned int result = 0x00b9
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0032
+				unsigned int result = 0x00b2
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0033
+				unsigned int result = 0x00b3
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x003a
+				unsigned int result = 0x00f7
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x003f
+				unsigned int result = 0x00bf
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00c2
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0043
+				unsigned int result = 0x00c7
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0044
+				unsigned int result = 0x00d0
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0045
+				unsigned int result = 0x00ca
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0047
+				unsigned int result = 0x00d4
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0048
+				unsigned int result = 0x0160
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0049
+				unsigned int result = 0x00ce
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x004a
+				unsigned int result = 0x00ac
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x004c
+				unsigned int result = 0x00a5
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x004e
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0052
+				unsigned int result = 0x00d8
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0053
+				unsigned int result = 0x0160
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0054
+				unsigned int result = 0x00ab
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0055
+				unsigned int result = 0x00db
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x005a
+				unsigned int result = 0x017d
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00e2
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0063
+				unsigned int result = 0x00e7
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0064
+				unsigned int result = 0x00f0
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0065
+				unsigned int result = 0x00ea
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0067
+				unsigned int result = 0x00f8
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0068
+				unsigned int result = 0x00b6
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0069
+				unsigned int result = 0x00ee
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x006a
+				unsigned int result = 0x0152
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x006c
+				unsigned int result = 0x00b5
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x006e
+				unsigned int result = 0x00f1
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x006f
+				unsigned int result = 0x00f4
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0072
+				unsigned int result = 0x00f8
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0073
+				unsigned int result = 0x0161
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0074
+				unsigned int result = 0x00bb
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00fb
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x0078
+				unsigned int result = 0x00d7
+			}
+			{
+				unsigned int diacr  = 0x005e
+				unsigned int base   = 0x007a
+				unsigned int result = 0x017e
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00c0
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x0045
+				unsigned int result = 0x00c8
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x0049
+				unsigned int result = 0x00cc
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x004f
+				unsigned int result = 0x00d2
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x0055
+				unsigned int result = 0x00d9
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00e0
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x0065
+				unsigned int result = 0x00e8
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x0069
+				unsigned int result = 0x00ec
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x006f
+				unsigned int result = 0x00f2
+			}
+			{
+				unsigned int diacr  = 0x0060
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00f9
+			}
+			{
+				unsigned int diacr  = 0x0061
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00e5
+			}
+			{
+				unsigned int diacr  = 0x0061
+				unsigned int base   = 0x0065
+				unsigned int result = 0x00e6
+			}
+			{
+				unsigned int diacr  = 0x0063
+				unsigned int base   = 0x002f
+				unsigned int result = 0x00a2
+			}
+			{
+				unsigned int diacr  = 0x0063
+				unsigned int base   = 0x003d
+				unsigned int result = 0x00a2
+			}
+			{
+				unsigned int diacr  = 0x0065
+				unsigned int base   = 0x003d
+				unsigned int result = 0x20ac
+			}
+			{
+				unsigned int diacr  = 0x0069
+				unsigned int base   = 0x006a
+				unsigned int result = 0x00ff
+			}
+			{
+				unsigned int diacr  = 0x006d
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00b5
+			}
+			{
+				unsigned int diacr  = 0x006e
+				unsigned int base   = 0x0067
+				unsigned int result = 0x00bf
+			}
+			{
+				unsigned int diacr  = 0x006e
+				unsigned int base   = 0x0068
+				unsigned int result = 0x00f1
+			}
+			{
+				unsigned int diacr  = 0x006e
+				unsigned int base   = 0x006e
+				unsigned int result = 0x00f1
+			}
+			{
+				unsigned int diacr  = 0x006f
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00e5
+			}
+			{
+				unsigned int diacr  = 0x006f
+				unsigned int base   = 0x0065
+				unsigned int result = 0x0153
+			}
+			{
+				unsigned int diacr  = 0x0073
+				unsigned int base   = 0x0073
+				unsigned int result = 0x00df
+			}
+			{
+				unsigned int diacr  = 0x0073
+				unsigned int base   = 0x007a
+				unsigned int result = 0x00df
+			}
+			{
+				unsigned int diacr  = 0x0074
+				unsigned int base   = 0x0068
+				unsigned int result = 0x00fe
+			}
+			{
+				unsigned int diacr  = 0x0075
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00f9
+			}
+			{
+				unsigned int diacr  = 0x0076
+				unsigned int base   = 0x0053
+				unsigned int result = 0x0160
+			}
+			{
+				unsigned int diacr  = 0x0076
+				unsigned int base   = 0x005a
+				unsigned int result = 0x017d
+			}
+			{
+				unsigned int diacr  = 0x0076
+				unsigned int base   = 0x0073
+				unsigned int result = 0x0161
+			}
+			{
+				unsigned int diacr  = 0x0076
+				unsigned int base   = 0x007a
+				unsigned int result = 0x017e
+			}
+			{
+				unsigned int diacr  = 0x0078
+				unsigned int base   = 0x0078
+				unsigned int result = 0x00d7
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x0041
+				unsigned int result = 0x00c3
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x0047
+				unsigned int result = 0x00ab
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x0049
+				unsigned int result = 0x00a5
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x004e
+				unsigned int result = 0x00d1
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x004f
+				unsigned int result = 0x00d5
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x0055
+				unsigned int result = 0x00dd
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x0061
+				unsigned int result = 0x00e3
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x0067
+				unsigned int result = 0x00bb
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x0069
+				unsigned int result = 0x00b5
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x006e
+				unsigned int result = 0x00f1
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x006f
+				unsigned int result = 0x00f5
+			}
+			{
+				unsigned int diacr  = 0x007e
+				unsigned int base   = 0x0075
+				unsigned int result = 0x00fd
+			}
+			{
+				unsigned int diacr  = 0x007c
+				unsigned int base   = 0x0073
+				unsigned int result = 0x0024
+			}
+			{
+				unsigned int diacr  = 0x007c
+				unsigned int base   = 0x0053
+				unsigned int result = 0x0024
+			}
+			{
+				unsigned int diacr  = 0x0053
+				unsigned int base   = 0x0053
+				unsigned int result = 0x00a7
+			}
+			{
+				unsigned int diacr  = 0x0065
+				unsigned int base   = 0x003d
+				unsigned int result = 0x20ac
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0065
+				unsigned int result = 0x20ac
+			}
+			{
+				unsigned int diacr  = 0x002d
+				unsigned int base   = 0x0045
+				unsigned int result = 0x20ac
+			}
+			{
+				unsigned int diacr  = 0x003d
+				unsigned int base   = 0x0045
+				unsigned int result = 0x20ac
+			}
+		}
+	};
