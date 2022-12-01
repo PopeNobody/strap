@@ -1,0 +1,2 @@
+
+useradd -s /bin/bash -d /boot/strap/lfs -g lfs -M lfs
