@@ -1,5 +1,5 @@
 FROM ubuntu
-WORKDIR /boot/strap
+WORKDIR /boot/strap/lfs
 VOLUME /boot/strap:/boot/strap
 
 RUN ln -sf bash /bin/sh
@@ -13,4 +13,4 @@ RUN apt-get install -y bison           texinfo              links2          wget
 RUN apt-get install -y openssh-server  openssh-sftp-server  openssh-client  
 RUN apt-get install -y inetutils-ping  net-tools                            
 
-RUN "echo done,done,dnone'
+RUN touch testing

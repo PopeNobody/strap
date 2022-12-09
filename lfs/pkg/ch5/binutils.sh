@@ -1,12 +1,14 @@
 
 copy(){
-  mkdir -p ch5/binutils/build
-  rsync -Parv -L pkg/binutils ch5/binutils
+  rm -fr pkg/binutils
+  cp -aR pkg/binutils ch5/binutils
   cd ch5/binutils/build
 }
 
 prep() {
-	mkdir -p 
+	mkdir -p ch5/binutils/build
+	cd ch5/binutils/build
+	pwd
 }
 
 config() {
@@ -21,3 +23,5 @@ build() {
 	make -j 8
 	make install
 }
+
+copy
