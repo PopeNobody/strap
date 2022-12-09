@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/nn/src/rbow/rainbowstream/apps'
+let g:netrw_dirhist_9='/home/nn/stow/bm/src/bm/make'
+let g:netrw_dirhist_8='/home/nn/stow/bm/src/bm/bash/frog/libite-2.5.1'
+let g:netrw_dirhist_7='/home/nn/src/zen/zenity-3.43.0/fuck'
+let g:netrw_dirhist_6='/etc/groff'
+let g:netrw_dirhist_5='/home/nn/nn/dot.config/xubuntu'
+let g:netrw_dirhist_4='/home/nn/nn/dot.config'
+let g:netrw_dirhist_3='/home/nn/nn/.config/xfce4/xfconf'
+let g:netrw_dirhist_2='/home/nn/nn/.config/xfce4/xfconf/xfce-perchannel-xml'
+let g:netrw_dirhist_1='/home/nn/nn/.config/xfce4/xfconf'
