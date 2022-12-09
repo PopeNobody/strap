@@ -11,6 +11,6 @@ RUN apt-get install -y gawk            python3              info            m4
 RUN apt-get install -y automake        autoconf             libtool         xz-utils
 RUN apt-get install -y bison           texinfo              links2          wget
 RUN apt-get install -y openssh-server  openssh-sftp-server  openssh-client  
-RUN apt-get install -y inetutils-ping  net-tools                            
+RUN apt-get install -y inetutils-ping  net-tools            flex
 
 RUN touch testing

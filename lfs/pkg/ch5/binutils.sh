@@ -1,17 +1,18 @@
-
+set -x -e
 copy(){
-  rm -fr pkg/binutils
+  rm -fr ch5/binutils
   cp -aR pkg/binutils ch5/binutils
-  cd ch5/binutils/build
+  cd ch5/binutils
 }
 
 prep() {
-	mkdir -p ch5/binutils/build
-	cd ch5/binutils/build
+	mkdir -p build
+	cd build
 	pwd
 }
 
 config() {
+	pwd
  ../configure --prefix=$LFS_TOOLS \
               --with-sysroot=$LFS \
               --target=$LFS_TGT   \
@@ -24,4 +25,7 @@ build() {
 	make install
 }
 
-copy
+#copy
+#prep
+#config
+#build
