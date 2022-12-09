@@ -1,0 +1,1 @@
+../stow/home/dot-bash/rc.bash

@@ -1,0 +1,1 @@
+../stow/home/dot-bash/load_funcs.bash

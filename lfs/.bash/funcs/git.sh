@@ -1,0 +1,1 @@
+../../stow/home/dot-bash/funcs/git.sh

@@ -11,4 +11,4 @@ test -n "$LFS"
 test "$(id -Gn lfs 2>/dev/null)" == lfs && exit 0
 
 groupadd lfs
-useradd -s /bin/bash -d "$LFS_TOOLS" -g lfs -M lfs
+useradd -s /bin/bash -d "$LFS_HOME" -g lfs -M lfs
