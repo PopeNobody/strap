@@ -63,7 +63,4 @@ stamp-*
 *.stamp
 
 # ignore in-tree prerequisites
-/mpfr*
-/mpc*
-/gmp*
 /isl*
