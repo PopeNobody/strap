@@ -1,0 +1,669 @@
+
+4.1. Introduction
+
+   In this chapter, we will perform a few additional tasks to prepare for
+   building the temporary system. We will create a set of directories in $LFS
+   for the installation of the temporary tools, add an unprivileged user to
+   reduce risk, and create an appropriate build environment for that user. We
+   will also explain the unit of time we use to measure how long LFS packages
+   take to build, or “SBUs”, and give some information about package test
+   suites.
+
+4.2. Creating a limited directory layout in LFS filesystem
+
+   The first task performed in the LFS partition is to create a limited
+   directory hierarchy so that programs compiled in Chapter 6 (as well as
+   glibc and libstdc++ in Chapter 5) may be installed in their final
+   location. This is needed so that those temporary programs be overwritten
+   when rebuilding them in Chapter 8.
+
+   Create the required directory layout by running the following as root:
+
+ mkdir -pv $LFS/{etc,var} $LFS/usr/{bin,lib,sbin}
+
+ for i in bin lib sbin; do
+   ln -sv usr/$i $LFS/$i
+ done
+
+ case $(uname -m) in
+   x86_64) mkdir -pv $LFS/lib64 ;;
+ esac
+
+   Programs in Chapter 6 will be compiled with a cross-compiler (more details
+   in section Toolchain Technical Notes). In order to separate this
+   cross-compiler from the other programs, it will be installed in a special
+   directory. Create this directory with:
+
+ mkdir -pv $LFS_TOOLS
+
+4.3. Adding the LFS User
+
+   When logged in as user root, making a single mistake can damage or destroy
+   a system. Therefore, the packages in the next two chapters are built as an
+   unprivileged user. You could use your own user name, but to make it easier
+   to set up a clean working environment, create a new user called lfs as a
+   member of a new group (also named lfs) and use this user during the
+   installation process. As root, issue the following commands to add the new
+   user:
+
+ groupadd lfs
+ useradd -s /bin/bash -g lfs -m -k /dev/null lfs
+
+   The meaning of the command line options:
+
+   -s /bin/bash
+
+           This makes bash the default shell for user lfs.
+
+   -g lfs
+
+           This option adds user lfs to group lfs.
+
+   -m
+
+           This creates a home directory for lfs.
+
+   -k /dev/null
+
+           This parameter prevents possible copying of files from a skeleton
+           directory (default is /etc/skel) by changing the input location to
+           the special null device.
+
+   lfs
+
+           This is the actual name for the created user.
+
+   To log in as lfs (as opposed to switching to user lfs when logged in as
+   root, which does not require the lfs user to have a password), give lfs a
+   password:
+
+ passwd lfs
+
+   Grant lfs full access to all directories under $LFS by making lfs the
+   directory owner:
+
+ chown -v lfs $LFS/{usr{,/*},lib,var,etc,bin,sbin,tools}
+ case $(uname -m) in
+   x86_64) chown -v lfs $LFS/lib64 ;;
+ esac
+
+  Note
+
+   In some host systems, the following command does not complete properly and
+   suspends the login to the lfs user to the background. If the prompt
+   "lfs:~$" does not appear immediately, entering the fg command will fix the
+   issue.
+
+   Next, login as user lfs. This can be done via a virtual console, through a
+   display manager, or with the following substitute/switch user command:
+
+ su - lfs
+
+   The “-” instructs su to start a login shell as opposed to a non-login
+   shell. The difference between these two types of shells can be found in
+   detail in bash(1) and info bash.
+
+4.4. Setting Up the Environment
+
+   Set up a good working environment by creating two new startup files for
+   the bash shell. While logged in as user lfs, issue the following command
+   to create a new .bash_profile:
+
+ cat > ~/.bash_profile << "EOF"
+ exec env -i HOME=$HOME TERM=$TERM PS1='\u:\w\$ ' /bin/bash
+ EOF
+
+   When logged on as user lfs, the initial shell is usually a login shell
+   which reads the /etc/profile of the host (probably containing some
+   settings and environment variables) and then .bash_profile. The exec env
+   -i.../bin/bash command in the .bash_profile file replaces the running
+   shell with a new one with a completely empty environment, except for the
+   HOME, TERM, and PS1 variables. This ensures that no unwanted and
+   potentially hazardous environment variables from the host system leak into
+   the build environment. The technique used here achieves the goal of
+   ensuring a clean environment.
+
+   The new instance of the shell is a non-login shell, which does not read,
+   and execute, the contents of /etc/profile or .bash_profile files, but
+   rather reads, and executes, the .bashrc file instead. Create the .bashrc
+   file now:
+
+ cat > ~/.bashrc << "EOF"
+ set +h
+ umask 022
+ LFS=/mnt/lfs
+ LC_ALL=POSIX
+ LFS_TGT=$(uname -m)-lfs-linux-gnu
+ PATH=/usr/bin
+ if [ ! -L /bin ]; then PATH=/bin:$PATH; fi
+ PATH=$LFS_TOOLS/bin:$PATH
+ CONFIG_SITE=$LFS/usr/share/config.site
+ export LFS LC_ALL LFS_TGT PATH CONFIG_SITE
+ EOF
+
+   The meaning of the settings in .bashrc
+
+   set +h
+
+           The set +h command turns off bash's hash function. Hashing is
+           ordinarily a useful feature—bash uses a hash table to remember the
+           full path of executable files to avoid searching the PATH time and
+           again to find the same executable. However, the new tools should
+           be used as soon as they are installed. By switching off the hash
+           function, the shell will always search the PATH when a program is
+           to be run. As such, the shell will find the newly compiled tools
+           in $LFS_TOOLS/bin as soon as they are available without
+           remembering a previous version of the same program provided by the
+           host distro, in /usr/bin or /bin.
+
+   umask 022
+
+           Setting the user file-creation mask (umask) to 022 ensures that
+           newly created files and directories are only writable by their
+           owner, but are readable and executable by anyone (assuming default
+           modes are used by the open(2) system call, new files will end up
+           with permission mode 644 and directories with mode 755).
+
+   LFS=/mnt/lfs
+
+           The LFS variable should be set to the chosen mount point.
+
+   LC_ALL=POSIX
+
+           The LC_ALL variable controls the localization of certain programs,
+           making their messages follow the conventions of a specified
+           country. Setting LC_ALL to “POSIX” or “C” (the two are equivalent)
+           ensures that everything will work as expected in the chroot
+           environment.
+
+   LFS_TGT=(uname -m)-lfs-linux-gnu
+
+           The LFS_TGT variable sets a non-default, but compatible machine
+           description for use when building our cross compiler and linker
+           and when cross compiling our temporary toolchain. More information
+           is contained in Toolchain Technical Notes.
+
+   PATH=/usr/bin
+
+           Many modern linux distributions have merged /bin and /usr/bin.
+           When this is the case, the standard PATH variable needs just to be
+           set to /usr/bin/ for the Chapter 6 environment. When this is not
+           the case, the following line adds /bin to the path.
+
+   if [ ! -L /bin ]; then PATH=/bin:$PATH; fi
+
+           If /bin is not a symbolic link, then it has to be added to the
+           PATH variable.
+
+   PATH=$LFS_TOOLS/bin:$PATH
+
+           By putting $LFS_TOOLS/bin ahead of the standard PATH, the
+           cross-compiler installed at the beginning of Chapter 5 is picked
+           up by the shell immediately after its installation. This, combined
+           with turning off hashing, limits the risk that the compiler from
+           the host be used instead of the cross-compiler.
+
+   CONFIG_SITE=$LFS/usr/share/config.site
+
+           In Chapter 5 and Chapter 6, if this variable is not set, configure
+           scripts may attempt to load configuration items specific to some
+           distributions from /usr/share/config.site on the host system.
+           Override it to prevent potential contamination from the host.
+
+   export ...
+
+           While the above commands have set some variables, in order to make
+           them visible within any sub-shells, we export them.
+
+  Important
+
+   Several commercial distributions add a non-documented instantiation of
+   /etc/bash.bashrc to the initialization of bash. This file has the
+   potential to modify the lfs user's environment in ways that can affect the
+   building of critical LFS packages. To make sure the lfs user's environment
+   is clean, check for the presence of /etc/bash.bashrc and, if present, move
+   it out of the way. As the root user, run:
+
+ [ ! -e /etc/bash.bashrc ] || mv -v /etc/bash.bashrc /etc/bash.bashrc.NOUSE
+
+   After use of the lfs user is finished at the beginning of Chapter 7, you
+   can restore /etc/bash.bashrc (if desired).
+
+   Note that the LFS Bash package we will build in Section 8.34,
+   “Bash-5.1.16” is not configured to load or execute /etc/bash.bashrc, so
+   this file is useless on a completed LFS system.
+
+   Finally, to have the environment fully prepared for building the temporary
+   tools, source the just-created user profile:
+
+ source ~/.bash_profile
+
+4.5. About SBUs
+
+   Many people would like to know beforehand approximately how long it takes
+   to compile and install each package. Because Linux From Scratch can be
+   built on many different systems, it is impossible to provide accurate time
+   estimates. The biggest package (Glibc) will take approximately 20 minutes
+   on the fastest systems, but could take up to three days on slower systems!
+   Instead of providing actual times, the Standard Build Unit (SBU) measure
+   will be used instead.
+
+   The SBU measure works as follows. The first package to be compiled from
+   this book is binutils in Chapter 5. The time it takes to compile this
+   package is what will be referred to as the Standard Build Unit or SBU. All
+   other compile times will be expressed relative to this time.
+
+   For example, consider a package whose compilation time is 4.5 SBUs. This
+   means that if a system took 10 minutes to compile and install the first
+   pass of binutils, it will take approximately 45 minutes to build this
+   example package. Fortunately, most build times are shorter than the one
+   for binutils.
+
+   In general, SBUs are not entirely accurate because they depend on many
+   factors, including the host system's version of GCC. They are provided
+   here to give an estimate of how long it might take to install a package,
+   but the numbers can vary by as much as dozens of minutes in some cases.
+
+  Note
+
+   For many modern systems with multiple processors (or cores) the
+   compilation time for a package can be reduced by performing a "parallel
+   make" by either setting an environment variable or telling the make
+   program how many processors are available. For instance, an Intel i5-6500
+   CPU can support four simultaneous processes with:
+
+ export MAKEFLAGS='-j4'
+
+   or just building with:
+
+ make -j4
+
+   When multiple processors are used in this way, the SBU units in the book
+   will vary even more than they normally would. In some cases, the make step
+   will simply fail. Analyzing the output of the build process will also be
+   more difficult because the lines of different processes will be
+   interleaved. If you run into a problem with a build step, revert back to a
+   single processor build to properly analyze the error messages.
+
+4.6. About the Test Suites
+
+   Most packages provide a test suite. Running the test suite for a newly
+   built package is a good idea because it can provide a “sanity check”
+   indicating that everything compiled correctly. A test suite that passes
+   its set of checks usually proves that the package is functioning as the
+   developer intended. It does not, however, guarantee that the package is
+   totally bug free.
+
+   Some test suites are more important than others. For example, the test
+   suites for the core toolchain packages—GCC, binutils, and glibc—are of the
+   utmost importance due to their central role in a properly functioning
+   system. The test suites for GCC and glibc can take a very long time to
+   complete, especially on slower hardware, but are strongly recommended.
+
+  Note
+
+   Running the test suites in Chapter 5 and Chapter 6 is impossible, since
+   the programs are compiled with a cross-compiler, so are not supposed to be
+   able to run on the build host.
+
+   A common issue with running the test suites for binutils and GCC is
+   running out of pseudo terminals (PTYs). This can result in a high number
+   of failing tests. This may happen for several reasons, but the most likely
+   cause is that the host system does not have the devpts file system set up
+   correctly. This issue is discussed in greater detail at
+   https://www.linuxfromscratch.org/lfs/faq.html#no-ptys.
+
+   Sometimes package test suites will fail, but for reasons which the
+   developers are aware of and have deemed non-critical. Consult the logs
+   located at https://www.linuxfromscratch.org/lfs/build-logs/11.2/ to verify
+   whether or not these failures are expected. This site is valid for all
+   tests throughout this book.
+
+         Part III. Building the LFS Cross Toolchain and Temporary Tools
+
+Important Preliminary Material
+
+Introduction
+
+   This part is divided into three stages: first building a cross compiler
+   and its associated libraries; second, use this cross toolchain to build
+   several utilities in a way that isolates them from the host distribution;
+   third, enter the chroot environment, which further improves host
+   isolation, and build the remaining tools needed to build the final system.
+
+  Important
+
+   With this part begins the real work of building a new system. It requires
+   much care in ensuring that the instructions are followed exactly as the
+   book shows them. You should try to understand what they do, and whatever
+   your eagerness to finish your build, you should refrain from blindly type
+   them as shown, but rather read documentation when there is something you
+   do not understand. Also, keep track of your typing and of the output of
+   commands, by sending them to a file, using the tee utility. This allows
+   for better diagnosing if something gets wrong.
+
+   The next section gives a technical introduction to the build process,
+   while the following one contains very important general instructions.
+
+Toolchain Technical Notes
+
+   This section explains some of the rationale and technical details behind
+   the overall build method. It is not essential to immediately understand
+   everything in this section. Most of this information will be clearer after
+   performing an actual build. This section can be referred to at any time
+   during the process.
+
+   The overall goal of Chapter 5 and Chapter 6 is to produce a temporary area
+   that contains a known-good set of tools that can be isolated from the host
+   system. By using chroot, the commands in the remaining chapters will be
+   contained within that environment, ensuring a clean, trouble-free build of
+   the target LFS system. The build process has been designed to minimize the
+   risks for new readers and to provide the most educational value at the
+   same time.
+
+   The build process is based on the process of cross-compilation.
+   Cross-compilation is normally used for building a compiler and its
+   toolchain for a machine different from the one that is used for the build.
+   This is not strictly needed for LFS, since the machine where the new
+   system will run is the same as the one used for the build. But
+   cross-compilation has the great advantage that anything that is
+   cross-compiled cannot depend on the host environment.
+
+  About Cross-Compilation
+
+  Note
+
+   The LFS book is not, and does not contain a general tutorial to build a
+   cross (or native) toolchain. Don't use the command in the book for a cross
+   toolchain which will be used for some purpose other than building LFS,
+   unless you really understand what you are doing.
+
+   Cross-compilation involves some concepts that deserve a section on their
+   own. Although this section may be omitted in a first reading, coming back
+   to it later will be beneficial to your full understanding of the process.
+
+   Let us first define some terms used in this context:
+
+   build
+
+           is the machine where we build programs. Note that this machine is
+           referred to as the “host” in other sections.
+
+   host
+
+           is the machine/system where the built programs will run. Note that
+           this use of “host” is not the same as in other sections.
+
+   target
+
+           is only used for compilers. It is the machine the compiler
+           produces code for. It may be different from both build and host.
+
+   As an example, let us imagine the following scenario (sometimes referred
+   to as “Canadian Cross”): we may have a compiler on a slow machine only,
+   let's call it machine A, and the compiler ccA. We may have also a fast
+   machine (B), but with no compiler, and we may want to produce code for
+   another slow machine (C). To build a compiler for machine C, we would have
+   three stages:
+
+   +------------------------------------------------------------------------+
+   | Stage | Build | Host | Target | Action                                 |
+   |-------+-------+------+--------+----------------------------------------|
+   |   1   |   A   |  A   |   B    | build cross-compiler cc1 using ccA on  |
+   |       |       |      |        | machine A                              |
+   |-------+-------+------+--------+----------------------------------------|
+   |   2   |   A   |  B   |   C    | build cross-compiler cc2 using cc1 on  |
+   |       |       |      |        | machine A                              |
+   |-------+-------+------+--------+----------------------------------------|
+   |   3   |   B   |  C   |   C    | build compiler ccC using cc2 on        |
+   |       |       |      |        | machine B                              |
+   +------------------------------------------------------------------------+
+
+   Then, all the other programs needed by machine C can be compiled using cc2
+   on the fast machine B. Note that unless B can run programs produced for C,
+   there is no way to test the built programs until machine C itself is
+   running. For example, for testing ccC, we may want to add a fourth stage:
+
+   +------------------------------------------------------------------------+
+   | Stage | Build | Host | Target | Action                                 |
+   |-------+-------+------+--------+----------------------------------------|
+   |   4   |   C   |  C   |   C    | rebuild and test ccC using itself on   |
+   |       |       |      |        | machine C                              |
+   +------------------------------------------------------------------------+
+
+   In the example above, only cc1 and cc2 are cross-compilers, that is, they
+   produce code for a machine different from the one they are run on. The
+   other compilers ccA and ccC produce code for the machine they are run on.
+   Such compilers are called native compilers.
+
+  Implementation of Cross-Compilation for LFS
+
+  Note
+
+   Almost all the build systems use names of the form cpu-vendor-kernel-os
+   referred to as the machine triplet. An astute reader may wonder why a
+   “triplet” refers to a four component name. The reason is history:
+   initially, three component names were enough to designate a machine
+   unambiguously, but with new machines and systems appearing, that proved
+   insufficient. The word “triplet” remained. A simple way to determine your
+   machine triplet is to run the config.guess script that comes with the
+   source for many packages. Unpack the binutils sources and run the script:
+   ./config.guess and note the output. For example, for a 32-bit Intel
+   processor the output will be i686-pc-linux-gnu. On a 64-bit system it will
+   be x86_64-pc-linux-gnu.
+
+   Also be aware of the name of the platform's dynamic linker, often referred
+   to as the dynamic loader (not to be confused with the standard linker ld
+   that is part of binutils). The dynamic linker provided by Glibc finds and
+   loads the shared libraries needed by a program, prepares the program to
+   run, and then runs it. The name of the dynamic linker for a 32-bit Intel
+   machine is ld-linux.so.2 and is ld-linux-x86-64.so.2 for 64-bit systems. A
+   sure-fire way to determine the name of the dynamic linker is to inspect a
+   random binary from the host system by running: readelf -l <name of binary>
+   | grep interpreter and noting the output. The authoritative reference
+   covering all platforms is in the shlib-versions file in the root of the
+   Glibc source tree.
+
+   In order to fake a cross compilation in LFS, the name of the host triplet
+   is slightly adjusted by changing the "vendor" field in the LFS_TGT
+   variable. We also use the --with-sysroot option when building the cross
+   linker and cross compiler to tell them where to find the needed host
+   files. This ensures that none of the other programs built in Chapter 6 can
+   link to libraries on the build machine. Only two stages are mandatory, and
+   one more for tests:
+
+   +------------------------------------------------------------------------+
+   | Stage | Build | Host | Target | Action                                 |
+   |-------+-------+------+--------+----------------------------------------|
+   |   1   |  pc   |  pc  |  lfs   | build cross-compiler cc1 using cc-pc   |
+   |       |       |      |        | on pc                                  |
+   |-------+-------+------+--------+----------------------------------------|
+   |   2   |  pc   | lfs  |  lfs   | build compiler cc-lfs using cc1 on pc  |
+   |-------+-------+------+--------+----------------------------------------|
+   |   3   |  lfs  | lfs  |  lfs   | rebuild and test cc-lfs using itself   |
+   |       |       |      |        | on lfs                                 |
+   +------------------------------------------------------------------------+
+
+   In the above table, “on pc” means the commands are run on a machine using
+   the already installed distribution. “On lfs” means the commands are run in
+   a chrooted environment.
+
+   Now, there is more about cross-compiling: the C language is not just a
+   compiler, but also defines a standard library. In this book, the GNU C
+   library, named glibc, is used. This library must be compiled for the lfs
+   machine, that is, using the cross compiler cc1. But the compiler itself
+   uses an internal library implementing complex instructions not available
+   in the assembler instruction set. This internal library is named libgcc,
+   and must be linked to the glibc library to be fully functional!
+   Furthermore, the standard library for C++ (libstdc++) also needs being
+   linked to glibc. The solution to this chicken and egg problem is to first
+   build a degraded cc1 based libgcc, lacking some functionalities such as
+   threads and exception handling, then build glibc using this degraded
+   compiler (glibc itself is not degraded), then build libstdc++. But this
+   last library will lack the same functionalities as libgcc.
+
+   This is not the end of the story: the conclusion of the preceding
+   paragraph is that cc1 is unable to build a fully functional libstdc++, but
+   this is the only compiler available for building the C/C++ libraries
+   during stage 2! Of course, the compiler built during stage 2, cc-lfs,
+   would be able to build those libraries, but (1) the build system of GCC
+   does not know that it is usable on pc, and (2) using it on pc would be at
+   risk of linking to the pc libraries, since cc-lfs is a native compiler. So
+   we have to build libstdc++ later, in chroot.
+
+  Other procedural details
+
+   The cross-compiler will be installed in a separate $LFS_TOOLS directory,
+   since it will not be part of the final system.
+
+   Binutils is installed first because the configure runs of both GCC and
+   Glibc perform various feature tests on the assembler and linker to
+   determine which software features to enable or disable. This is more
+   important than one might first realize. An incorrectly configured GCC or
+   Glibc can result in a subtly broken toolchain, where the impact of such
+   breakage might not show up until near the end of the build of an entire
+   distribution. A test suite failure will usually highlight this error
+   before too much additional work is performed.
+
+   Binutils installs its assembler and linker in two locations,
+   $LFS_TOOLS/bin and $LFS_TOOLS/$LFS_TGT/bin. The tools in one location are
+   hard linked to the other. An important facet of the linker is its library
+   search order. Detailed information can be obtained from ld by passing it
+   the --verbose flag. For example, $LFS_TGT-ld --verbose | grep SEARCH will
+   illustrate the current search paths and their order. It shows which files
+   are linked by ld by compiling a dummy program and passing the --verbose
+   switch to the linker. For example, $LFS_TGT-gcc dummy.c -Wl,--verbose 2>&1
+   | grep succeeded will show all the files successfully opened during the
+   linking.
+
+   The next package installed is GCC. An example of what can be seen during
+   its run of configure is:
+
+ checking what assembler to use... /mnt/lfs/tools/i686-lfs-linux-gnu/bin/as
+ checking what linker to use... /mnt/lfs/tools/i686-lfs-linux-gnu/bin/ld
+
+   This is important for the reasons mentioned above. It also demonstrates
+   that GCC's configure script does not search the PATH directories to find
+   which tools to use. However, during the actual operation of gcc itself,
+   the same search paths are not necessarily used. To find out which standard
+   linker gcc will use, run: $LFS_TGT-gcc -print-prog-name=ld.
+
+   Detailed information can be obtained from gcc by passing it the -v command
+   line option while compiling a dummy program. For example, gcc -v dummy.c
+   will show detailed information about the preprocessor, compilation, and
+   assembly stages, including gcc's included search paths and their order.
+
+   Next installed are sanitized Linux API headers. These allow the standard C
+   library (Glibc) to interface with features that the Linux kernel will
+   provide.
+
+   The next package installed is Glibc. The most important considerations for
+   building Glibc are the compiler, binary tools, and kernel headers. The
+   compiler is generally not an issue since Glibc will always use the
+   compiler relating to the --host parameter passed to its configure script;
+   e.g. in our case, the compiler will be $LFS_TGT-gcc. The binary tools and
+   kernel headers can be a bit more complicated. Therefore, we take no risks
+   and use the available configure switches to enforce the correct
+   selections. After the run of configure, check the contents of the
+   config.make file in the build directory for all important details. Note
+   the use of CC="$LFS_TGT-gcc" (with $LFS_TGT expanded) to control which
+   binary tools are used and the use of the -nostdinc and -isystem flags to
+   control the compiler's include search path. These items highlight an
+   important aspect of the Glibc package—it is very self-sufficient in terms
+   of its build machinery and generally does not rely on toolchain defaults.
+
+   As said above, the standard C++ library is compiled next, followed in
+   Chapter 6 by all the programs that need themselves to be built. The
+   install step of all those packages uses the DESTDIR variable to have the
+   programs land into the LFS filesystem.
+
+   At the end of Chapter 6 the native lfs compiler is installed. First
+   binutils-pass2 is built, with the same DESTDIR install as the other
+   programs, then the second pass of GCC is constructed, omitting libstdc++
+   and other non-important libraries. Due to some weird logic in GCC's
+   configure script, CC_FOR_TARGET ends up as cc when the host is the same as
+   the target, but is different from the build system. This is why
+   CC_FOR_TARGET=$LFS_TGT-gcc is put explicitly into the configure options.
+
+   Upon entering the chroot environment in Chapter 7, the first task is to
+   install libstdc++. Then temporary installations of programs needed for the
+   proper operation of the toolchain are performed. From this point onwards,
+   the core toolchain is self-contained and self-hosted. In Chapter 8, final
+   versions of all the packages needed for a fully functional system are
+   built, tested and installed.
+
+General Compilation Instructions
+
+   When building packages there are several assumptions made within the
+   instructions:
+
+     * Several of the packages are patched before compilation, but only when
+       the patch is needed to circumvent a problem. A patch is often needed
+       in both this and the following chapters, but sometimes in only one
+       location. Therefore, do not be concerned if instructions for a
+       downloaded patch seem to be missing. Warning messages about offset or
+       fuzz may also be encountered when applying a patch. Do not worry about
+       these warnings, as the patch was still successfully applied.
+
+     * During the compilation of most packages, there will be several
+       warnings that scroll by on the screen. These are normal and can safely
+       be ignored. These warnings are as they appear—warnings about
+       deprecated, but not invalid, use of the C or C++ syntax. C standards
+       change fairly often, and some packages still use the older standard.
+       This is not a problem, but does prompt the warning.
+
+     * Check one last time that the LFS environment variable is set up
+       properly:
+
+ echo $LFS
+
+       Make sure the output shows the path to the LFS partition's mount
+       point, which is /mnt/lfs, using our example.
+
+     * Finally, two important items must be emphasized:
+
+  Important
+
+       The build instructions assume that the Host System Requirements,
+       including symbolic links, have been set properly:
+
+          * bash is the shell in use.
+
+          * sh is a symbolic link to bash.
+
+          * /usr/bin/awk is a symbolic link to gawk.
+
+          * /usr/bin/yacc is a symbolic link to bison or a small script that
+            executes bison.
+
+  Important
+
+       To re-emphasize the build process:
+
+         1. Place all the sources and patches in a directory that will be
+            accessible from the chroot environment such as /mnt/lfs/sources/.
+
+         2. Change to the sources directory.
+
+         3. For each package:
+
+              1. Using the tar program, extract the package to be built. In
+                 Chapter 5 and Chapter 6, ensure you are the lfs user when
+                 extracting the package.
+
+                 All methods to get the source code tree being built
+                 in-position, except extracting the package tarball, are not
+                 supported. Notably, using cp -R to copy the source code tree
+                 somewhere else can destroy links and timestamps in the
+                 sources tree and cause building failure.
+
+              2. Change to the directory created when the package was
+                 extracted.
+
+              3. Follow the book's instructions for building the package.
+
+              4. Change back to the sources directory.
+
+              5. Delete the extracted source directory unless instructed
+                 otherwise.
+

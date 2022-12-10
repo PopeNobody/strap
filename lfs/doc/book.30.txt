@@ -1,0 +1,744 @@
+
+   Every package built in LFS relies on one or more other packages in order
+   to build and install properly. Some packages even participate in circular
+   dependencies, that is, the first package depends on the second which in
+   turn depends on the first. Because of these dependencies, the order in
+   which packages are built in LFS is very important. The purpose of this
+   page is to document the dependencies of each package built in LFS.
+
+   For each package that is built, there are three, and sometimes up to five
+   types of dependencies listed below. The first lists what other packages
+   need to be available in order to compile and install the package in
+   question. The second lists the packages that must be available when any
+   programs or libraries from the package are used at runtime. The third
+   lists what packages, in addition to those on the first list, need to be
+   available in order to run the test suites. The fourth list of dependencies
+   are packages that require this package to be built and installed in its
+   final location before they are built and installed. In most cases, this is
+   because these packages will hard code paths to binaries within their
+   scripts. If not built in a certain order, this could result in paths of
+   /tools/bin/[binary] being placed inside scripts installed to the final
+   system. This is obviously not desirable.
+
+   The last list of dependencies are optional packages that are not addressed
+   in LFS, but could be useful to the user. These packages may have
+   additional mandatory or optional dependencies of their own. For these
+   dependencies, the recommended practice is to install them after completion
+   of the LFS book and then go back and rebuild the LFS package. In several
+   cases, re-installation is addressed in BLFS.
+
+  Acl
+
+   Installation depends on: Attr, Bash, Binutils, Coreutils, GCC, Gettext,
+   Grep, M4, Make, Perl, Sed, and Texinfo
+   Required at runtime: Attr and Glibc
+   Test suite depends on: Automake, Diffutils, Findutils, and Libtool
+   Must be installed before: Coreutils, Sed, Tar, and Vim
+   Optional dependencies: None
+
+  Attr
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   Grep, M4, Make, Perl, Sed, and Texinfo
+   Required at runtime: Glibc
+   Test suite depends on: Automake, Diffutils, Findutils, and Libtool
+   Must be installed before: Acl and Libcap
+   Optional dependencies: None
+
+  Autoconf
+
+   Installation depends on: Bash, Coreutils, Grep, M4, Make, Perl, Sed, and
+   Texinfo
+   Required at runtime: Bash, Coreutils, Grep, M4, Make, Sed, and Texinfo
+   Test suite depends on: Automake, Diffutils, Findutils, GCC, and Libtool
+   Must be installed before: Automake
+   Optional dependencies: Emacs
+
+  Automake
+
+   Installation depends on: Autoconf, Bash, Coreutils, Gettext, Grep, M4,
+   Make, Perl, Sed, and Texinfo
+   Required at runtime: Bash, Coreutils, Grep, M4, Sed, and Texinfo
+   Test suite depends on: Binutils, Bison, Bzip2, DejaGNU, Diffutils, Expect,
+   Findutils, Flex, GCC, Gettext, Gzip, Libtool, and Tar
+   Must be installed before: None
+   Optional dependencies: None
+
+  Bash
+
+   Installation depends on: Bash, Binutils, Bison, Coreutils, Diffutils,
+   Gawk, GCC, Glibc, Grep, Make, Ncurses, Patch, Readline, Sed, and Texinfo
+   Required at runtime: Glibc, Ncurses, and Readline
+   Test suite depends on: Expect and Shadow
+   Must be installed before: None
+   Optional dependencies: Xorg
+
+  Bc
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, Grep,
+   Make, and Readline
+   Required at runtime: Glibc, Ncurses, and Readline
+   Test suite depends on: Gawk
+   Must be installed before: Linux
+   Optional dependencies: None
+
+  Binutils
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, File, Flex,
+   Gawk, GCC, Glibc, Grep, Make, Perl, Sed, Texinfo, and Zlib
+   Required at runtime: Glibc and Zlib
+   Test suite depends on: DejaGNU and Expect
+   Must be installed before: None
+   Optional dependencies: Elfutils
+
+  Bison
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   Grep, M4, Make, Perl, and Sed
+   Required at runtime: Glibc
+   Test suite depends on: Diffutils, Findutils, and Flex
+   Must be installed before: Kbd and Tar
+   Optional dependencies: Doxygen
+
+  Bzip2
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, GCC, Glibc,
+   Make, and Patch
+   Required at runtime: Glibc
+   Test suite depends on: None
+   Must be installed before: File
+   Optional dependencies: None
+
+  Check
+
+   Installation depends on: Gawk, GCC, Grep, Make, Sed, and Texinfo
+   Required at runtime: Bash and Gawk
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: None
+
+  Coreutils
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   GMP, Grep, Libcap, Make, OpenSSL, Patch, Perl, Sed, and Texinfo
+   Required at runtime: Glibc
+   Test suite depends on: Diffutils, E2fsprogs, Findutils, Shadow, and
+   Util-linux
+   Must be installed before: Bash, Diffutils, Eudev, Findutils, and Man-DB
+   Optional dependencies: Expect.pm and IO::Tty
+
+  DejaGNU
+
+   Installation depends on: Bash, Coreutils, Diffutils, Expect, GCC, Grep,
+   Make, Sed, and Texinfo
+   Required at runtime: Expect and Bash
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: None
+
+  Diffutils
+
+   Installation depends on: Bash, Binutils, Coreutils, Gawk, GCC, Gettext,
+   Glibc, Grep, Make, Sed, and Texinfo
+   Required at runtime: Glibc
+   Test suite depends on: Perl
+   Must be installed before: None
+   Optional dependencies: None
+
+  E2fsprogs
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, Gawk, GCC,
+   Glibc, Grep, Gzip, Make, Sed, Texinfo, and Util-linux
+   Required at runtime: Glibc and Util-linux
+   Test suite depends on: Procps-ng and Psmisc
+   Must be installed before: None
+   Optional dependencies: None
+
+  Eudev
+
+   Installation depends on: Bash, Binutils, Coreutils, Gawk, GCC, Glibc,
+   Grep, Gperf, Make, Sed, and Util-linux
+   Required at runtime: Glibc, Kmod, Xz, Util-linux, and Zlib.
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: None
+
+  Expat
+
+   Installation depends on: Bash, Binutils, Coreutils, Gawk, GCC, Glibc,
+   Grep, Make, and Sed
+   Required at runtime: Glibc
+   Test suite depends on: None
+   Must be installed before: Python and XML::Parser
+   Optional dependencies: None
+
+  Expect
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, GCC, Glibc,
+   Grep, Make, Patch, Sed, and Tcl
+   Required at runtime: Glibc and Tcl
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: Tk
+
+  File
+
+   Installation depends on: Bash, Binutils, Bzip2, Coreutils, Diffutils,
+   Gawk, GCC, Glibc, Grep, Make, Sed, Xz, and Zlib
+   Required at runtime: Glibc, Bzip2, Xz, and Zlib
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: libseccomp
+
+  Findutils
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   Grep, Make, Sed, and Texinfo
+   Required at runtime: Bash and Glibc
+   Test suite depends on: DejaGNU, Diffutils, and Expect
+   Must be installed before: None
+   Optional dependencies: None
+
+  Flex
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   Grep, M4, Make, Patch, Sed, and Texinfo
+   Required at runtime: Bash, Glibc, and M4
+   Test suite depends on: Bison and Gawk
+   Must be installed before: Binutils, IProute2, Kbd, Kmod, and Man-DB
+   Optional dependencies: None
+
+  Gawk
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   GMP, Grep, Make, MPFR, Patch, Readline, Sed, and Texinfo
+   Required at runtime: Bash, Glibc, and Mpfr
+   Test suite depends on: Diffutils
+   Must be installed before: None
+   Optional dependencies: libsigsegv
+
+  GCC
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, Findutils,
+   Gawk, GCC, Gettext, Glibc, GMP, Grep, M4, Make, MPC, MPFR, Patch, Perl,
+   Sed, Tar, Texinfo, and Zstd
+   Required at runtime: Bash, Binutils, Glibc, Mpc, and Python
+   Test suite depends on: DejaGNU, Expect, and Shadow
+   Must be installed before: None
+   Optional dependencies: GNAT and ISL
+
+  GDBM
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, GCC, Grep,
+   Make, and Sed
+   Required at runtime: Bash, Glibc, and Readline
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: None
+
+  Gettext
+
+   Installation depends on: Bash, Binutils, Coreutils, Gawk, GCC, Glibc,
+   Grep, Make, Ncurses, Sed, and Texinfo
+   Required at runtime: Acl, Bash, Gcc, and Glibc
+   Test suite depends on: Diffutils, Perl, and Tcl
+   Must be installed before: Automake and Bison
+   Optional dependencies: None
+
+  Glibc
+
+   Installation depends on: Bash, Binutils, Bison, Coreutils, Diffutils,
+   Gawk, GCC, Gettext, Grep, Gzip, Linux API Headers, Make, Perl, Python,
+   Sed, and Texinfo
+   Required at runtime: None
+   Test suite depends on: File
+   Must be installed before: None
+   Optional dependencies: None
+
+  GMP
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, Gawk, GCC,
+   Glibc, Grep, M4, Make, Sed, and Texinfo
+   Required at runtime: GCC and Glibc
+   Test suite depends on: None
+   Must be installed before: MPFR and GCC
+   Optional dependencies: None
+
+  Gperf
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, and Make
+   Required at runtime: GCC and Glibc
+   Test suite depends on: Diffutils and Expect
+   Must be installed before: None
+   Optional dependencies: None
+
+  Grep
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, GCC,
+   Gettext, Glibc, Grep, Make, Patch, Sed, and Texinfo
+   Required at runtime: Glibc
+   Test suite depends on: Gawk
+   Must be installed before: Man-DB
+   Optional dependencies: PCRE and libsigsegv
+
+  Groff
+
+   Installation depends on: Bash, Binutils, Bison, Coreutils, Gawk, GCC,
+   Glibc, Grep, Make, Patch, Sed, and Texinfo
+   Required at runtime: GCC, Glibc, and Perl
+   Test suite depends on: No test suite available
+   Must be installed before: Man-DB and Perl
+   Optional dependencies: ghostscript and Uchardet
+
+  GRUB
+
+   Installation depends on: Bash, Binutils, Bison, Coreutils, Diffutils, GCC,
+   Gettext, Glibc, Grep, Make, Ncurses, Sed, Texinfo, and Xz
+   Required at runtime: Bash, GCC, Gettext, Glibc, Xz, and Sed.
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: None
+
+  Gzip
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, Grep,
+   Make, Sed, and Texinfo
+   Required at runtime: Bash and Glibc
+   Test suite depends on: Diffutils and Less
+   Must be installed before: Man-DB
+   Optional dependencies: None
+
+  Iana-Etc
+
+   Installation depends on: Coreutils
+   Required at runtime: None
+   Test suite depends on: No test suite available
+   Must be installed before: Perl
+   Optional dependencies: None
+
+  Inetutils
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, Grep,
+   Make, Ncurses, Patch, Sed, Texinfo, and Zlib
+   Required at runtime: GCC, Glibc, Ncurses, and Readline
+   Test suite depends on: None
+   Must be installed before: Tar
+   Optional dependencies: None
+
+  Intltool
+
+   Installation depends on: Bash, Gawk, Glibc, Make, Perl, Sed, and
+   XML::Parser
+   Required at runtime: Autoconf, Automake, Bash, Glibc, Grep, Perl, and Sed
+   Test suite depends on: Perl
+   Must be installed before: None
+   Optional dependencies: None
+
+  IProute2
+
+   Installation depends on: Bash, Bison, Coreutils, Flex, GCC, Glibc, Make,
+   Libcap, Libelf, Linux API Headers, and Zlib
+   Required at runtime: Bash, Coreutils, Glibc, Libcap, Libelf, and Zlib
+   Test suite depends on: No test suite available
+   Must be installed before: None
+   Optional dependencies: Berkeley DB and iptables
+
+  Jinja2
+
+   Installation depends on: MarkupSafe and Python
+   Required at runtime: MarkupSafe and Python
+   Test suite depends on: No test suite available
+   Must be installed before: Systemd
+   Optional dependencies: None
+
+  Kbd
+
+   Installation depends on: Bash, Binutils, Bison, Check, Coreutils, Flex,
+   GCC, Gettext, Glibc, Gzip, Make, Patch, and Sed
+   Required at runtime: Bash, Coreutils, and Glibc
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: None
+
+  Kmod
+
+   Installation depends on: Bash, Binutils, Bison, Coreutils, Flex, GCC,
+   Gettext, Glibc, Gzip, Make, OpenSSL, Pkg-config, Sed, Xz, and Zlib
+   Required at runtime: Glibc, Xz, and Zlib
+   Test suite depends on: No test suite available
+   Must be installed before: Eudev
+   Optional dependencies: None
+
+  Less
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, GCC, Glibc,
+   Grep, Make, Ncurses, and Sed
+   Required at runtime: Glibc and Ncurses
+   Test suite depends on: No test suite available
+   Must be installed before: Gzip
+   Optional dependencies: PCRE
+
+  Libcap
+
+   Installation depends on: Attr, Bash, Binutils, Coreutils, GCC, Glibc,
+   Perl, Make, and Sed
+   Required at runtime: Glibc
+   Test suite depends on: None
+   Must be installed before: IProute2 and Shadow
+   Optional dependencies: Linux-PAM
+
+  Libelf
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, and Make
+   Required at runtime: Glibc and Zlib
+   Test suite depends on: None
+   Must be installed before: IProute2 and Linux
+   Optional dependencies: None
+
+  Libffi
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, Make, and
+   Sed
+   Required at runtime: Glibc
+   Test suite depends on: DejaGnu
+   Must be installed before: Python
+   Optional dependencies: None
+
+  Libpipeline
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, Gawk, GCC,
+   Glibc, Grep, Make, Sed, and Texinfo
+   Required at runtime: Glibc
+   Test suite depends on: Check
+   Must be installed before: Man-DB
+   Optional dependencies: None
+
+  Libtool
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, Gawk, GCC,
+   Glibc, Grep, Make, Sed, and Texinfo
+   Required at runtime: Autoconf, Automake, Bash, Binutils, Coreutils, File,
+   GCC, Glibc, Grep, Make, and Sed
+   Test suite depends on: Autoconf, Automake, and Findutils
+   Must be installed before: None
+   Optional dependencies: None
+
+  Linux
+
+   Installation depends on: Bash, Bc, Binutils, Coreutils, Diffutils,
+   Findutils, GCC, Glibc, Grep, Gzip, Kmod, Libelf, Make, Ncurses, OpenSSL,
+   Perl, and Sed
+   Required at runtime: None
+   Test suite depends on: No test suite available
+   Must be installed before: None
+   Optional dependencies: cpio
+
+  Linux API Headers
+
+   Installation depends on: Bash, Binutils, Coreutils, Findutils, GCC, Glibc,
+   Grep, Gzip, Make, Perl, and Sed
+   Required at runtime: None
+   Test suite depends on: No test suite available
+   Must be installed before: None
+   Optional dependencies: None
+
+  M4
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, Grep,
+   Make, Sed, and Texinfo
+   Required at runtime: Bash and Glibc
+   Test suite depends on: Diffutils
+   Must be installed before: Autoconf and Bison
+   Optional dependencies: libsigsegv
+
+  Make
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   Grep, Make, Sed, and Texinfo
+   Required at runtime: Glibc
+   Test suite depends on: Perl and Procps-ng
+   Must be installed before: None
+   Optional dependencies: Guile
+
+  Man-DB
+
+   Installation depends on: Bash, Binutils, Bzip2, Coreutils, Flex, GCC,
+   GDBM, Gettext, Glibc, Grep, Groff, Gzip, Less, Libpipeline, Make, Sed, and
+   Xz
+   Required at runtime: Bash, GDBM, Groff, Glibc, Gzip, Less, Libpipeline,
+   and Zlib
+   Test suite depends on: Util-linux
+   Must be installed before: None
+   Optional dependencies: libseccomp
+
+  Man-Pages
+
+   Installation depends on: Bash, Coreutils, and Make
+   Required at runtime: None
+   Test suite depends on: No test suite available
+   Must be installed before: None
+   Optional dependencies: None
+
+  MarkupSafe
+
+   Installation depends on: Python
+   Required at runtime: Python
+   Test suite depends on: No test suite available
+   Must be installed before: Jinja2
+   Optional dependencies: None
+
+  Meson
+
+   Installation depends on: Ninja and Python
+   Required at runtime: Python
+   Test suite depends on: No test suite available
+   Must be installed before: Systemd
+   Optional dependencies: None
+
+  MPC
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, Gawk, GCC,
+   Glibc, Grep, GMP, Make, MPFR, Sed, and Texinfo
+   Required at runtime: Glibc, GMP, and MPFR
+   Test suite depends on: None
+   Must be installed before: GCC
+   Optional dependencies: None
+
+  MPFR
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, Gawk, GCC,
+   Glibc, Grep, GMP, Make, Sed, and Texinfo
+   Required at runtime: Glibc and GMP
+   Test suite depends on: None
+   Must be installed before: Gawk and GCC
+   Optional dependencies: None
+
+  Ncurses
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, Gawk, GCC,
+   Glibc, Grep, Make, Patch, and Sed
+   Required at runtime: Glibc
+   Test suite depends on: No test suite available
+   Must be installed before: Bash, GRUB, Inetutils, Less, Procps-ng, Psmisc,
+   Readline, Texinfo, Util-linux, and Vim
+   Optional dependencies: None
+
+  Ninja
+
+   Installation depends on: Binutils, Coreutils, GCC, and Python
+   Required at runtime: GCC and Glibc
+   Test suite depends on: None
+   Must be installed before: Meson
+   Optional dependencies: Asciidoc, Doxygen, Emacs, and re2c
+
+  OpenSSL
+
+   Installation depends on: Binutils, Coreutils, GCC, Make, and Perl
+   Required at runtime: Glibc and Perl
+   Test suite depends on: None
+   Must be installed before: Coreutils, Kmod, and Linux
+   Optional dependencies: None
+
+  Patch
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, Grep,
+   Make, and Sed
+   Required at runtime: Glibc and Patch
+   Test suite depends on: Diffutils
+   Must be installed before: None
+   Optional dependencies: Ed
+
+  Perl
+
+   Installation depends on: Bash, Binutils, Coreutils, Gawk, GCC, GDBM,
+   Glibc, Grep, Groff, Make, Sed, and Zlib
+   Required at runtime: GDBM and Glibc
+   Test suite depends on: Iana-Etc, Less. and Procps-ng
+   Must be installed before: Autoconf
+   Optional dependencies: Berkeley DB
+
+  Pkg-config
+
+   Installation depends on: Bash, Binutils, Coreutils, Gawk, GCC, Glibc,
+   Grep, Make, Popt, and Sed
+   Required at runtime: Glibc
+   Test suite depends on: None
+   Must be installed before: Kmod
+   Optional dependencies: Glib2
+
+  Procps-ng
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, Make, and
+   Ncurses
+   Required at runtime: Glibc
+   Test suite depends on: DejaGNU
+   Must be installed before: None
+   Optional dependencies: None
+
+  Psmisc
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   Grep, Make, Ncurses, and Sed
+   Required at runtime: Glibc and Ncurses
+   Test suite depends on: No test suite available
+   Must be installed before: None
+   Optional dependencies: None
+
+  Python
+
+   Installation depends on: Bash, Binutils, Coreutils, Expat, GCC, Gdbm,
+   Gettext, Glibc, Grep, Libffi, Make, Ncurses, OpenSSL, Sed, and Util-linux
+   Required at runtime: Bzip2, Expat, Gdbm, Glibc, Libffi, Ncurses, OpenSSL,
+   and Zlib
+   Test suite depends on: GDB and Valgrind
+   Must be installed before: Ninja
+   Optional dependencies: Berkeley DB, libnsl, SQLite, and Tk
+
+  Readline
+
+   Installation depends on: Bash, Binutils, Coreutils, Gawk, GCC, Glibc,
+   Grep, Make, Ncurses, Patch, Sed, and Texinfo
+   Required at runtime: Glibc and Ncurses
+   Test suite depends on: No test suite available
+   Must be installed before: Bash, Bc, and Gawk
+   Optional dependencies: None
+
+  Sed
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   Grep, Make, Sed, and Texinfo
+   Required at runtime: Acl, Attr, and Glibc
+   Test suite depends on: Diffutils and Gawk
+   Must be installed before: E2fsprogs, File, Libtool, and Shadow
+   Optional dependencies: None
+
+  Shadow
+
+   Installation depends on: Acl, Attr, Bash, Binutils, Coreutils, Diffutils,
+   Findutils, Gawk, GCC, Gettext, Glibc, Grep, Libcap, Make, and Sed
+   Required at runtime: Glibc
+   Test suite depends on: No test suite available
+   Must be installed before: Coreutils
+   Optional dependencies: CrackLib and Linux-PAM
+
+  Sysklogd
+
+   Installation depends on: Binutils, Coreutils, GCC, Glibc, Make, and Patch
+   Required at runtime: Glibc
+   Test suite depends on: No test suite available
+   Must be installed before: None
+   Optional dependencies: None
+
+  Systemd
+
+   Installation depends on: Acl, Attr, Bash, Binutils, Coreutils, Diffutils,
+   Expat, Gawk, GCC, Glibc, Gperf, Grep, Jinja2, Libcap, Meson, Sed,
+   Util-linux, and Zstd
+   Required at runtime: Acl, Attr, Glibc, Libcap, and Util-linux
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: btrfs-progs, cURL, cryptsetup, docbook-xml,
+   docbook-xsl-nons, elfutils, Git, gnu-efi, GnuTLS, iptables, kexec-tools,
+   libfido2, libgcrypt, libidn2, Libmicrohttpd, libpwquality, libseccomp,
+   libxkbcommon, libxslt, Linux-PAM, lxml, LZ4, make-ca, p11-kit, PCRE2,
+   Polkit, qemu, qrencode, quota-tools, rsync, Sphinx, tpm2-tss, Valgrind,
+   and zsh
+
+  Sysvinit
+
+   Installation depends on: Binutils, Coreutils, GCC, Glibc, Make, and Sed
+   Required at runtime: Glibc
+   Test suite depends on: No test suite available
+   Must be installed before: None
+   Optional dependencies: None
+
+  Tar
+
+   Installation depends on: Acl, Attr, Bash, Binutils, Bison, Coreutils, GCC,
+   Gettext, Glibc, Grep, Inetutils, Make, Sed, and Texinfo
+   Required at runtime: Acl, Attr, Bzip2, Glibc, Gzip, and Xz
+   Test suite depends on: Autoconf, Diffutils, Findutils, Gawk, and Gzip
+   Must be installed before: None
+   Optional dependencies: None
+
+  Tcl
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, GCC, Glibc,
+   Grep, Make, and Sed
+   Required at runtime: Glibc and Zlib
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: None
+
+  Texinfo
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Gettext, Glibc,
+   Grep, Make, Ncurses, Patch, and Sed
+   Required at runtime: Glibc and Ncurses
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: None
+
+  Util-linux
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, Eudev,
+   Findutils, Gawk, GCC, Gettext, Glibc, Grep, Libcap, Make, Ncurses, Sed,
+   and Zlib
+   Required at runtime: Glibc, Libcap, Ncurses, Readline, and Zlib
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: Linux-PAM and smartmontools
+
+  Vim
+
+   Installation depends on: Acl, Attr, Bash, Binutils, Coreutils, Diffutils,
+   GCC, Glibc, Grep, Make, Ncurses, and Sed
+   Required at runtime: Acl, Attr, Glibc, Python, Ncurses, and Tcl
+   Test suite depends on: None
+   Must be installed before: None
+   Optional dependencies: Xorg, GTK+2, LessTif, Ruby, and GPM
+
+  wheel
+
+   Installation depends on: Python
+   Required at runtime: Python
+   Test suite depends on: No test suite available
+   Must be installed before: Jinja2
+   Optional dependencies: None
+
+  XML::Parser
+
+   Installation depends on: Bash, Binutils, Coreutils, Expat, GCC, Glibc,
+   Make, and Perl
+   Required at runtime: Expat, Glibc, and Perl
+   Test suite depends on: Perl
+   Must be installed before: Intltool
+   Optional dependencies: None
+
+  Xz
+
+   Installation depends on: Bash, Binutils, Coreutils, Diffutils, GCC, Glibc,
+   and Make
+   Required at runtime: Glibc
+   Test suite depends on: None
+   Must be installed before: Eudev, File, GRUB, Kmod, and Man-DB
+   Optional dependencies: None
+
+  Zlib
+
+   Installation depends on: Bash, Binutils, Coreutils, GCC, Glibc, Make, and
+   Sed
+   Required at runtime: Glibc
+   Test suite depends on: None
+   Must be installed before: File, Kmod, Perl, and Util-linux
+   Optional dependencies: None
+
+  Zstd
+
+   Installation depends on: Binutils, Coreutils, GCC, Glibc, Gzip, Make, and
+   Xz
+   Required at runtime: Glibc
+   Test suite depends on: None
+   Must be installed before: GCC and Systemd
+   Optional dependencies: LZ4
+

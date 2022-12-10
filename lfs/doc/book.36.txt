@@ -1,0 +1,1367 @@
+
+   This book is licensed under the Creative Commons
+   Attribution-NonCommercial-ShareAlike 2.0 License.
+
+   Computer instructions may be extracted from the book under the MIT
+   License.
+
+F.1. Creative Commons License
+
+   Creative Commons Legal Code
+
+   Attribution-NonCommercial-ShareAlike 2.0
+
+  Important
+
+   CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL
+   SERVICES. DISTRIBUTION OF THIS LICENSE DOES NOT CREATE AN ATTORNEY-CLIENT
+   RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN "AS-IS"
+   BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION
+   PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.
+
+   License
+
+   THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE
+   COMMONS PUBLIC LICENSE ("CCPL" OR "LICENSE"). THE WORK IS PROTECTED BY
+   COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS
+   AUTHORIZED UNDER THIS LICENSE OR COPYRIGHT LAW IS PROHIBITED.
+
+   BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE
+   TO BE BOUND BY THE TERMS OF THIS LICENSE. THE LICENSOR GRANTS YOU THE
+   RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS
+   AND CONDITIONS.
+
+    1. Definitions
+
+         1. "Collective Work" means a work, such as a periodical issue,
+            anthology or encyclopedia, in which the Work in its entirety in
+            unmodified form, along with a number of other contributions,
+            constituting separate and independent works in themselves, are
+            assembled into a collective whole. A work that constitutes a
+            Collective Work will not be considered a Derivative Work (as
+            defined below) for the purposes of this License.
+
+         2. "Derivative Work" means a work based upon the Work or upon the
+            Work and other pre-existing works, such as a translation, musical
+            arrangement, dramatization, fictionalization, motion picture
+            version, sound recording, art reproduction, abridgment,
+            condensation, or any other form in which the Work may be recast,
+            transformed, or adapted, except that a work that constitutes a
+            Collective Work will not be considered a Derivative Work for the
+            purpose of this License. For the avoidance of doubt, where the
+            Work is a musical composition or sound recording, the
+            synchronization of the Work in timed-relation with a moving image
+            ("synching") will be considered a Derivative Work for the purpose
+            of this License.
+
+         3. "Licensor" means the individual or entity that offers the Work
+            under the terms of this License.
+
+         4. "Original Author" means the individual or entity who created the
+            Work.
+
+         5. "Work" means the copyrightable work of authorship offered under
+            the terms of this License.
+
+         6. "You" means an individual or entity exercising rights under this
+            License who has not previously violated the terms of this License
+            with respect to the Work, or who has received express permission
+            from the Licensor to exercise rights under this License despite a
+            previous violation.
+
+         7. "License Elements" means the following high-level license
+            attributes as selected by Licensor and indicated in the title of
+            this License: Attribution, Noncommercial, ShareAlike.
+
+    2. Fair Use Rights. Nothing in this license is intended to reduce, limit,
+       or restrict any rights arising from fair use, first sale or other
+       limitations on the exclusive rights of the copyright owner under
+       copyright law or other applicable laws.
+
+    3. License Grant. Subject to the terms and conditions of this License,
+       Licensor hereby grants You a worldwide, royalty-free, non-exclusive,
+       perpetual (for the duration of the applicable copyright) license to
+       exercise the rights in the Work as stated below:
+
+         1. to reproduce the Work, to incorporate the Work into one or more
+            Collective Works, and to reproduce the Work as incorporated in
+            the Collective Works;
+
+         2. to create and reproduce Derivative Works;
+
+         3. to distribute copies or phonorecords of, display publicly,
+            perform publicly, and perform publicly by means of a digital
+            audio transmission the Work including as incorporated in
+            Collective Works;
+
+         4. to distribute copies or phonorecords of, display publicly,
+            perform publicly, and perform publicly by means of a digital
+            audio transmission Derivative Works;
+
+       The above rights may be exercised in all media and formats whether now
+       known or hereafter devised. The above rights include the right to make
+       such modifications as are technically necessary to exercise the rights
+       in other media and formats. All rights not expressly granted by
+       Licensor are hereby reserved, including but not limited to the rights
+       set forth in Sections 4(e) and 4(f).
+
+    4. Restrictions.The license granted in Section 3 above is expressly made
+       subject to and limited by the following restrictions:
+
+         1. You may distribute, publicly display, publicly perform, or
+            publicly digitally perform the Work only under the terms of this
+            License, and You must include a copy of, or the Uniform Resource
+            Identifier for, this License with every copy or phonorecord of
+            the Work You distribute, publicly display, publicly perform, or
+            publicly digitally perform. You may not offer or impose any terms
+            on the Work that alter or restrict the terms of this License or
+            the recipients' exercise of the rights granted hereunder. You may
+            not sublicense the Work. You must keep intact all notices that
+            refer to this License and to the disclaimer of warranties. You
+            may not distribute, publicly display, publicly perform, or
+            publicly digitally perform the Work with any technological
+            measures that control access or use of the Work in a manner
+            inconsistent with the terms of this License Agreement. The above
+            applies to the Work as incorporated in a Collective Work, but
+            this does not require the Collective Work apart from the Work
+            itself to be made subject to the terms of this License. If You
+            create a Collective Work, upon notice from any Licensor You must,
+            to the extent practicable, remove from the Collective Work any
+            reference to such Licensor or the Original Author, as requested.
+            If You create a Derivative Work, upon notice from any Licensor
+            You must, to the extent practicable, remove from the Derivative
+            Work any reference to such Licensor or the Original Author, as
+            requested.
+
+         2. You may distribute, publicly display, publicly perform, or
+            publicly digitally perform a Derivative Work only under the terms
+            of this License, a later version of this License with the same
+            License Elements as this License, or a Creative Commons iCommons
+            license that contains the same License Elements as this License
+            (e.g. Attribution-NonCommercial-ShareAlike 2.0 Japan). You must
+            include a copy of, or the Uniform Resource Identifier for, this
+            License or other license specified in the previous sentence with
+            every copy or phonorecord of each Derivative Work You distribute,
+            publicly display, publicly perform, or publicly digitally
+            perform. You may not offer or impose any terms on the Derivative
+            Works that alter or restrict the terms of this License or the
+            recipients' exercise of the rights granted hereunder, and You
+            must keep intact all notices that refer to this License and to
+            the disclaimer of warranties. You may not distribute, publicly
+            display, publicly perform, or publicly digitally perform the
+            Derivative Work with any technological measures that control
+            access or use of the Work in a manner inconsistent with the terms
+            of this License Agreement. The above applies to the Derivative
+            Work as incorporated in a Collective Work, but this does not
+            require the Collective Work apart from the Derivative Work itself
+            to be made subject to the terms of this License.
+
+         3. You may not exercise any of the rights granted to You in Section
+            3 above in any manner that is primarily intended for or directed
+            toward commercial advantage or private monetary compensation. The
+            exchange of the Work for other copyrighted works by means of
+            digital file-sharing or otherwise shall not be considered to be
+            intended for or directed toward commercial advantage or private
+            monetary compensation, provided there is no payment of any
+            monetary compensation in connection with the exchange of
+            copyrighted works.
+
+         4. If you distribute, publicly display, publicly perform, or
+            publicly digitally perform the Work or any Derivative Works or
+            Collective Works, You must keep intact all copyright notices for
+            the Work and give the Original Author credit reasonable to the
+            medium or means You are utilizing by conveying the name (or
+            pseudonym if applicable) of the Original Author if supplied; the
+            title of the Work if supplied; to the extent reasonably
+            practicable, the Uniform Resource Identifier, if any, that
+            Licensor specifies to be associated with the Work, unless such
+            URI does not refer to the copyright notice or licensing
+            information for the Work; and in the case of a Derivative Work, a
+            credit identifying the use of the Work in the Derivative Work
+            (e.g., "French translation of the Work by Original Author," or
+            "Screenplay based on original Work by Original Author"). Such
+            credit may be implemented in any reasonable manner; provided,
+            however, that in the case of a Derivative Work or Collective
+            Work, at a minimum such credit will appear where any other
+            comparable authorship credit appears and in a manner at least as
+            prominent as such other comparable authorship credit.
+
+         5. For the avoidance of doubt, where the Work is a musical
+            composition:
+
+              1. Performance Royalties Under Blanket Licenses. Licensor
+                 reserves the exclusive right to collect, whether
+                 individually or via a performance rights society (e.g.
+                 ASCAP, BMI, SESAC), royalties for the public performance or
+                 public digital performance (e.g. webcast) of the Work if
+                 that performance is primarily intended for or directed
+                 toward commercial advantage or private monetary
+                 compensation.
+
+              2. Mechanical Rights and Statutory Royalties. Licensor reserves
+                 the exclusive right to collect, whether individually or via
+                 a music rights agency or designated agent (e.g. Harry Fox
+                 Agency), royalties for any phonorecord You create from the
+                 Work ("cover version") and distribute, subject to the
+                 compulsory license created by 17 USC Section 115 of the US
+                 Copyright Act (or the equivalent in other jurisdictions), if
+                 Your distribution of such cover version is primarily
+                 intended for or directed toward commercial advantage or
+                 private monetary compensation. 6. Webcasting Rights and
+                 Statutory Royalties. For the avoidance of doubt, where the
+                 Work is a sound recording, Licensor reserves the exclusive
+                 right to collect, whether individually or via a
+                 performance-rights society (e.g. SoundExchange), royalties
+                 for the public digital performance (e.g. webcast) of the
+                 Work, subject to the compulsory license created by 17 USC
+                 Section 114 of the US Copyright Act (or the equivalent in
+                 other jurisdictions), if Your public digital performance is
+                 primarily intended for or directed toward commercial
+                 advantage or private monetary compensation.
+
+         6. Webcasting Rights and Statutory Royalties. For the avoidance of
+            doubt, where the Work is a sound recording, Licensor reserves the
+            exclusive right to collect, whether individually or via a
+            performance-rights society (e.g. SoundExchange), royalties for
+            the public digital performance (e.g. webcast) of the Work,
+            subject to the compulsory license created by 17 USC Section 114
+            of the US Copyright Act (or the equivalent in other
+            jurisdictions), if Your public digital performance is primarily
+            intended for or directed toward commercial advantage or private
+            monetary compensation.
+
+    5. Representations, Warranties and Disclaimer
+
+       UNLESS OTHERWISE MUTUALLY AGREED TO BY THE PARTIES IN WRITING,
+       LICENSOR OFFERS THE WORK AS-IS AND MAKES NO REPRESENTATIONS OR
+       WARRANTIES OF ANY KIND CONCERNING THE WORK, EXPRESS, IMPLIED,
+       STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF
+       TITLE, MERCHANTIBILITY, FITNESS FOR A PARTICULAR PURPOSE,
+       NONINFRINGEMENT, OR THE ABSENCE OF LATENT OR OTHER DEFECTS, ACCURACY,
+       OR THE PRESENCE OF ABSENCE OF ERRORS, WHETHER OR NOT DISCOVERABLE.
+       SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES,
+       SO SUCH EXCLUSION MAY NOT APPLY TO YOU.
+
+    6. Limitation on Liability. EXCEPT TO THE EXTENT REQUIRED BY APPLICABLE
+       LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO YOU ON ANY LEGAL THEORY
+       FOR ANY SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR EXEMPLARY
+       DAMAGES ARISING OUT OF THIS LICENSE OR THE USE OF THE WORK, EVEN IF
+       LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+    7. Termination
+
+         1. This License and the rights granted hereunder will terminate
+            automatically upon any breach by You of the terms of this
+            License. Individuals or entities who have received Derivative
+            Works or Collective Works from You under this License, however,
+            will not have their licenses terminated provided such individuals
+            or entities remain in full compliance with those licenses.
+            Sections 1, 2, 5, 6, 7, and 8 will survive any termination of
+            this License.
+
+         2. Subject to the above terms and conditions, the license granted
+            here is perpetual (for the duration of the applicable copyright
+            in the Work). Notwithstanding the above, Licensor reserves the
+            right to release the Work under different license terms or to
+            stop distributing the Work at any time; provided, however that
+            any such election will not serve to withdraw this License (or any
+            other license that has been, or is required to be, granted under
+            the terms of this License), and this License will continue in
+            full force and effect unless terminated as stated above.
+
+    8. Miscellaneous
+
+         1. Each time You distribute or publicly digitally perform the Work
+            or a Collective Work, the Licensor offers to the recipient a
+            license to the Work on the same terms and conditions as the
+            license granted to You under this License.
+
+         2. Each time You distribute or publicly digitally perform a
+            Derivative Work, Licensor offers to the recipient a license to
+            the original Work on the same terms and conditions as the license
+            granted to You under this License.
+
+         3. If any provision of this License is invalid or unenforceable
+            under applicable law, it shall not affect the validity or
+            enforceability of the remainder of the terms of this License, and
+            without further action by the parties to this agreement, such
+            provision shall be reformed to the minimum extent necessary to
+            make such provision valid and enforceable.
+
+         4. No term or provision of this License shall be deemed waived and
+            no breach consented to unless such waiver or consent shall be in
+            writing and signed by the party to be charged with such waiver or
+            consent.
+
+         5. This License constitutes the entire agreement between the parties
+            with respect to the Work licensed here. There are no
+            understandings, agreements or representations with respect to the
+            Work not specified here. Licensor shall not be bound by any
+            additional provisions that may appear in any communication from
+            You. This License may not be modified without the mutual written
+            agreement of the Licensor and You.
+
+  Important
+
+   Creative Commons is not a party to this License, and makes no warranty
+   whatsoever in connection with the Work. Creative Commons will not be
+   liable to You or any party on any legal theory for any damages whatsoever,
+   including without limitation any general, special, incidental or
+   consequential damages arising in connection to this license.
+   Notwithstanding the foregoing two (2) sentences, if Creative Commons has
+   expressly identified itself as the Licensor hereunder, it shall have all
+   rights and obligations of Licensor.
+
+   Except for the limited purpose of indicating to the public that the Work
+   is licensed under the CCPL, neither party will use the trademark "Creative
+   Commons" or any related trademark or logo of Creative Commons without the
+   prior written consent of Creative Commons. Any permitted use will be in
+   compliance with Creative Commons' then-current trademark usage guidelines,
+   as may be published on its website or otherwise made available upon
+   request from time to time.
+
+   Creative Commons may be contacted at http://creativecommons.org/.
+
+F.2. The MIT License
+
+   Copyright © 1999-2022 Gerard Beekmans
+
+   Permission is hereby granted, free of charge, to any person obtaining a
+   copy of this software and associated documentation files (the "Software"),
+   to deal in the Software without restriction, including without limitation
+   the rights to use, copy, modify, merge, publish, distribute, sublicense,
+   and/or sell copies of the Software, and to permit persons to whom the
+   Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+   THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+                                     Index
+
+Packages
+
+     * Acl: Acl-2.3.1
+     * Attr: Attr-2.5.1
+     * Autoconf: Autoconf-2.71
+     * Automake: Automake-1.16.5
+     * Bash: Bash-5.1.16
+          * tools: Bash-5.1.16
+     * Bc: Bc-6.0.1
+     * Binutils: Binutils-2.39
+          * tools, pass 1: Binutils-2.39 - Pass 1
+          * tools, pass 2: Binutils-2.39 - Pass 2
+     * Bison: Bison-3.8.2
+          * tools: Bison-3.8.2
+     * Bootscripts: LFS-Bootscripts-20220723
+          * usage: System V Bootscript Usage and Configuration
+     * Bzip2: Bzip2-1.0.8
+     * Check: Check-0.15.2
+     * Coreutils: Coreutils-9.1
+          * tools: Coreutils-9.1
+     * DejaGNU: DejaGNU-1.6.3
+     * Diffutils: Diffutils-3.8
+          * tools: Diffutils-3.8
+     * E2fsprogs: E2fsprogs-1.46.5
+     * Eudev: Eudev-3.2.11
+          * configuring: Configuring Eudev
+     * Expat: Expat-2.4.8
+     * Expect: Expect-5.45.4
+     * File: File-5.42
+          * tools: File-5.42
+     * Findutils: Findutils-4.9.0
+          * tools: Findutils-4.9.0
+     * Flex: Flex-2.6.4
+     * Gawk: Gawk-5.1.1
+          * tools: Gawk-5.1.1
+     * GCC: GCC-12.2.0
+          * tools, libstdc++ pass 1: Libstdc++ from GCC-12.2.0
+          * tools, pass 1: GCC-12.2.0 - Pass 1
+          * tools, pass 2: GCC-12.2.0 - Pass 2
+     * GDBM: GDBM-1.23
+     * Gettext: Gettext-0.21
+          * tools: Gettext-0.21
+     * Glibc: Glibc-2.36
+          * tools: Glibc-2.36
+     * GMP: GMP-6.2.1
+     * Gperf: Gperf-3.1
+     * Grep: Grep-3.7
+          * tools: Grep-3.7
+     * Groff: Groff-1.22.4
+     * GRUB: GRUB-2.06
+     * Gzip: Gzip-1.12
+          * tools: Gzip-1.12
+     * Iana-Etc: Iana-Etc-20220812
+     * Inetutils: Inetutils-2.3
+     * Intltool: Intltool-0.51.0
+     * IPRoute2: IPRoute2-5.19.0
+     * Kbd: Kbd-2.5.1
+     * Kmod: Kmod-30
+     * Less: Less-590
+     * Libcap: Libcap-2.65
+     * Libelf: Libelf from Elfutils-0.187
+     * libffi: Libffi-3.4.2
+     * Libpipeline: Libpipeline-1.5.6
+     * Libtool: Libtool-2.4.7
+     * Linux: Linux-5.19.2
+          * tools, API headers: Linux-5.19.2 API Headers
+     * M4: M4-1.4.19
+          * tools: M4-1.4.19
+     * Make: Make-4.3
+          * tools: Make-4.3
+     * Man-DB: Man-DB-2.10.2
+     * Man-pages: Man-pages-5.13
+     * Meson: Meson-0.63.1
+     * MPC: MPC-1.2.1
+     * MPFR: MPFR-4.1.0
+     * Ncurses: Ncurses-6.3
+          * tools: Ncurses-6.3
+     * Ninja: Ninja-1.11.0
+     * OpenSSL: OpenSSL-3.0.5
+     * Patch: Patch-2.7.6
+          * tools: Patch-2.7.6
+     * Perl: Perl-5.36.0
+          * tools: Perl-5.36.0
+     * Pkgconfig: Pkg-config-0.29.2
+     * Procps-ng: Procps-ng-4.0.0
+     * Psmisc: Psmisc-23.5
+     * Python: Python-3.10.6
+          * temporary: Python-3.10.6
+     * rc.site: The rc.site File
+     * Readline: Readline-8.1.2
+     * Sed: Sed-4.8
+          * tools: Sed-4.8
+     * Shadow: Shadow-4.12.2
+          * configuring: Configuring Shadow
+     * Sysklogd: Sysklogd-1.5.1
+          * configuring: Configuring Sysklogd
+     * Sysvinit: Sysvinit-3.04
+          * configuring: Configuring Sysvinit
+     * Tar: Tar-1.34
+          * tools: Tar-1.34
+     * Tcl: Tcl-8.6.12
+     * Texinfo: Texinfo-6.8
+          * temporary: Texinfo-6.8
+     * Udev:
+          * usage: Overview of Device and Module Handling
+     * Util-linux: Util-linux-2.38.1
+          * tools: Util-linux-2.38.1
+     * Vim: Vim-9.0.0228
+     * wheel: Wheel-0.37.1
+     * XML::Parser: XML::Parser-2.46
+     * Xz: Xz-5.2.6
+          * tools: Xz-5.2.6
+     * Zlib: Zlib-1.2.12
+     * zstd: Zstd-1.5.2
+
+Programs
+
+     * [: Coreutils-9.1 -- description
+     * 2to3: Python-3.10.6
+     * accessdb: Man-DB-2.10.2 -- description
+     * aclocal: Automake-1.16.5 -- description
+     * aclocal-1.16: Automake-1.16.5 -- description
+     * addftinfo: Groff-1.22.4 -- description
+     * addpart: Util-linux-2.38.1 -- description
+     * addr2line: Binutils-2.39 -- description
+     * afmtodit: Groff-1.22.4 -- description
+     * agetty: Util-linux-2.38.1 -- description
+     * apropos: Man-DB-2.10.2 -- description
+     * ar: Binutils-2.39 -- description
+     * as: Binutils-2.39 -- description
+     * attr: Attr-2.5.1 -- description
+     * autoconf: Autoconf-2.71 -- description
+     * autoheader: Autoconf-2.71 -- description
+     * autom4te: Autoconf-2.71 -- description
+     * automake: Automake-1.16.5 -- description
+     * automake-1.16: Automake-1.16.5 -- description
+     * autopoint: Gettext-0.21 -- description
+     * autoreconf: Autoconf-2.71 -- description
+     * autoscan: Autoconf-2.71 -- description
+     * autoupdate: Autoconf-2.71 -- description
+     * awk: Gawk-5.1.1 -- description
+     * b2sum: Coreutils-9.1 -- description
+     * badblocks: E2fsprogs-1.46.5 -- description
+     * base64: Coreutils-9.1 -- description
+     * basename: Coreutils-9.1 -- description
+     * basenc: Coreutils-9.1 -- description
+     * bash: Bash-5.1.16 -- description
+     * bashbug: Bash-5.1.16 -- description
+     * bc: Bc-6.0.1 -- description
+     * bison: Bison-3.8.2 -- description
+     * blkdiscard: Util-linux-2.38.1 -- description
+     * blkid: Util-linux-2.38.1 -- description
+     * blkzone: Util-linux-2.38.1 -- description
+     * blockdev: Util-linux-2.38.1 -- description
+     * bootlogd: Sysvinit-3.04 -- description
+     * bridge: IPRoute2-5.19.0 -- description
+     * bunzip2: Bzip2-1.0.8 -- description
+     * bzcat: Bzip2-1.0.8 -- description
+     * bzcmp: Bzip2-1.0.8 -- description
+     * bzdiff: Bzip2-1.0.8 -- description
+     * bzegrep: Bzip2-1.0.8 -- description
+     * bzfgrep: Bzip2-1.0.8 -- description
+     * bzgrep: Bzip2-1.0.8 -- description
+     * bzip2: Bzip2-1.0.8 -- description
+     * bzip2recover: Bzip2-1.0.8 -- description
+     * bzless: Bzip2-1.0.8 -- description
+     * bzmore: Bzip2-1.0.8 -- description
+     * c++: GCC-12.2.0 -- description
+     * c++filt: Binutils-2.39 -- description
+     * cal: Util-linux-2.38.1 -- description
+     * capsh: Libcap-2.65 -- description
+     * captoinfo: Ncurses-6.3 -- description
+     * cat: Coreutils-9.1 -- description
+     * catman: Man-DB-2.10.2 -- description
+     * cc: GCC-12.2.0 -- description
+     * cfdisk: Util-linux-2.38.1 -- description
+     * chacl: Acl-2.3.1 -- description
+     * chage: Shadow-4.12.2 -- description
+     * chattr: E2fsprogs-1.46.5 -- description
+     * chcon: Coreutils-9.1 -- description
+     * chcpu: Util-linux-2.38.1 -- description
+     * checkmk: Check-0.15.2 -- description
+     * chem: Groff-1.22.4 -- description
+     * chfn: Shadow-4.12.2 -- description
+     * chgpasswd: Shadow-4.12.2 -- description
+     * chgrp: Coreutils-9.1 -- description
+     * chmem: Util-linux-2.38.1 -- description
+     * chmod: Coreutils-9.1 -- description
+     * choom: Util-linux-2.38.1 -- description
+     * chown: Coreutils-9.1 -- description
+     * chpasswd: Shadow-4.12.2 -- description
+     * chroot: Coreutils-9.1 -- description
+     * chrt: Util-linux-2.38.1 -- description
+     * chsh: Shadow-4.12.2 -- description
+     * chvt: Kbd-2.5.1 -- description
+     * cksum: Coreutils-9.1 -- description
+     * clear: Ncurses-6.3 -- description
+     * cmp: Diffutils-3.8 -- description
+     * col: Util-linux-2.38.1 -- description
+     * colcrt: Util-linux-2.38.1 -- description
+     * colrm: Util-linux-2.38.1 -- description
+     * column: Util-linux-2.38.1 -- description
+     * comm: Coreutils-9.1 -- description
+     * compile_et: E2fsprogs-1.46.5 -- description
+     * corelist: Perl-5.36.0 -- description
+     * cp: Coreutils-9.1 -- description
+     * cpan: Perl-5.36.0 -- description
+     * cpp: GCC-12.2.0 -- description
+     * csplit: Coreutils-9.1 -- description
+     * ctrlaltdel: Util-linux-2.38.1 -- description
+     * ctstat: IPRoute2-5.19.0 -- description
+     * cut: Coreutils-9.1 -- description
+     * c_rehash: OpenSSL-3.0.5 -- description
+     * date: Coreutils-9.1 -- description
+     * dc: Bc-6.0.1 -- description
+     * dd: Coreutils-9.1 -- description
+     * deallocvt: Kbd-2.5.1 -- description
+     * debugfs: E2fsprogs-1.46.5 -- description
+     * dejagnu: DejaGNU-1.6.3 -- description
+     * delpart: Util-linux-2.38.1 -- description
+     * depmod: Kmod-30 -- description
+     * df: Coreutils-9.1 -- description
+     * diff: Diffutils-3.8 -- description
+     * diff3: Diffutils-3.8 -- description
+     * dir: Coreutils-9.1 -- description
+     * dircolors: Coreutils-9.1 -- description
+     * dirname: Coreutils-9.1 -- description
+     * dmesg: Util-linux-2.38.1 -- description
+     * dnsdomainname: Inetutils-2.3 -- description
+     * du: Coreutils-9.1 -- description
+     * dumpe2fs: E2fsprogs-1.46.5 -- description
+     * dumpkeys: Kbd-2.5.1 -- description
+     * e2freefrag: E2fsprogs-1.46.5 -- description
+     * e2fsck: E2fsprogs-1.46.5 -- description
+     * e2image: E2fsprogs-1.46.5 -- description
+     * e2label: E2fsprogs-1.46.5 -- description
+     * e2mmpstatus: E2fsprogs-1.46.5 -- description
+     * e2scrub: E2fsprogs-1.46.5 -- description
+     * e2scrub_all: E2fsprogs-1.46.5 -- description
+     * e2undo: E2fsprogs-1.46.5 -- description
+     * e4crypt: E2fsprogs-1.46.5 -- description
+     * e4defrag: E2fsprogs-1.46.5 -- description
+     * echo: Coreutils-9.1 -- description
+     * egrep: Grep-3.7 -- description
+     * eject: Util-linux-2.38.1 -- description
+     * elfedit: Binutils-2.39 -- description
+     * enc2xs: Perl-5.36.0 -- description
+     * encguess: Perl-5.36.0 -- description
+     * env: Coreutils-9.1 -- description
+     * envsubst: Gettext-0.21 -- description
+     * eqn: Groff-1.22.4 -- description
+     * eqn2graph: Groff-1.22.4 -- description
+     * ex: Vim-9.0.0228 -- description
+     * expand: Coreutils-9.1 -- description
+     * expect: Expect-5.45.4 -- description
+     * expiry: Shadow-4.12.2 -- description
+     * expr: Coreutils-9.1 -- description
+     * factor: Coreutils-9.1 -- description
+     * faillog: Shadow-4.12.2 -- description
+     * fallocate: Util-linux-2.38.1 -- description
+     * false: Coreutils-9.1 -- description
+     * fdisk: Util-linux-2.38.1 -- description
+     * fgconsole: Kbd-2.5.1 -- description
+     * fgrep: Grep-3.7 -- description
+     * file: File-5.42 -- description
+     * filefrag: E2fsprogs-1.46.5 -- description
+     * fincore: Util-linux-2.38.1 -- description
+     * find: Findutils-4.9.0 -- description
+     * findfs: Util-linux-2.38.1 -- description
+     * findmnt: Util-linux-2.38.1 -- description
+     * flex: Flex-2.6.4 -- description
+     * flex++: Flex-2.6.4 -- description
+     * flock: Util-linux-2.38.1 -- description
+     * fmt: Coreutils-9.1 -- description
+     * fold: Coreutils-9.1 -- description
+     * free: Procps-ng-4.0.0 -- description
+     * fsck: Util-linux-2.38.1 -- description
+     * fsck.cramfs: Util-linux-2.38.1 -- description
+     * fsck.ext2: E2fsprogs-1.46.5 -- description
+     * fsck.ext3: E2fsprogs-1.46.5 -- description
+     * fsck.ext4: E2fsprogs-1.46.5 -- description
+     * fsck.minix: Util-linux-2.38.1 -- description
+     * fsfreeze: Util-linux-2.38.1 -- description
+     * fstab-decode: Sysvinit-3.04 -- description
+     * fstrim: Util-linux-2.38.1 -- description
+     * ftp: Inetutils-2.3 -- description
+     * fuser: Psmisc-23.5 -- description
+     * g++: GCC-12.2.0 -- description
+     * gawk: Gawk-5.1.1 -- description
+     * gawk-5.1.1: Gawk-5.1.1 -- description
+     * gcc: GCC-12.2.0 -- description
+     * gc-ar: GCC-12.2.0 -- description
+     * gc-nm: GCC-12.2.0 -- description
+     * gc-ranlib: GCC-12.2.0 -- description
+     * gcov: GCC-12.2.0 -- description
+     * gcov-dump: GCC-12.2.0 -- description
+     * gcov-tool: GCC-12.2.0 -- description
+     * gdbmtool: GDBM-1.23 -- description
+     * gdbm_dump: GDBM-1.23 -- description
+     * gdbm_load: GDBM-1.23 -- description
+     * gdiffmk: Groff-1.22.4 -- description
+     * gencat: Glibc-2.36 -- description
+     * genl: IPRoute2-5.19.0 -- description
+     * getcap: Libcap-2.65 -- description
+     * getconf: Glibc-2.36 -- description
+     * getent: Glibc-2.36 -- description
+     * getfacl: Acl-2.3.1 -- description
+     * getfattr: Attr-2.5.1 -- description
+     * getkeycodes: Kbd-2.5.1 -- description
+     * getopt: Util-linux-2.38.1 -- description
+     * getpcaps: Libcap-2.65 -- description
+     * getsubids: Shadow-4.12.2 -- description
+     * gettext: Gettext-0.21 -- description
+     * gettext.sh: Gettext-0.21 -- description
+     * gettextize: Gettext-0.21 -- description
+     * glilypond: Groff-1.22.4 -- description
+     * gpasswd: Shadow-4.12.2 -- description
+     * gperf: Gperf-3.1 -- description
+     * gperl: Groff-1.22.4 -- description
+     * gpinyin: Groff-1.22.4 -- description
+     * gprof: Binutils-2.39 -- description
+     * gprofng: Binutils-2.39 -- description
+     * grap2graph: Groff-1.22.4 -- description
+     * grep: Grep-3.7 -- description
+     * grn: Groff-1.22.4 -- description
+     * grodvi: Groff-1.22.4 -- description
+     * groff: Groff-1.22.4 -- description
+     * groffer: Groff-1.22.4 -- description
+     * grog: Groff-1.22.4 -- description
+     * grolbp: Groff-1.22.4 -- description
+     * grolj4: Groff-1.22.4 -- description
+     * gropdf: Groff-1.22.4 -- description
+     * grops: Groff-1.22.4 -- description
+     * grotty: Groff-1.22.4 -- description
+     * groupadd: Shadow-4.12.2 -- description
+     * groupdel: Shadow-4.12.2 -- description
+     * groupmems: Shadow-4.12.2 -- description
+     * groupmod: Shadow-4.12.2 -- description
+     * groups: Coreutils-9.1 -- description
+     * grpck: Shadow-4.12.2 -- description
+     * grpconv: Shadow-4.12.2 -- description
+     * grpunconv: Shadow-4.12.2 -- description
+     * grub-bios-setup: GRUB-2.06 -- description
+     * grub-editenv: GRUB-2.06 -- description
+     * grub-file: GRUB-2.06 -- description
+     * grub-fstest: GRUB-2.06 -- description
+     * grub-glue-efi: GRUB-2.06 -- description
+     * grub-install: GRUB-2.06 -- description
+     * grub-kbdcomp: GRUB-2.06 -- description
+     * grub-macbless: GRUB-2.06 -- description
+     * grub-menulst2cfg: GRUB-2.06 -- description
+     * grub-mkconfig: GRUB-2.06 -- description
+     * grub-mkimage: GRUB-2.06 -- description
+     * grub-mklayout: GRUB-2.06 -- description
+     * grub-mknetdir: GRUB-2.06 -- description
+     * grub-mkpasswd-pbkdf2: GRUB-2.06 -- description
+     * grub-mkrelpath: GRUB-2.06 -- description
+     * grub-mkrescue: GRUB-2.06 -- description
+     * grub-mkstandalone: GRUB-2.06 -- description
+     * grub-ofpathname: GRUB-2.06 -- description
+     * grub-probe: GRUB-2.06 -- description
+     * grub-reboot: GRUB-2.06 -- description
+     * grub-render-label: GRUB-2.06 -- description
+     * grub-script-check: GRUB-2.06 -- description
+     * grub-set-default: GRUB-2.06 -- description
+     * grub-setup: GRUB-2.06 -- description
+     * grub-syslinux2cfg: GRUB-2.06 -- description
+     * gunzip: Gzip-1.12 -- description
+     * gzexe: Gzip-1.12 -- description
+     * gzip: Gzip-1.12 -- description
+     * h2ph: Perl-5.36.0 -- description
+     * h2xs: Perl-5.36.0 -- description
+     * halt: Sysvinit-3.04 -- description
+     * head: Coreutils-9.1 -- description
+     * hexdump: Util-linux-2.38.1 -- description
+     * hostid: Coreutils-9.1 -- description
+     * hostname: Inetutils-2.3 -- description
+     * hpftodit: Groff-1.22.4 -- description
+     * hwclock: Util-linux-2.38.1 -- description
+     * i386: Util-linux-2.38.1 -- description
+     * iconv: Glibc-2.36 -- description
+     * iconvconfig: Glibc-2.36 -- description
+     * id: Coreutils-9.1 -- description
+     * idle3: Python-3.10.6
+     * ifcfg: IPRoute2-5.19.0 -- description
+     * ifconfig: Inetutils-2.3 -- description
+     * ifnames: Autoconf-2.71 -- description
+     * ifstat: IPRoute2-5.19.0 -- description
+     * indxbib: Groff-1.22.4 -- description
+     * info: Texinfo-6.8 -- description
+     * infocmp: Ncurses-6.3 -- description
+     * infotocap: Ncurses-6.3 -- description
+     * init: Sysvinit-3.04 -- description
+     * insmod: Kmod-30 -- description
+     * install: Coreutils-9.1 -- description
+     * install-info: Texinfo-6.8 -- description
+     * instmodsh: Perl-5.36.0 -- description
+     * intltool-extract: Intltool-0.51.0 -- description
+     * intltool-merge: Intltool-0.51.0 -- description
+     * intltool-prepare: Intltool-0.51.0 -- description
+     * intltool-update: Intltool-0.51.0 -- description
+     * intltoolize: Intltool-0.51.0 -- description
+     * ionice: Util-linux-2.38.1 -- description
+     * ip: IPRoute2-5.19.0 -- description
+     * ipcmk: Util-linux-2.38.1 -- description
+     * ipcrm: Util-linux-2.38.1 -- description
+     * ipcs: Util-linux-2.38.1 -- description
+     * irqtop: Util-linux-2.38.1 -- description
+     * isosize: Util-linux-2.38.1 -- description
+     * join: Coreutils-9.1 -- description
+     * json_pp: Perl-5.36.0 -- description
+     * kbdinfo: Kbd-2.5.1 -- description
+     * kbdrate: Kbd-2.5.1 -- description
+     * kbd_mode: Kbd-2.5.1 -- description
+     * kill: Util-linux-2.38.1 -- description
+     * killall: Psmisc-23.5 -- description
+     * killall5: Sysvinit-3.04 -- description
+     * klogd: Sysklogd-1.5.1 -- description
+     * kmod: Kmod-30 -- description
+     * last: Util-linux-2.38.1 -- description
+     * lastb: Util-linux-2.38.1 -- description
+     * lastlog: Shadow-4.12.2 -- description
+     * ld: Binutils-2.39 -- description
+     * ld.bfd: Binutils-2.39 -- description
+     * ld.gold: Binutils-2.39 -- description
+     * ldattach: Util-linux-2.38.1 -- description
+     * ldconfig: Glibc-2.36 -- description
+     * ldd: Glibc-2.36 -- description
+     * lddlibc4: Glibc-2.36 -- description
+     * less: Less-590 -- description
+     * lessecho: Less-590 -- description
+     * lesskey: Less-590 -- description
+     * lex: Flex-2.6.4 -- description
+     * lexgrog: Man-DB-2.10.2 -- description
+     * lfskernel-5.19.2: Linux-5.19.2 -- description
+     * libasan: GCC-12.2.0 -- description
+     * libatomic: GCC-12.2.0 -- description
+     * libcc1: GCC-12.2.0 -- description
+     * libnetcfg: Perl-5.36.0 -- description
+     * libtool: Libtool-2.4.7 -- description
+     * libtoolize: Libtool-2.4.7 -- description
+     * link: Coreutils-9.1 -- description
+     * linux32: Util-linux-2.38.1 -- description
+     * linux64: Util-linux-2.38.1 -- description
+     * lkbib: Groff-1.22.4 -- description
+     * ln: Coreutils-9.1 -- description
+     * lnstat: IPRoute2-5.19.0 -- description
+     * loadkeys: Kbd-2.5.1 -- description
+     * loadunimap: Kbd-2.5.1 -- description
+     * locale: Glibc-2.36 -- description
+     * localedef: Glibc-2.36 -- description
+     * locate: Findutils-4.9.0 -- description
+     * logger: Util-linux-2.38.1 -- description
+     * login: Shadow-4.12.2 -- description
+     * logname: Coreutils-9.1 -- description
+     * logoutd: Shadow-4.12.2 -- description
+     * logsave: E2fsprogs-1.46.5 -- description
+     * look: Util-linux-2.38.1 -- description
+     * lookbib: Groff-1.22.4 -- description
+     * losetup: Util-linux-2.38.1 -- description
+     * ls: Coreutils-9.1 -- description
+     * lsattr: E2fsprogs-1.46.5 -- description
+     * lsblk: Util-linux-2.38.1 -- description
+     * lscpu: Util-linux-2.38.1 -- description
+     * lsipc: Util-linux-2.38.1 -- description
+     * lsirq: Util-linux-2.38.1 -- description
+     * lslocks: Util-linux-2.38.1 -- description
+     * lslogins: Util-linux-2.38.1 -- description
+     * lsmem: Util-linux-2.38.1 -- description
+     * lsmod: Kmod-30 -- description
+     * lsns: Util-linux-2.38.1 -- description
+     * lto-dump: GCC-12.2.0 -- description
+     * lzcat: Xz-5.2.6 -- description
+     * lzcmp: Xz-5.2.6 -- description
+     * lzdiff: Xz-5.2.6 -- description
+     * lzegrep: Xz-5.2.6 -- description
+     * lzfgrep: Xz-5.2.6 -- description
+     * lzgrep: Xz-5.2.6 -- description
+     * lzless: Xz-5.2.6 -- description
+     * lzma: Xz-5.2.6 -- description
+     * lzmadec: Xz-5.2.6 -- description
+     * lzmainfo: Xz-5.2.6 -- description
+     * lzmore: Xz-5.2.6 -- description
+     * m4: M4-1.4.19 -- description
+     * make: Make-4.3 -- description
+     * makedb: Glibc-2.36 -- description
+     * makeinfo: Texinfo-6.8 -- description
+     * man: Man-DB-2.10.2 -- description
+     * man-recode: Man-DB-2.10.2 -- description
+     * mandb: Man-DB-2.10.2 -- description
+     * manpath: Man-DB-2.10.2 -- description
+     * mapscrn: Kbd-2.5.1 -- description
+     * mcookie: Util-linux-2.38.1 -- description
+     * md5sum: Coreutils-9.1 -- description
+     * mesg: Util-linux-2.38.1 -- description
+     * meson: Meson-0.63.1 -- description
+     * mkdir: Coreutils-9.1 -- description
+     * mke2fs: E2fsprogs-1.46.5 -- description
+     * mkfifo: Coreutils-9.1 -- description
+     * mkfs: Util-linux-2.38.1 -- description
+     * mkfs.bfs: Util-linux-2.38.1 -- description
+     * mkfs.cramfs: Util-linux-2.38.1 -- description
+     * mkfs.ext2: E2fsprogs-1.46.5 -- description
+     * mkfs.ext3: E2fsprogs-1.46.5 -- description
+     * mkfs.ext4: E2fsprogs-1.46.5 -- description
+     * mkfs.minix: Util-linux-2.38.1 -- description
+     * mklost+found: E2fsprogs-1.46.5 -- description
+     * mknod: Coreutils-9.1 -- description
+     * mkswap: Util-linux-2.38.1 -- description
+     * mktemp: Coreutils-9.1 -- description
+     * mk_cmds: E2fsprogs-1.46.5 -- description
+     * mmroff: Groff-1.22.4 -- description
+     * modinfo: Kmod-30 -- description
+     * modprobe: Kmod-30 -- description
+     * more: Util-linux-2.38.1 -- description
+     * mount: Util-linux-2.38.1 -- description
+     * mountpoint: Util-linux-2.38.1 -- description
+     * msgattrib: Gettext-0.21 -- description
+     * msgcat: Gettext-0.21 -- description
+     * msgcmp: Gettext-0.21 -- description
+     * msgcomm: Gettext-0.21 -- description
+     * msgconv: Gettext-0.21 -- description
+     * msgen: Gettext-0.21 -- description
+     * msgexec: Gettext-0.21 -- description
+     * msgfilter: Gettext-0.21 -- description
+     * msgfmt: Gettext-0.21 -- description
+     * msggrep: Gettext-0.21 -- description
+     * msginit: Gettext-0.21 -- description
+     * msgmerge: Gettext-0.21 -- description
+     * msgunfmt: Gettext-0.21 -- description
+     * msguniq: Gettext-0.21 -- description
+     * mtrace: Glibc-2.36 -- description
+     * mv: Coreutils-9.1 -- description
+     * namei: Util-linux-2.38.1 -- description
+     * ncursesw6-config: Ncurses-6.3 -- description
+     * neqn: Groff-1.22.4 -- description
+     * newgidmap: Shadow-4.12.2 -- description
+     * newgrp: Shadow-4.12.2 -- description
+     * newuidmap: Shadow-4.12.2 -- description
+     * newusers: Shadow-4.12.2 -- description
+     * ngettext: Gettext-0.21 -- description
+     * nice: Coreutils-9.1 -- description
+     * ninja: Ninja-1.11.0 -- description
+     * nl: Coreutils-9.1 -- description
+     * nm: Binutils-2.39 -- description
+     * nohup: Coreutils-9.1 -- description
+     * nologin: Shadow-4.12.2 -- description
+     * nproc: Coreutils-9.1 -- description
+     * nroff: Groff-1.22.4 -- description
+     * nscd: Glibc-2.36 -- description
+     * nsenter: Util-linux-2.38.1 -- description
+     * nstat: IPRoute2-5.19.0 -- description
+     * numfmt: Coreutils-9.1 -- description
+     * objcopy: Binutils-2.39 -- description
+     * objdump: Binutils-2.39 -- description
+     * od: Coreutils-9.1 -- description
+     * openssl: OpenSSL-3.0.5 -- description
+     * openvt: Kbd-2.5.1 -- description
+     * partx: Util-linux-2.38.1 -- description
+     * passwd: Shadow-4.12.2 -- description
+     * paste: Coreutils-9.1 -- description
+     * patch: Patch-2.7.6 -- description
+     * pathchk: Coreutils-9.1 -- description
+     * pcprofiledump: Glibc-2.36 -- description
+     * pdfmom: Groff-1.22.4 -- description
+     * pdfroff: Groff-1.22.4 -- description
+     * pdftexi2dvi: Texinfo-6.8 -- description
+     * peekfd: Psmisc-23.5 -- description
+     * perl: Perl-5.36.0 -- description
+     * perl5.36.0: Perl-5.36.0 -- description
+     * perlbug: Perl-5.36.0 -- description
+     * perldoc: Perl-5.36.0 -- description
+     * perlivp: Perl-5.36.0 -- description
+     * perlthanks: Perl-5.36.0 -- description
+     * pfbtops: Groff-1.22.4 -- description
+     * pgrep: Procps-ng-4.0.0 -- description
+     * pic: Groff-1.22.4 -- description
+     * pic2graph: Groff-1.22.4 -- description
+     * piconv: Perl-5.36.0 -- description
+     * pidof: Procps-ng-4.0.0 -- description
+     * ping: Inetutils-2.3 -- description
+     * ping6: Inetutils-2.3 -- description
+     * pinky: Coreutils-9.1 -- description
+     * pip3: Python-3.10.6
+     * pivot_root: Util-linux-2.38.1 -- description
+     * pkg-config: Pkg-config-0.29.2 -- description
+     * pkill: Procps-ng-4.0.0 -- description
+     * pl2pm: Perl-5.36.0 -- description
+     * pldd: Glibc-2.36 -- description
+     * pmap: Procps-ng-4.0.0 -- description
+     * pod2html: Perl-5.36.0 -- description
+     * pod2man: Perl-5.36.0 -- description
+     * pod2texi: Texinfo-6.8 -- description
+     * pod2text: Perl-5.36.0 -- description
+     * pod2usage: Perl-5.36.0 -- description
+     * podchecker: Perl-5.36.0 -- description
+     * podselect: Perl-5.36.0 -- description
+     * post-grohtml: Groff-1.22.4 -- description
+     * poweroff: Sysvinit-3.04 -- description
+     * pr: Coreutils-9.1 -- description
+     * pre-grohtml: Groff-1.22.4 -- description
+     * preconv: Groff-1.22.4 -- description
+     * printenv: Coreutils-9.1 -- description
+     * printf: Coreutils-9.1 -- description
+     * prlimit: Util-linux-2.38.1 -- description
+     * prove: Perl-5.36.0 -- description
+     * prtstat: Psmisc-23.5 -- description
+     * ps: Procps-ng-4.0.0 -- description
+     * psfaddtable: Kbd-2.5.1 -- description
+     * psfgettable: Kbd-2.5.1 -- description
+     * psfstriptable: Kbd-2.5.1 -- description
+     * psfxtable: Kbd-2.5.1 -- description
+     * pslog: Psmisc-23.5 -- description
+     * pstree: Psmisc-23.5 -- description
+     * pstree.x11: Psmisc-23.5 -- description
+     * ptar: Perl-5.36.0 -- description
+     * ptardiff: Perl-5.36.0 -- description
+     * ptargrep: Perl-5.36.0 -- description
+     * ptx: Coreutils-9.1 -- description
+     * pwait: Procps-ng-4.0.0 -- description
+     * pwck: Shadow-4.12.2 -- description
+     * pwconv: Shadow-4.12.2 -- description
+     * pwd: Coreutils-9.1 -- description
+     * pwdx: Procps-ng-4.0.0 -- description
+     * pwunconv: Shadow-4.12.2 -- description
+     * pydoc3: Python-3.10.6
+     * python3: Python-3.10.6
+     * ranlib: Binutils-2.39 -- description
+     * readelf: Binutils-2.39 -- description
+     * readlink: Coreutils-9.1 -- description
+     * readprofile: Util-linux-2.38.1 -- description
+     * realpath: Coreutils-9.1 -- description
+     * reboot: Sysvinit-3.04 -- description
+     * recode-sr-latin: Gettext-0.21 -- description
+     * refer: Groff-1.22.4 -- description
+     * rename: Util-linux-2.38.1 -- description
+     * renice: Util-linux-2.38.1 -- description
+     * reset: Ncurses-6.3 -- description
+     * resize2fs: E2fsprogs-1.46.5 -- description
+     * resizepart: Util-linux-2.38.1 -- description
+     * rev: Util-linux-2.38.1 -- description
+     * rkfill: Util-linux-2.38.1 -- description
+     * rm: Coreutils-9.1 -- description
+     * rmdir: Coreutils-9.1 -- description
+     * rmmod: Kmod-30 -- description
+     * roff2dvi: Groff-1.22.4 -- description
+     * roff2html: Groff-1.22.4 -- description
+     * roff2pdf: Groff-1.22.4 -- description
+     * roff2ps: Groff-1.22.4 -- description
+     * roff2text: Groff-1.22.4 -- description
+     * roff2x: Groff-1.22.4 -- description
+     * routef: IPRoute2-5.19.0 -- description
+     * routel: IPRoute2-5.19.0 -- description
+     * rtacct: IPRoute2-5.19.0 -- description
+     * rtcwake: Util-linux-2.38.1 -- description
+     * rtmon: IPRoute2-5.19.0 -- description
+     * rtpr: IPRoute2-5.19.0 -- description
+     * rtstat: IPRoute2-5.19.0 -- description
+     * runcon: Coreutils-9.1 -- description
+     * runlevel: Sysvinit-3.04 -- description
+     * runtest: DejaGNU-1.6.3 -- description
+     * rview: Vim-9.0.0228 -- description
+     * rvim: Vim-9.0.0228 -- description
+     * script: Util-linux-2.38.1 -- description
+     * scriptlive: Util-linux-2.38.1 -- description
+     * scriptreplay: Util-linux-2.38.1 -- description
+     * sdiff: Diffutils-3.8 -- description
+     * sed: Sed-4.8 -- description
+     * seq: Coreutils-9.1 -- description
+     * setarch: Util-linux-2.38.1 -- description
+     * setcap: Libcap-2.65 -- description
+     * setfacl: Acl-2.3.1 -- description
+     * setfattr: Attr-2.5.1 -- description
+     * setfont: Kbd-2.5.1 -- description
+     * setkeycodes: Kbd-2.5.1 -- description
+     * setleds: Kbd-2.5.1 -- description
+     * setmetamode: Kbd-2.5.1 -- description
+     * setsid: Util-linux-2.38.1 -- description
+     * setterm: Util-linux-2.38.1 -- description
+     * setvtrgb: Kbd-2.5.1 -- description
+     * sfdisk: Util-linux-2.38.1 -- description
+     * sg: Shadow-4.12.2 -- description
+     * sh: Bash-5.1.16 -- description
+     * sha1sum: Coreutils-9.1 -- description
+     * sha224sum: Coreutils-9.1 -- description
+     * sha256sum: Coreutils-9.1 -- description
+     * sha384sum: Coreutils-9.1 -- description
+     * sha512sum: Coreutils-9.1 -- description
+     * shasum: Perl-5.36.0 -- description
+     * showconsolefont: Kbd-2.5.1 -- description
+     * showkey: Kbd-2.5.1 -- description
+     * shred: Coreutils-9.1 -- description
+     * shuf: Coreutils-9.1 -- description
+     * shutdown: Sysvinit-3.04 -- description
+     * size: Binutils-2.39 -- description
+     * slabtop: Procps-ng-4.0.0 -- description
+     * sleep: Coreutils-9.1 -- description
+     * sln: Glibc-2.36 -- description
+     * soelim: Groff-1.22.4 -- description
+     * sort: Coreutils-9.1 -- description
+     * sotruss: Glibc-2.36 -- description
+     * splain: Perl-5.36.0 -- description
+     * split: Coreutils-9.1 -- description
+     * sprof: Glibc-2.36 -- description
+     * ss: IPRoute2-5.19.0 -- description
+     * stat: Coreutils-9.1 -- description
+     * stdbuf: Coreutils-9.1 -- description
+     * strings: Binutils-2.39 -- description
+     * strip: Binutils-2.39 -- description
+     * stty: Coreutils-9.1 -- description
+     * su: Shadow-4.12.2 -- description
+     * sulogin: Util-linux-2.38.1 -- description
+     * sum: Coreutils-9.1 -- description
+     * swaplabel: Util-linux-2.38.1 -- description
+     * swapoff: Util-linux-2.38.1 -- description
+     * swapon: Util-linux-2.38.1 -- description
+     * switch_root: Util-linux-2.38.1 -- description
+     * sync: Coreutils-9.1 -- description
+     * sysctl: Procps-ng-4.0.0 -- description
+     * syslogd: Sysklogd-1.5.1 -- description
+     * tabs: Ncurses-6.3 -- description
+     * tac: Coreutils-9.1 -- description
+     * tail: Coreutils-9.1 -- description
+     * talk: Inetutils-2.3 -- description
+     * tar: Tar-1.34 -- description
+     * taskset: Util-linux-2.38.1 -- description
+     * tbl: Groff-1.22.4 -- description
+     * tc: IPRoute2-5.19.0 -- description
+     * tclsh: Tcl-8.6.12 -- description
+     * tclsh8.6: Tcl-8.6.12 -- description
+     * tee: Coreutils-9.1 -- description
+     * telinit: Sysvinit-3.04 -- description
+     * telnet: Inetutils-2.3 -- description
+     * test: Coreutils-9.1 -- description
+     * texi2dvi: Texinfo-6.8 -- description
+     * texi2pdf: Texinfo-6.8 -- description
+     * texi2any: Texinfo-6.8 -- description
+     * texindex: Texinfo-6.8 -- description
+     * tfmtodit: Groff-1.22.4 -- description
+     * tftp: Inetutils-2.3 -- description
+     * tic: Ncurses-6.3 -- description
+     * timeout: Coreutils-9.1 -- description
+     * tload: Procps-ng-4.0.0 -- description
+     * toe: Ncurses-6.3 -- description
+     * top: Procps-ng-4.0.0 -- description
+     * touch: Coreutils-9.1 -- description
+     * tput: Ncurses-6.3 -- description
+     * tr: Coreutils-9.1 -- description
+     * traceroute: Inetutils-2.3 -- description
+     * troff: Groff-1.22.4 -- description
+     * true: Coreutils-9.1 -- description
+     * truncate: Coreutils-9.1 -- description
+     * tset: Ncurses-6.3 -- description
+     * tsort: Coreutils-9.1 -- description
+     * tty: Coreutils-9.1 -- description
+     * tune2fs: E2fsprogs-1.46.5 -- description
+     * tzselect: Glibc-2.36 -- description
+     * uclampset: Util-linux-2.38.1 -- description
+     * udevadm: Eudev-3.2.11 -- description
+     * udevd: Eudev-3.2.11 -- description
+     * ul: Util-linux-2.38.1 -- description
+     * umount: Util-linux-2.38.1 -- description
+     * uname: Coreutils-9.1 -- description
+     * uname26: Util-linux-2.38.1 -- description
+     * uncompress: Gzip-1.12 -- description
+     * unexpand: Coreutils-9.1 -- description
+     * unicode_start: Kbd-2.5.1 -- description
+     * unicode_stop: Kbd-2.5.1 -- description
+     * uniq: Coreutils-9.1 -- description
+     * unlink: Coreutils-9.1 -- description
+     * unlzma: Xz-5.2.6 -- description
+     * unshare: Util-linux-2.38.1 -- description
+     * unxz: Xz-5.2.6 -- description
+     * updatedb: Findutils-4.9.0 -- description
+     * uptime: Procps-ng-4.0.0 -- description
+     * useradd: Shadow-4.12.2 -- description
+     * userdel: Shadow-4.12.2 -- description
+     * usermod: Shadow-4.12.2 -- description
+     * users: Coreutils-9.1 -- description
+     * utmpdump: Util-linux-2.38.1 -- description
+     * uuidd: Util-linux-2.38.1 -- description
+     * uuidgen: Util-linux-2.38.1 -- description
+     * uuidparse: Util-linux-2.38.1 -- description
+     * vdir: Coreutils-9.1 -- description
+     * vi: Vim-9.0.0228 -- description
+     * view: Vim-9.0.0228 -- description
+     * vigr: Shadow-4.12.2 -- description
+     * vim: Vim-9.0.0228 -- description
+     * vimdiff: Vim-9.0.0228 -- description
+     * vimtutor: Vim-9.0.0228 -- description
+     * vipw: Shadow-4.12.2 -- description
+     * vmstat: Procps-ng-4.0.0 -- description
+     * w: Procps-ng-4.0.0 -- description
+     * wall: Util-linux-2.38.1 -- description
+     * watch: Procps-ng-4.0.0 -- description
+     * wc: Coreutils-9.1 -- description
+     * wdctl: Util-linux-2.38.1 -- description
+     * whatis: Man-DB-2.10.2 -- description
+     * wheel: Wheel-0.37.1
+     * whereis: Util-linux-2.38.1 -- description
+     * who: Coreutils-9.1 -- description
+     * whoami: Coreutils-9.1 -- description
+     * wipefs: Util-linux-2.38.1 -- description
+     * x86_64: Util-linux-2.38.1 -- description
+     * xargs: Findutils-4.9.0 -- description
+     * xgettext: Gettext-0.21 -- description
+     * xmlwf: Expat-2.4.8 -- description
+     * xsubpp: Perl-5.36.0 -- description
+     * xtrace: Glibc-2.36 -- description
+     * xxd: Vim-9.0.0228 -- description
+     * xz: Xz-5.2.6 -- description
+     * xzcat: Xz-5.2.6 -- description
+     * xzcmp: Xz-5.2.6 -- description
+     * xzdec: Xz-5.2.6 -- description
+     * xzdiff: Xz-5.2.6 -- description
+     * xzegrep: Xz-5.2.6 -- description
+     * xzfgrep: Xz-5.2.6 -- description
+     * xzgrep: Xz-5.2.6 -- description
+     * xzless: Xz-5.2.6 -- description
+     * xzmore: Xz-5.2.6 -- description
+     * yacc: Bison-3.8.2 -- description
+     * yes: Coreutils-9.1 -- description
+     * zcat: Gzip-1.12 -- description
+     * zcmp: Gzip-1.12 -- description
+     * zdiff: Gzip-1.12 -- description
+     * zdump: Glibc-2.36 -- description
+     * zegrep: Gzip-1.12 -- description
+     * zfgrep: Gzip-1.12 -- description
+     * zforce: Gzip-1.12 -- description
+     * zgrep: Gzip-1.12 -- description
+     * zic: Glibc-2.36 -- description
+     * zipdetails: Perl-5.36.0 -- description
+     * zless: Gzip-1.12 -- description
+     * zmore: Gzip-1.12 -- description
+     * znew: Gzip-1.12 -- description
+     * zramctl: Util-linux-2.38.1 -- description
+     * zstd: Zstd-1.5.2 -- description
+     * zstdgrep: Zstd-1.5.2 -- description
+     * zstdless: Zstd-1.5.2 -- description
+
+Libraries
+
+     * Expat: XML::Parser-2.46 -- description
+     * ld-2.36.so: Glibc-2.36 -- description
+     * libacl: Acl-2.3.1 -- description
+     * libanl: Glibc-2.36 -- description
+     * libasprintf: Gettext-0.21 -- description
+     * libattr: Attr-2.5.1 -- description
+     * libbfd: Binutils-2.39 -- description
+     * libblkid: Util-linux-2.38.1 -- description
+     * libBrokenLocale: Glibc-2.36 -- description
+     * libbz2: Bzip2-1.0.8 -- description
+     * libc: Glibc-2.36 -- description
+     * libcap: Libcap-2.65 -- description
+     * libcheck: Check-0.15.2 -- description
+     * libcom_err: E2fsprogs-1.46.5 -- description
+     * libcrypt: Glibc-2.36 -- description
+     * libcrypto.so: OpenSSL-3.0.5 -- description
+     * libctf: Binutils-2.39 -- description
+     * libctf-nobfd: Binutils-2.39 -- description
+     * libcursesw: Ncurses-6.3 -- description
+     * libc_malloc_debug: Glibc-2.36 -- description
+     * libdl: Glibc-2.36 -- description
+     * libe2p: E2fsprogs-1.46.5 -- description
+     * libelf: Libelf from Elfutils-0.187 -- description
+     * libexpat: Expat-2.4.8 -- description
+     * libexpect-5.45.4: Expect-5.45.4 -- description
+     * libext2fs: E2fsprogs-1.46.5 -- description
+     * libfdisk: Util-linux-2.38.1 -- description
+     * libffi: Libffi-3.4.2
+     * libfl: Flex-2.6.4 -- description
+     * libformw: Ncurses-6.3 -- description
+     * libg: Glibc-2.36 -- description
+     * libgcc: GCC-12.2.0 -- description
+     * libgcov: GCC-12.2.0 -- description
+     * libgdbm: GDBM-1.23 -- description
+     * libgdbm_compat: GDBM-1.23 -- description
+     * libgettextlib: Gettext-0.21 -- description
+     * libgettextpo: Gettext-0.21 -- description
+     * libgettextsrc: Gettext-0.21 -- description
+     * libgmp: GMP-6.2.1 -- description
+     * libgmpxx: GMP-6.2.1 -- description
+     * libgomp: GCC-12.2.0 -- description
+     * libhistory: Readline-8.1.2 -- description
+     * libitm: GCC-12.2.0 -- description
+     * libkmod: Kmod-30
+     * liblsan: GCC-12.2.0 -- description
+     * libltdl: Libtool-2.4.7 -- description
+     * liblto_plugin: GCC-12.2.0 -- description
+     * liblzma: Xz-5.2.6 -- description
+     * libm: Glibc-2.36 -- description
+     * libmagic: File-5.42 -- description
+     * libman: Man-DB-2.10.2 -- description
+     * libmandb: Man-DB-2.10.2 -- description
+     * libmcheck: Glibc-2.36 -- description
+     * libmemusage: Glibc-2.36 -- description
+     * libmenuw: Ncurses-6.3 -- description
+     * libmount: Util-linux-2.38.1 -- description
+     * libmpc: MPC-1.2.1 -- description
+     * libmpfr: MPFR-4.1.0 -- description
+     * libmvec: Glibc-2.36 -- description
+     * libncursesw: Ncurses-6.3 -- description
+     * libnsl: Glibc-2.36 -- description
+     * libnss_*: Glibc-2.36 -- description
+     * libopcodes: Binutils-2.39 -- description
+     * libpanelw: Ncurses-6.3 -- description
+     * libpcprofile: Glibc-2.36 -- description
+     * libpipeline: Libpipeline-1.5.6
+     * libproc-2: Procps-ng-4.0.0 -- description
+     * libpsx: Libcap-2.65 -- description
+     * libpthread: Glibc-2.36 -- description
+     * libquadmath: GCC-12.2.0 -- description
+     * libreadline: Readline-8.1.2 -- description
+     * libresolv: Glibc-2.36 -- description
+     * librt: Glibc-2.36 -- description
+     * libsmartcols: Util-linux-2.38.1 -- description
+     * libss: E2fsprogs-1.46.5 -- description
+     * libssl.so: OpenSSL-3.0.5 -- description
+     * libssp: GCC-12.2.0 -- description
+     * libstdbuf: Coreutils-9.1 -- description
+     * libstdc++: GCC-12.2.0 -- description
+     * libstdc++fs: GCC-12.2.0 -- description
+     * libsubid: Shadow-4.12.2 -- description
+     * libsupc++: GCC-12.2.0 -- description
+     * libtcl8.6.so: Tcl-8.6.12 -- description
+     * libtclstub8.6.a: Tcl-8.6.12 -- description
+     * libtextstyle: Gettext-0.21 -- description
+     * libthread_db: Glibc-2.36 -- description
+     * libtsan: GCC-12.2.0 -- description
+     * libubsan: GCC-12.2.0 -- description
+     * libudev: Eudev-3.2.11 -- description
+     * libutil: Glibc-2.36 -- description
+     * libuuid: Util-linux-2.38.1 -- description
+     * liby: Bison-3.8.2 -- description
+     * libz: Zlib-1.2.12 -- description
+     * libzstd: Zstd-1.5.2 -- description
+     * preloadable_libintl: Gettext-0.21 -- description
+
+Scripts
+
+     * checkfs: LFS-Bootscripts-20220723 -- description
+     * cleanfs: LFS-Bootscripts-20220723 -- description
+     * console: LFS-Bootscripts-20220723 -- description
+          * configuring: Configuring the Linux Console
+     * File creation at boot:
+          * configuring: Creating Files at Boot
+     * functions: LFS-Bootscripts-20220723 -- description
+     * halt: LFS-Bootscripts-20220723 -- description
+     * hostname:
+          * configuring: Configuring the system hostname
+     * ifdown: LFS-Bootscripts-20220723 -- description
+     * ifup: LFS-Bootscripts-20220723 -- description
+     * ipv4-static: LFS-Bootscripts-20220723 -- description
+     * localnet: LFS-Bootscripts-20220723 -- description
+          * /etc/hosts: Customizing the /etc/hosts File
+     * modules: LFS-Bootscripts-20220723 -- description
+     * mountfs: LFS-Bootscripts-20220723 -- description
+     * mountvirtfs: LFS-Bootscripts-20220723 -- description
+     * network: LFS-Bootscripts-20220723 -- description
+          * /etc/hosts: Customizing the /etc/hosts File
+          * configuring: General Network Configuration
+     * rc: LFS-Bootscripts-20220723 -- description
+     * reboot: LFS-Bootscripts-20220723 -- description
+     * sendsignals: LFS-Bootscripts-20220723 -- description
+     * setclock: LFS-Bootscripts-20220723 -- description
+          * configuring: Configuring the System Clock
+     * swap: LFS-Bootscripts-20220723 -- description
+     * sysctl: LFS-Bootscripts-20220723 -- description
+     * sysklogd: LFS-Bootscripts-20220723 -- description
+          * configuring: Configuring the sysklogd Script
+     * template: LFS-Bootscripts-20220723 -- description
+     * udev: LFS-Bootscripts-20220723 -- description
+     * udev_retry: LFS-Bootscripts-20220723 -- description
+     * dwp: Binutils-2.39 -- description
+
+Others
+
+     * /boot/config-5.19.2: Linux-5.19.2 -- description
+     * /boot/System.map-5.19.2: Linux-5.19.2 -- description
+     * /dev/*: Preparing Virtual Kernel File Systems
+     * /etc/fstab: Creating the /etc/fstab File
+     * /etc/group: Creating Essential Files and Symlinks
+     * /etc/hosts: Customizing the /etc/hosts File
+     * /etc/inittab: Configuring Sysvinit
+     * /etc/inputrc: Creating the /etc/inputrc File
+     * /etc/ld.so.conf: Configuring the Dynamic Loader
+     * /etc/lfs-release: The End
+     * /etc/localtime: Configuring Glibc
+     * /etc/lsb-release: The End
+     * /etc/modprobe.d/usb.conf: Configuring Linux Module Load Order
+     * /etc/nsswitch.conf: Configuring Glibc
+     * /etc/os-release: The End
+     * /etc/passwd: Creating Essential Files and Symlinks
+     * /etc/profile: The Bash Shell Startup Files
+     * /etc/protocols: Iana-Etc-20220812
+     * /etc/resolv.conf: Creating the /etc/resolv.conf File
+     * /etc/services: Iana-Etc-20220812
+     * /etc/syslog.conf: Configuring Sysklogd
+     * /etc/udev: Eudev-3.2.11 -- description
+     * /etc/udev/hwdb.bin: Configuring Eudev
+     * /etc/vimrc: Configuring Vim
+     * /run/utmp: Creating Essential Files and Symlinks
+     * /usr/include/asm-generic/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/asm/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/drm/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/linux/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/misc/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/mtd/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/rdma/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/scsi/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/sound/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/video/*.h: Linux-5.19.2 API Headers -- description
+     * /usr/include/xen/*.h: Linux-5.19.2 API Headers -- description
+     * /var/log/btmp: Creating Essential Files and Symlinks
+     * /var/log/lastlog: Creating Essential Files and Symlinks
+     * /var/log/wtmp: Creating Essential Files and Symlinks
+     * /etc/shells: Creating the /etc/shells File
+     * man pages: Man-pages-5.13 -- description
+
