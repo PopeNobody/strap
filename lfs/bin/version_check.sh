@@ -1,6 +1,6 @@
 #!/bin/bash
 # Simple script to list version numbers of critical development tools
-
+source etc/env.sh
 export LC_ALL=C
 bash --version | head -n1 | cut -d" " -f2-4
 MYSH=$(readlink -f /bin/sh)

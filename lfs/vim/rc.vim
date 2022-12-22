@@ -1,0 +1,1 @@
+../stow/home/dot-vim/rc.vim

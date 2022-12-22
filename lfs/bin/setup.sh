@@ -11,5 +11,5 @@ bin/create_base_dirs.sh
 bin/create_base_dirs.sh
 bin/create_lfs_user.sh
 bin/set_lfs_ownership.sh
-chown -R lfs.lfs ~lfs
-sudo -u lfs bash -c "source ~/etc/env.sh; cd; bash bin/populate_lfs_home.sh"
+#chown -R lfs.lfs ~lfs
+#sudo -u lfs bash -c "source ~/etc/env.sh; cd; bash bin/populate_lfs_home.sh"
