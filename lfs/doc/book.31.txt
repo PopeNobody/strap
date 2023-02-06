@@ -1,2 +1,0 @@
-Appendix D. Boot and sysconfig scripts version-20220723
-
